@@ -21,7 +21,7 @@ for item in raw.split(b"\0"):
         subprocess.run(["bash", "-n", str(path)], check=True)
 print("Changed Python and shell files passed syntax validation.")
 PYTEST
-changed_workflows="$(git diff --name-only "${base_ref}...${head_ref}" -- .github/workflows)"
-if [[ -n "$changed_workflows" ]]; then
-  go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.7
+mapfile -t changed_workflows < <(git diff --name-only "${base_ref}...${head_ref}" -- .github/workflows)
+if (("${#changed_workflows[@]}" > 0)); then
+  go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.7 "${changed_workflows[@]}"
 fi
