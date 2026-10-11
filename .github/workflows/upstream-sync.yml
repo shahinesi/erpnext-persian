@@ -103,6 +103,7 @@ jobs:
           {
             echo "changed=true"
             echo "product_ref=${product_ref}"
+            echo "upstream_ref=${upstream_ref}"
             echo "product_sha=${product_sha}"
             echo "upstream_sha=${upstream_sha}"
             echo "candidate_sha=${candidate_sha}"
@@ -115,7 +116,7 @@ jobs:
       - name: Validate exact candidate SHA
         if: steps.prepare.outputs.changed == 'true'
         shell: bash
-        run: bash "$RUNNER_TEMP/validate-candidate.sh" "${{ steps.prepare.outputs.product_ref }}" "${{ steps.prepare.outputs.candidate_sha }}"
+        run: bash "$RUNNER_TEMP/validate-candidate.sh" "${{ steps.prepare.outputs.product_ref }}" "${{ steps.prepare.outputs.candidate_sha }}" "${{ steps.prepare.outputs.upstream_ref }}"
       - name: Push candidate and create or update Draft PR
         if: steps.prepare.outputs.changed == 'true'
         shell: bash
