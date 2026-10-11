@@ -21,27 +21,38 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
     env:
       UPSTREAM_REPO: frappe/erpnext
       UPSTREAM_BRANCH: develop
       PRODUCT_BRANCH: custom/develop-fa
       VENDOR_BRANCH: vendor/develop
       SYNC_BRANCH: sync/develop
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GH_REPO: ${{ github.repository }}
     steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          app-id: ${{ vars.ERPNEXT_SYNC_APP_ID }}
+          private-key: ${{ secrets.ERPNEXT_SYNC_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: erpnext-persian
+          permission-contents: write
+          permission-pull-requests: write
+          permission-workflows: write
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
       - name: Preserve candidate validator
         shell: bash
         run: cp .github/scripts/validate-candidate.sh "$RUNNER_TEMP/validate-candidate.sh"
       - name: Safely update mirror and prepare proposal
         id: prepare
         shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           #!/usr/bin/env bash
           set -euo pipefail
@@ -108,6 +119,8 @@ jobs:
       - name: Push candidate and create or update Draft PR
         if: steps.prepare.outputs.changed == 'true'
         shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           set -euo pipefail
           test "$(git rev-parse HEAD)" = "${{ steps.prepare.outputs.candidate_sha }}"
