@@ -2,7 +2,9 @@
 set -euo pipefail
 base_ref="$1"
 head_ref="$2"
-git diff --check "${base_ref}...${head_ref}"
+whitespace_base_ref="${3:-$base_ref}"
+# During sync, check local integration changes without rejecting upstream whitespace.
+git diff --check "${whitespace_base_ref}...${head_ref}"
 python3 - "$base_ref" "$head_ref" <<'PYTEST'
 import pathlib
 import subprocess
