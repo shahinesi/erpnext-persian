@@ -64,6 +64,22 @@ class TestInit(ERPNextTestSuite):
 
 		verify_translation_files("erpnext")
 
+	def test_persian_catalog_keeps_erpnext_business_terms(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"Sales Invoice": "فاکتور فروش",
+			"Purchase Invoice": "فاکتور خرید",
+			"Payment Entry": "ثبت پرداخت",
+			"Customer": "مشتری",
+			"Company": "شرکت",
+		}
+
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files
 
