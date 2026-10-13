@@ -68,11 +68,20 @@ class TestInit(ERPNextTestSuite):
 		from frappe.gettext.translate import get_catalog
 
 		catalog = get_catalog("erpnext", "fa")
-		self.assertEqual(catalog["Grand Total (Transaction Currency)"].string, "جمع کل (ارز تراکنش)")
-		self.assertEqual(
-			catalog["Grand Total must match sum of Payment References"].string,
-			"جمع کل باید با مجموع ارجاع‌های پرداخت برابر باشد",
-		)
+		expected = {
+			"Accounts Setup": "راه‌اندازی حسابداری",
+			"AP Summary": "خلاصه حساب‌های پرداختنی",
+			"AR Summary": "خلاصه حساب‌های دریافتنی",
+			"Budget Variance": "انحراف بودجه",
+			"Consolidated Report": "گزارش تلفیقی",
+			"Customer Ledger": "دفتر حساب مشتریان",
+			"Supplier Ledger": "دفتر حساب تأمین‌کنندگان",
+			"Grand Total (Transaction Currency)": "جمع کل (ارز تراکنش)",
+			"Grand Total must match sum of Payment References": "جمع کل باید با مجموع ارجاع‌های پرداخت برابر باشد",
+		}
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
 
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files

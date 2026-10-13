@@ -1128,7 +1128,7 @@ msgstr "تاریخ انقضای AMC"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "AP Summary"
-msgstr ""
+msgstr "خلاصه حساب‌های پرداختنی"
 
 #. Label of the api_details_section (Section Break) field in DocType 'Currency
 #. Exchange Settings'
@@ -1146,7 +1146,7 @@ msgstr ""
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "AR Summary"
-msgstr ""
+msgstr "خلاصه حساب‌های دریافتنی"
 
 #. Label of the awb_number (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -2195,7 +2195,7 @@ msgstr "تنظیمات حساب‌ها"
 #. Label of a Desktop Icon
 #: erpnext/desktop_icon/accounts_setup.json
 msgid "Accounts Setup"
-msgstr ""
+msgstr "راه‌اندازی حسابداری"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:506
 msgid "Accounts cannot be removed, as user doesn't have access to all the accounts of {0}"
@@ -9219,7 +9219,7 @@ msgstr "تاریخ شروع بودجه"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Budget Variance"
-msgstr ""
+msgstr "انحراف بودجه"
 
 #. Name of a report
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:121
@@ -12687,7 +12687,7 @@ msgstr "صورت مالی تلفیقی"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Consolidated Report"
-msgstr ""
+msgstr "گزارش تلفیقی"
 
 #. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice'
 #. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice Merge
@@ -15474,7 +15474,7 @@ msgstr "شماره LPO مشتری"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Customer Ledger"
-msgstr ""
+msgstr "دفتر حساب مشتریان"
 
 #. Name of a report
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.json
@@ -56517,7 +56517,7 @@ msgstr ""
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Supplier Ledger"
-msgstr ""
+msgstr "دفتر حساب تأمین‌کنندگان"
 
 #. Name of a report
 #: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.json
@@ -66833,4 +66833,3 @@ msgstr "{}"
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:236
 msgid "{} invoices"
 msgstr "{} فاکتورها"
-
