@@ -5189,7 +5189,7 @@ msgstr "درآمد سالانه"
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Sales"
-msgstr ""
+msgstr "فروش سالانه"
 
 #: erpnext/accounts/doctype/budget/budget.py:145
 msgid "Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' with overlapping fiscal years."
@@ -21722,7 +21722,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:617
 msgid "First Delivery Date"
-msgstr ""
+msgstr "تاریخ اولین تحویل"
 
 #. Label of the first_email (Time) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
@@ -23173,7 +23173,7 @@ msgstr "دریافت جزئیات گروه مشتری"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:648
 msgid "Get Delivery Schedule"
-msgstr ""
+msgstr "ایجاد برنامه تحویل"
 
 #. Label of the get_entries (Button) field in DocType 'Exchange Rate
 #. Revaluation'
@@ -36150,7 +36150,7 @@ msgstr ""
 #. Label of a chart in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 msgid "Outgoing Bills (Sales Invoice)"
-msgstr ""
+msgstr "صورتحساب‌های فروش"
 
 #. Label of the outgoing_rate (Float) field in DocType 'Serial and Batch Entry'
 #. Label of the outgoing_rate (Currency) field in DocType 'Stock Ledger Entry'
@@ -38452,7 +38452,7 @@ msgstr "روش‌های پرداخت اجباری است. لطفاً حداقل 
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:374
 msgid "Payment methods refreshed. Please review before proceeding."
-msgstr ""
+msgstr "روش‌های پرداخت به‌روزرسانی شدند. لطفاً پیش از ادامه آن‌ها را بررسی کنید."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:466
 #: erpnext/selling/page/point_of_sale/pos_payment.js:366
@@ -42477,7 +42477,7 @@ msgstr "تجزیه و تحلیل سودآوری"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:27
 msgid "Proforma"
-msgstr ""
+msgstr "پیش‌فاکتور"
 
 #. Label of the proforma_email_template (Link) field in DocType 'Selling
 #. Settings'
@@ -42515,7 +42515,7 @@ msgstr ""
 #. Label of the proforma_html (HTML) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Proforma Invoices"
-msgstr ""
+msgstr "پیش‌فاکتورها"
 
 #: erpnext/public/js/sales_order_proforma.js:281
 msgid "Proforma No"
@@ -51346,7 +51346,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order_list.js:85
 msgid "Select Items up to Delivery Date"
-msgstr ""
+msgstr "انتخاب کالاها تا تاریخ تحویل"
 
 #. Label of the supplier_address (Link) field in DocType 'Subcontracting
 #. Receipt'
@@ -53002,7 +53002,7 @@ msgstr "مستقر شده"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice_list.js:33
 msgid "Settled with Credit Note"
-msgstr ""
+msgstr "تسویه‌شده با یادداشت بستانکار"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Setup Company'
@@ -53308,7 +53308,7 @@ msgstr "شهر حمل و نقل"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact"
-msgstr ""
+msgstr "مخاطب ارسال"
 
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Order'
@@ -53317,7 +53317,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Email"
-msgstr ""
+msgstr "ایمیل مخاطب ارسال"
 
 #. Label of the shipping_contact_mobile (Small Text) field in DocType 'Sales
 #. Invoice'
@@ -53329,7 +53329,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Mobile No"
-msgstr ""
+msgstr "شماره همراه مخاطب ارسال"
 
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Order'
@@ -53338,7 +53338,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Person"
-msgstr ""
+msgstr "شخص مخاطب ارسال"
 
 #. Label of the shipping_country (Link) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -57457,7 +57457,7 @@ msgstr "تنظیمات مالیاتی"
 #: erpnext/selling/sidebar/selling/selling.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "Tax Template"
-msgstr ""
+msgstr "الگوی مالیاتی"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.py:86
 msgid "Tax Template is mandatory."
@@ -60963,7 +60963,7 @@ msgstr "مجموع (مقدار)"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Totals (Company Currency)"
-msgstr ""
+msgstr "مجموع (ارز شرکت)"
 
 #: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:14
 #: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.js:14
