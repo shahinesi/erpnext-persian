@@ -1,4 +1,6 @@
 import sys
+import os
+import re
 from urllib.parse import urlparse
 
 import requests
@@ -40,8 +42,12 @@ def contains_documentation_link(body: str) -> bool:
 	return any(is_documentation_link(word) for line in body.splitlines() for word in line.split())
 
 
-def check_pull_request(number: str) -> "tuple[int, str]":
-	response = requests.get(f"https://api.github.com/repos/frappe/erpnext/pulls/{number}")
+def check_pull_request(number: str, repository: str | None = None) -> "tuple[int, str]":
+	repository = repository or os.environ.get("PR_REPOSITORY") or os.environ.get("GITHUB_REPOSITORY") or "frappe/erpnext"
+	if not re.fullmatch(r"[^/]+/[^/]+", repository):
+		return 1, "Invalid repository context! ⚠️"
+
+	response = requests.get(f"https://api.github.com/repos/{repository}/pulls/{number}")
 	if not response.ok:
 		return 1, "Pull Request Not Found! ⚠️"
 
@@ -60,6 +66,8 @@ def check_pull_request(number: str) -> "tuple[int, str]":
 
 
 if __name__ == "__main__":
-	exit_code, message = check_pull_request(sys.argv[1])
+	exit_code, message = check_pull_request(
+		sys.argv[1], os.environ.get("PR_REPOSITORY") or os.environ.get("GITHUB_REPOSITORY")
+	)
 	print(message)
 	sys.exit(exit_code)
