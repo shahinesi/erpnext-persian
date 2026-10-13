@@ -64,6 +64,16 @@ class TestInit(ERPNextTestSuite):
 
 		verify_translation_files("erpnext")
 
+	def test_persian_financial_catalog_messages(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		self.assertEqual(catalog["Grand Total (Transaction Currency)"].string, "جمع کل (ارز تراکنش)")
+		self.assertEqual(
+			catalog["Grand Total must match sum of Payment References"].string,
+			"جمع کل باید با مجموع ارجاع‌های پرداخت برابر باشد",
+		)
+
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files
 

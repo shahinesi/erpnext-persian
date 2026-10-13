@@ -23613,11 +23613,11 @@ msgstr "جمع کل (ارز شرکت)"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:253
 msgid "Grand Total (Transaction Currency)"
-msgstr ""
+msgstr "جمع کل (ارز تراکنش)"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:147
 msgid "Grand Total must match sum of Payment References"
-msgstr ""
+msgstr "جمع کل باید با مجموع ارجاع‌های پرداخت برابر باشد"
 
 #. Label of the grant_commission (Check) field in DocType 'POS Invoice Item'
 #. Label of the grant_commission (Check) field in DocType 'Sales Invoice Item'
