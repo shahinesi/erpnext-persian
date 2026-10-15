@@ -114,6 +114,38 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_sales_workflow_and_report_messages(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"Please enter a valid number of deliveries": "لطفاً تعداد معتبری برای تحویل‌ها وارد کنید.",
+			"Please enter a valid quantity": "لطفاً مقدار معتبری وارد کنید.",
+			"Please enter at least one delivery date and quantity": "لطفاً دست‌کم یک تاریخ و مقدار تحویل وارد کنید.",
+			"Please enter the first delivery date": "لطفاً تاریخ نخستین تحویل را وارد کنید.",
+			"Please select Items from the Table": "لطفاً کالاها را از جدول انتخاب کنید.",
+			"Please select a frequency for delivery schedule": "لطفاً بازه تکرار برنامه تحویل را انتخاب کنید.",
+			"Please select at least one item to continue": "برای ادامه، دست‌کم یک کالا را انتخاب کنید.",
+			"Please select items to reserve.": "لطفاً کالاهایی را که باید رزرو شوند انتخاب کنید.",
+			"If checked, updates inventory; stock and accounting entries are created together. Leave unchecked if a Delivery Note is created separately.": (
+				"اگر انتخاب شود، موجودی را به‌روزرسانی می‌کند و ثبت‌های انبار و حسابداری هم‌زمان ایجاد می‌شوند. "
+				"اگر یادداشت تحویل جداگانه ایجاد می‌کنید، این گزینه را انتخاب نکنید."
+			),
+			"Is Packed Item": "کالای بسته‌بندی‌شده است",
+			"Issue a debit note against an existing Sales Invoice to adjust the rate. The quantity will be retained from the original invoice.": (
+				"برای اصلاح نرخ، یادداشت بدهکار در برابر فاکتور فروش موجود صادر کنید. "
+				"مقدار از فاکتور اصلی حفظ می‌شود."
+			),
+			"Item Wise Tax Details": "جزئیات مالیات به تفکیک کالا",
+			"Amount to Bill": "مبلغ قابل صورتحساب",
+			"Age as on": "قدمت تا تاریخ",
+			"Statement Period": "دوره صورت‌حساب",
+		}
+
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files
 

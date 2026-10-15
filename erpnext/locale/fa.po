@@ -3716,7 +3716,7 @@ msgstr "سن ({0})"
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:58
 #: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:31
 msgid "Age as on"
-msgstr ""
+msgstr "قدمت تا تاریخ"
 
 #. Label of the ageing_based_on (Select) field in DocType 'Process Statement Of
 #. Accounts'
@@ -5056,7 +5056,7 @@ msgstr ""
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:191
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:246
 msgid "Amount to Bill"
-msgstr ""
+msgstr "مبلغ قابل صورتحساب"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1285
 msgid "Amount {0} {1} adjusted against {2} {3}"
@@ -24567,7 +24567,7 @@ msgstr ""
 #. Description of the 'Update Stock' (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "If checked, updates inventory; stock and accounting entries are created together. Leave unchecked if a Delivery Note is created separately."
-msgstr ""
+msgstr "اگر انتخاب شود، موجودی را به‌روزرسانی می‌کند و ثبت‌های انبار و حسابداری هم‌زمان ایجاد می‌شوند. اگر یادداشت تحویل جداگانه ایجاد می‌کنید، این گزینه را انتخاب نکنید."
 
 #. Description of the 'Update Stock' (Check) field in DocType 'Purchase
 #. Invoice'
@@ -27451,7 +27451,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:404
 msgid "Is Packed Item"
-msgstr ""
+msgstr "کالای بسته‌بندی‌شده است"
 
 #. Label of the is_paid (Check) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -27763,7 +27763,7 @@ msgstr "نوع مشکل"
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Issue a debit note against an existing Sales Invoice to adjust the rate. The quantity will be retained from the original invoice."
-msgstr ""
+msgstr "برای اصلاح نرخ، یادداشت بدهکار در برابر فاکتور فروش موجود صادر کنید. مقدار از فاکتور اصلی حفظ می‌شود."
 
 #. Option for the 'Current State' (Select) field in DocType 'Share Balance'
 #. Option for the 'Status' (Select) field in DocType 'Proforma Invoice'
@@ -28971,7 +28971,7 @@ msgstr "جزئیات مالیاتی مبتنی بر آیتم"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Item Wise Tax Details"
-msgstr ""
+msgstr "جزئیات مالیات به تفکیک کالا"
 
 #: erpnext/controllers/taxes_and_totals.py:579
 msgid "Item Wise Tax Details do not match with Taxes and Charges at the following rows:"
@@ -39765,15 +39765,15 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:755
 msgid "Please enter a valid number of deliveries"
-msgstr ""
+msgstr "لطفاً تعداد معتبری برای تحویل‌ها وارد کنید."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:698
 msgid "Please enter a valid quantity"
-msgstr ""
+msgstr "لطفاً مقدار معتبری وارد کنید."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:692
 msgid "Please enter at least one delivery date and quantity"
-msgstr ""
+msgstr "لطفاً دست‌کم یک تاریخ و مقدار تحویل وارد کنید."
 
 #: erpnext/accounts/doctype/cost_center/cost_center.js:114
 msgid "Please enter company name first"
@@ -39813,7 +39813,7 @@ msgstr "لطفاً برای تأیید نام شرکت را وارد کنید"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:752
 msgid "Please enter the first delivery date"
-msgstr ""
+msgstr "لطفاً تاریخ نخستین تحویل را وارد کنید."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:810
 msgid "Please enter the phone number first"
@@ -40004,7 +40004,7 @@ msgstr "لطفا ابتدا کد آیتم را انتخاب کنید"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1770
 msgid "Please select Items from the Table"
-msgstr ""
+msgstr "لطفاً کالاها را از جدول انتخاب کنید."
 
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.py:55
 msgid "Please select Maintenance Status as Completed or remove Completion Date"
@@ -40156,7 +40156,7 @@ msgstr "لطفاً فیلدی را برای ویرایش از numpad انتخا�
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:749
 msgid "Please select a frequency for delivery schedule"
-msgstr ""
+msgstr "لطفاً بازه تکرار برنامه تحویل را انتخاب کنید."
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:137
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:72
@@ -40205,7 +40205,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1384
 msgid "Please select at least one item to continue"
-msgstr ""
+msgstr "برای ادامه، دست‌کم یک کالا را انتخاب کنید."
 
 #: erpnext/buying/doctype/purchase_order/services/drop_ship.py:17
 msgid "Please select at least one item to update delivered quantity."
@@ -40256,7 +40256,7 @@ msgstr "لطفا کد آیتم را انتخاب کنید"
 #: erpnext/selling/doctype/sales_order/sales_order.js:432
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:297
 msgid "Please select items to reserve."
-msgstr ""
+msgstr "لطفاً کالاهایی را که باید رزرو شوند انتخاب کنید."
 
 #: erpnext/public/js/stock_reservation.js:299
 #: erpnext/selling/doctype/sales_order/sales_order.js:563
@@ -54528,7 +54528,7 @@ msgstr "گذرواژه PDF صورتحساب"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.html:145
 msgid "Statement Period"
-msgstr ""
+msgstr "دوره صورت‌حساب"
 
 #. Label of the status_details (Section Break) field in DocType 'Service Level
 #. Agreement'
