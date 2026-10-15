@@ -78,6 +78,7 @@ class TestInit(ERPNextTestSuite):
 			"Customer Ledger": "دفتر حساب مشتریان",
 			"First Delivery Date": "تاریخ اولین تحویل",
 			"Get Delivery Schedule": "ایجاد برنامه تحویل",
+			"Total Advance Received: {0}": "مجموع پیش‌پرداخت دریافت‌شده: {0}",
 			"Outgoing Bills (Sales Invoice)": "صورتحساب‌های فروش",
 			"Payment methods refreshed. Please review before proceeding.": "روش‌های پرداخت به‌روزرسانی شدند. لطفاً پیش از ادامه آن‌ها را بررسی کنید.",
 			"Proforma": "پیش‌فاکتور",
