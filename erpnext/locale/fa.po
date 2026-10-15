@@ -18060,7 +18060,7 @@ msgstr "تخفیف (%)"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Discount (%) on Price List Rate with Margin"
-msgstr ""
+msgstr "درصد تخفیف بر نرخ فهرست قیمت به‌همراه حاشیه سود"
 
 #. Label of the additional_discount_account (Link) field in DocType 'Sales
 #. Invoice'

@@ -134,6 +134,7 @@ class TestInit(ERPNextTestSuite):
 
 		catalog = get_catalog("erpnext", "fa")
 		expected = {
+			"Discount (%) on Price List Rate with Margin": "درصد تخفیف بر نرخ فهرست قیمت به‌همراه حاشیه سود",
 			"Please enter a valid number of deliveries": "لطفاً تعداد معتبری برای تحویل‌ها وارد کنید.",
 			"Please enter a valid quantity": "لطفاً مقدار معتبری وارد کنید.",
 			"Please enter at least one delivery date and quantity": "لطفاً دست‌کم یک تاریخ و مقدار تحویل وارد کنید.",
