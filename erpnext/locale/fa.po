@@ -240,19 +240,19 @@ msgstr ""
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials billed against this Sales Order"
 msgstr "٪ از مواد در برابر این سفارش فروش صورتحساب شدند"
 
 #. Description of the '% Delivered' (Percent) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials delivered against this Pick List"
 msgstr "٪ مواد تحویل‌شده بر اساس این لیست انتخاب"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials delivered against this Sales Order"
 msgstr "٪ از مواد در برابر این سفارش فروش تحویل شدند"
 
@@ -42531,9 +42531,9 @@ msgid "Proforma emailed"
 msgstr ""
 
 #: erpnext/projects/doctype/task/task.py:173
-#, python-format
+#, no-c-format, no-python-format
 msgid "Progress % for a task cannot be more than 100."
-msgstr "% پیشرفت برای یک تسک نمی‌تواند بیشتر از 100 باشد."
+msgstr "٪ پیشرفت برای یک کار نمی‌تواند بیشتر از ۱۰۰ باشد."
 
 #: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:116
 msgid "Progress (%)"
@@ -66738,9 +66738,9 @@ msgid "{0}% Delivered"
 msgstr "{0}% تحویل داده شده"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
-#, python-format
+#, no-c-format, python-brace-format
 msgid "{0}% of total invoice value will be given as discount."
-msgstr "{0}% از ارزش کل فاکتور به عنوان تخفیف داده می‌شود."
+msgstr "{0}٪ از ارزش کل فاکتور به عنوان تخفیف داده می‌شود."
 
 #: erpnext/projects/doctype/task/task.py:137
 msgid "{0}'s {1} cannot be after {2}'s Expected End Date."

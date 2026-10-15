@@ -98,6 +98,22 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_percent_catalog_messages_are_format_safe(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"% of materials billed against this Sales Order": "٪ از مواد در برابر این سفارش فروش صورتحساب شدند",
+			"% of materials delivered against this Pick List": "٪ مواد تحویل‌شده بر اساس این لیست انتخاب",
+			"% of materials delivered against this Sales Order": "٪ از مواد در برابر این سفارش فروش تحویل شدند",
+			"Progress % for a task cannot be more than 100.": "٪ پیشرفت برای یک کار نمی‌تواند بیشتر از ۱۰۰ باشد.",
+			"{0}% of total invoice value will be given as discount.": "{0}٪ از ارزش کل فاکتور به عنوان تخفیف داده می‌شود.",
+		}
+
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files
 
