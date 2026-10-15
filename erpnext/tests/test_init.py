@@ -99,6 +99,20 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_proforma_print_messages(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"Emailed To": "ایمیل‌شده به",
+			"Hide Item Quantity in Print": "پنهان‌کردن مقدار کالا در چاپ",
+			"Hide the item quantity and rate on the printed proforma.": "مقدار و نرخ کالا را در پیش‌فاکتور چاپی پنهان می‌کند.",
+			"Proforma PDF": "فایل PDF پیش‌فاکتور",
+		}
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_persian_percent_catalog_messages_are_format_safe(self):
 		from frappe.gettext.translate import get_catalog
 

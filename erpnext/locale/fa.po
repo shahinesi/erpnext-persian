@@ -19393,7 +19393,7 @@ msgstr "ایمیل به {0} ارسال شد"
 #. Label of the emailed_to (Small Text) field in DocType 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Emailed To"
-msgstr ""
+msgstr "ایمیل‌شده به"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:20
 msgid "Emails queued"
@@ -24181,7 +24181,7 @@ msgstr "مخفی کردن تصاویر"
 #: erpnext/public/js/sales_order_proforma.js:101
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Hide Item Quantity in Print"
-msgstr ""
+msgstr "پنهان‌کردن مقدار کالا در چاپ"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:261
 msgid "Hide Recent Orders"
@@ -24196,7 +24196,7 @@ msgstr "پنهان کردن آیتم‌های ناموجود"
 #. 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Hide the item quantity and rate on the printed proforma."
-msgstr ""
+msgstr "مقدار و نرخ کالا را در پیش‌فاکتور چاپی پنهان می‌کند."
 
 #. Description of the 'Hide If Zero' (Check) field in DocType 'Financial Report
 #. Row'
@@ -42524,7 +42524,7 @@ msgstr ""
 #. Label of the proforma_pdf (Attach) field in DocType 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Proforma PDF"
-msgstr ""
+msgstr "فایل PDF پیش‌فاکتور"
 
 #: erpnext/public/js/sales_order_proforma.js:359
 msgid "Proforma emailed"
