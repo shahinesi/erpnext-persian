@@ -5173,7 +5173,7 @@ msgstr "درآمد سالانه"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Purchase"
-msgstr ""
+msgstr "خرید سالانه"
 
 #. Label of the annual_revenue (Currency) field in DocType 'Lead'
 #. Label of the annual_revenue (Currency) field in DocType 'Opportunity'
@@ -66833,3 +66833,47 @@ msgstr "{}"
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:236
 msgid "{} invoices"
 msgstr "{} فاکتورها"
+
+#: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
+msgid "Get to know ERPNext"
+msgstr "با ERPNext آشنا شوید"
+
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Invite your team"
+msgstr "تیم خود را دعوت کنید"
+
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Add the people you work with and choose what they can see."
+msgstr "افرادی را که با آن‌ها کار می‌کنید اضافه کنید و دسترسی‌هایشان را مشخص کنید."
+
+#: erpnext/setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json
+msgid "Get your books ready"
+msgstr "حساب‌های مالی خود را آماده کنید"
+
+#: erpnext/setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json
+msgid "Make your first sale"
+msgstr "اولین فروش خود را انجام دهید"
+
+#: erpnext/setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json
+msgid "Order from your suppliers"
+msgstr "از تأمین‌کنندگان خود سفارش دهید"
+
+#: erpnext/setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json
+msgid "Keep track of your stock"
+msgstr "موجودی خود را پیگیری کنید"
+
+#: erpnext/setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json
+msgid "Plan and run production"
+msgstr "تولید را برنامه‌ریزی و اجرا کنید"
+
+#: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json
+msgid "Plan and deliver projects"
+msgstr "پروژه‌ها را برنامه‌ریزی و تحویل دهید"
+
+#: erpnext/setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json
+msgid "Track what your business owns"
+msgstr "دارایی‌های کسب‌وکار خود را پیگیری کنید"
+
+#: erpnext/setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json
+msgid "Keep quality in check"
+msgstr "کیفیت را کنترل کنید"
