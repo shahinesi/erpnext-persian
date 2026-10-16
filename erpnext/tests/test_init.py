@@ -107,6 +107,7 @@ class TestInit(ERPNextTestSuite):
 			"Emailed To": "ایمیل‌شده به",
 			"Hide Item Quantity in Print": "پنهان‌کردن مقدار کالا در چاپ",
 			"Hide the item quantity and rate on the printed proforma.": "مقدار و نرخ کالا را در پیش‌فاکتور چاپی پنهان می‌کند.",
+			"No proforma invoices yet.": "هنوز پیش‌فاکتوری وجود ندارد.",
 			"Proforma PDF": "فایل PDF پیش‌فاکتور",
 		}
 		for source, translation in expected.items():

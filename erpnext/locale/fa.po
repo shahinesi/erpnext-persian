@@ -34164,7 +34164,7 @@ msgstr "هیچ محصولی یافت نشد"
 
 #: erpnext/public/js/sales_order_proforma.js:269
 msgid "No proforma invoices yet."
-msgstr ""
+msgstr "هنوز پیش‌فاکتوری وجود ندارد."
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:733
 msgid "No raw materials planned for this plan yet"
