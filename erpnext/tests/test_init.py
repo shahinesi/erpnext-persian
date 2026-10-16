@@ -113,6 +113,44 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_sales_form_field_translations(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		forms = {
+			"Sales Order": {
+				"module": "Selling",
+				"fields": {
+					"customer": "مشتری",
+					"order_type": "نوع سفارش",
+					"delivery_date": "تاریخ تحویل",
+					"grand_total": "جمع کل",
+				},
+			},
+			"Sales Invoice": {
+				"module": "Accounts",
+				"fields": {
+					"customer": "مشتری",
+					"posting_date": "تاریخ ارسال",
+					"due_date": "سررسید پرداخت",
+					"outstanding_amount": "مبلغ معوقه",
+					"debit_to": "بدهی به",
+					"grand_total": "جمع کل",
+				},
+			},
+		}
+
+		for doctype, expectation in forms.items():
+			meta = frappe.get_meta(doctype)
+			with self.subTest(doctype=doctype):
+				self.assertEqual(meta.module, expectation["module"])
+
+			for fieldname, translation in expectation["fields"].items():
+				with self.subTest(doctype=doctype, fieldname=fieldname):
+					field = meta.get_field(fieldname)
+					self.assertIsNotNone(field, f"{doctype}.{fieldname} is missing")
+					self.assertEqual(catalog[field.label].string, translation)
+
 	def test_persian_percent_catalog_messages_are_format_safe(self):
 		from frappe.gettext.translate import get_catalog
 
