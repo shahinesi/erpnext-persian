@@ -2094,12 +2094,12 @@ msgstr "حساب‌ها تا تاریخ مسدود شده‌اند"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:186
 msgid "Accounts Included in Report"
-msgstr ""
+msgstr "حساب‌های موجود در گزارش"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:160
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:185
 msgid "Accounts Missing from Report"
-msgstr ""
+msgstr "حساب‌های جاافتاده از گزارش"
 
 #. Option for the 'Write Off Based On' (Select) field in DocType 'Journal
 #. Entry'

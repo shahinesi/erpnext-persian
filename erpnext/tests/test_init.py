@@ -167,6 +167,19 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_financial_report_template_account_tree_titles(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"Accounts Missing from Report": "حساب‌های جاافتاده از گزارش",
+			"Accounts Included in Report": "حساب‌های موجود در گزارش",
+		}
+
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_persian_sales_workflow_and_report_messages(self):
 		from frappe.gettext.translate import get_catalog
 
