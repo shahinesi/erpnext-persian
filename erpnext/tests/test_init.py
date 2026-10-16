@@ -200,6 +200,21 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_sales_invoice_subcontracting_validation_messages(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		expected = {
+			"All items must be linked to a Sales Order or Subcontracting Inward Order for this Sales Invoice.": (
+				"همه اقلام باید برای این فاکتور فروش به یک سفارش فروش یا سفارش ورودی پیمانکاری فرعی پیوند داده شوند."
+			),
+			"All linked Sales Orders must be subcontracted.": "همه سفارش‌های فروش پیوندخورده باید از نوع پیمانکاری فرعی باشند.",
+			"Subcontracting Inward Order": "سفارش ورودی پیمانکاری فرعی",
+		}
+		for source, translation in expected.items():
+			with self.subTest(source=source):
+				self.assertEqual(catalog[source].string, translation)
+
 	def test_patches(self):
 		from frappe.tests.test_patches import check_patch_files
 

@@ -3990,11 +3990,11 @@ msgstr "همه آیتم‌ها در این سند قبلاً دارای یک ب�
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:935
 msgid "All items must be linked to a Sales Order or Subcontracting Inward Order for this Sales Invoice."
-msgstr ""
+msgstr "همه اقلام باید برای این فاکتور فروش به یک سفارش فروش یا سفارش ورودی پیمانکاری فرعی پیوند داده شوند."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:946
 msgid "All linked Sales Orders must be subcontracted."
-msgstr ""
+msgstr "همه سفارش‌های فروش پیوندخورده باید از نوع پیمانکاری فرعی باشند."
 
 #: erpnext/stock/doctype/pick_list/mapper.py:314
 msgid "All picked items have already been transferred against this Pick List"
@@ -55779,7 +55779,7 @@ msgstr ""
 #: erpnext/subcontracting/report/utils.py:34
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Subcontracting Inward Order"
-msgstr ""
+msgstr "سفارش ورودی پیمانکاری فرعی"
 
 #. Label of the subcontracting_inward_order_item (Data) field in DocType 'Work
 #. Order'
