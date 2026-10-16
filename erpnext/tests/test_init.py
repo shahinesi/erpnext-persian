@@ -80,6 +80,7 @@ class TestInit(ERPNextTestSuite):
 			"Get Delivery Schedule": "ایجاد برنامه تحویل",
 			"Total Advance Received: {0}": "مجموع پیش‌پرداخت دریافت‌شده: {0}",
 			"Outgoing Bills (Sales Invoice)": "صورتحساب‌های فروش",
+			"Payable Amount": "مبلغ پرداختنی",
 			"Payment methods refreshed. Please review before proceeding.": "روش‌های پرداخت به‌روزرسانی شدند. لطفاً پیش از ادامه آن‌ها را بررسی کنید.",
 			"Proforma": "پیش‌فاکتور",
 			"Proforma Invoices": "پیش‌فاکتورها",

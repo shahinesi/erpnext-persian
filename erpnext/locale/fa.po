@@ -37813,7 +37813,7 @@ msgstr "حساب پرداختنی"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:302
 msgid "Payable Amount"
-msgstr ""
+msgstr "مبلغ پرداختنی"
 
 #. Label of a Sidebar Item
 #. Label of the payables (Check) field in DocType 'Email Digest'
