@@ -14027,7 +14027,7 @@ msgstr "قالب چاپ ایجاد کنید"
 
 #: erpnext/public/js/sales_order_proforma.js:63
 msgid "Create Proforma Invoice"
-msgstr ""
+msgstr "ایجاد پیش‌فاکتور"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Project'
@@ -14355,7 +14355,7 @@ msgstr "ایجاد برگه بسته بندی ..."
 
 #: erpnext/public/js/sales_order_proforma.js:240
 msgid "Creating Proforma Invoice..."
-msgstr ""
+msgstr "در حال ایجاد پیش‌فاکتور..."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:68
 msgid "Creating Purchase Invoices ..."
@@ -33579,7 +33579,7 @@ msgstr "یادداشت جدید"
 
 #: erpnext/public/js/sales_order_proforma.js:330
 msgid "New Proforma Invoice"
-msgstr ""
+msgstr "پیش‌فاکتور جدید"
 
 #. Label of the purchase_invoice (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -42510,7 +42510,7 @@ msgstr ""
 
 #: erpnext/public/js/sales_order_proforma.js:245
 msgid "Proforma Invoice {0} created"
-msgstr ""
+msgstr "پیش‌فاکتور {0} ایجاد شد"
 
 #. Label of the proforma_html (HTML) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -42519,7 +42519,7 @@ msgstr "پیش‌فاکتورها"
 
 #: erpnext/public/js/sales_order_proforma.js:281
 msgid "Proforma No"
-msgstr ""
+msgstr "شماره پیش‌فاکتور"
 
 #. Label of the proforma_pdf (Attach) field in DocType 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
@@ -63583,7 +63583,7 @@ msgstr "اکنون مشاهده کنید"
 
 #: erpnext/public/js/sales_order_proforma.js:307
 msgid "View PDF"
-msgstr ""
+msgstr "مشاهده PDF"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'View Project Summary'

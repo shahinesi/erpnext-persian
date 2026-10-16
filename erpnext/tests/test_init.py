@@ -109,6 +109,12 @@ class TestInit(ERPNextTestSuite):
 			"Hide the item quantity and rate on the printed proforma.": "مقدار و نرخ کالا را در پیش‌فاکتور چاپی پنهان می‌کند.",
 			"No proforma invoices yet.": "هنوز پیش‌فاکتوری وجود ندارد.",
 			"Proforma PDF": "فایل PDF پیش‌فاکتور",
+			"Create Proforma Invoice": "ایجاد پیش‌فاکتور",
+			"Creating Proforma Invoice...": "در حال ایجاد پیش‌فاکتور...",
+			"New Proforma Invoice": "پیش‌فاکتور جدید",
+			"Proforma Invoice {0} created": "پیش‌فاکتور {0} ایجاد شد",
+			"Proforma No": "شماره پیش‌فاکتور",
+			"View PDF": "مشاهده PDF",
 		}
 		for source, translation in expected.items():
 			with self.subTest(source=source):
