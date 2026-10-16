@@ -1058,7 +1058,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/quotation/quotation.py:215
 msgid "A revision must have the same company as Quotation {0}."
-msgstr ""
+msgstr "شرکت نسخه بازنگری‌شده باید با شرکت پیش‌فاکتور {0} یکسان باشد."
 
 #: erpnext/stock/doctype/material_request/material_request.js:496
 msgid "A separate Purchase Order is created for each Supplier."

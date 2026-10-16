@@ -129,6 +129,15 @@ class TestInit(ERPNextTestSuite):
 			"پیش‌فاکتور در تنظیمات فروش فعال نیست.",
 		)
 
+	def test_persian_quotation_revision_validation_message(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		self.assertEqual(
+			catalog["A revision must have the same company as Quotation {0}."].string,
+			"شرکت نسخه بازنگری‌شده باید با شرکت پیش‌فاکتور {0} یکسان باشد.",
+		)
+
 	def test_persian_sales_form_field_translations(self):
 		from frappe.gettext.translate import get_catalog
 
