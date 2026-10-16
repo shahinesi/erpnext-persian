@@ -115,7 +115,7 @@ msgstr "روش ٪ تکمیل"
 
 #: erpnext/projects/doctype/project/project.py:282
 msgid "% Complete must be between 0 and 100"
-msgstr ""
+msgstr "درصد تکمیل باید بین ۰ تا ۱۰۰ باشد"
 
 #. Label of the percent_complete (Percent) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
