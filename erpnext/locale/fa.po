@@ -115,7 +115,7 @@ msgstr "روش ٪ تکمیل"
 
 #: erpnext/projects/doctype/project/project.py:282
 msgid "% Complete must be between 0 and 100"
-msgstr ""
+msgstr "درصد تکمیل باید بین ۰ تا ۱۰۰ باشد"
 
 #. Label of the percent_complete (Percent) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
@@ -240,19 +240,19 @@ msgstr ""
 #. Description of the '% Amount Billed' (Percent) field in DocType 'Sales
 #. Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials billed against this Sales Order"
 msgstr "٪ از مواد در برابر این سفارش فروش صورتحساب شدند"
 
 #. Description of the '% Delivered' (Percent) field in DocType 'Pick List'
 #: erpnext/stock/doctype/pick_list/pick_list.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials delivered against this Pick List"
 msgstr "٪ مواد تحویل‌شده بر اساس این لیست انتخاب"
 
 #. Description of the '%  Delivered' (Percent) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#, python-format
+#, no-c-format, no-python-format
 msgid "% of materials delivered against this Sales Order"
 msgstr "٪ از مواد در برابر این سفارش فروش تحویل شدند"
 
@@ -1058,7 +1058,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/quotation/quotation.py:215
 msgid "A revision must have the same company as Quotation {0}."
-msgstr ""
+msgstr "شرکت نسخه بازنگری‌شده باید با شرکت پیش‌فاکتور {0} یکسان باشد."
 
 #: erpnext/stock/doctype/material_request/material_request.js:496
 msgid "A separate Purchase Order is created for each Supplier."
@@ -1128,7 +1128,7 @@ msgstr "تاریخ انقضای AMC"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "AP Summary"
-msgstr ""
+msgstr "خلاصه حساب‌های پرداختنی"
 
 #. Label of the api_details_section (Section Break) field in DocType 'Currency
 #. Exchange Settings'
@@ -1146,7 +1146,7 @@ msgstr ""
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "AR Summary"
-msgstr ""
+msgstr "خلاصه حساب‌های دریافتنی"
 
 #. Label of the awb_number (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -2094,12 +2094,12 @@ msgstr "حساب‌ها تا تاریخ مسدود شده‌اند"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:186
 msgid "Accounts Included in Report"
-msgstr ""
+msgstr "حساب‌های موجود در گزارش"
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:160
 #: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:185
 msgid "Accounts Missing from Report"
-msgstr ""
+msgstr "حساب‌های جاافتاده از گزارش"
 
 #. Option for the 'Write Off Based On' (Select) field in DocType 'Journal
 #. Entry'
@@ -2195,7 +2195,7 @@ msgstr "تنظیمات حساب‌ها"
 #. Label of a Desktop Icon
 #: erpnext/desktop_icon/accounts_setup.json
 msgid "Accounts Setup"
-msgstr ""
+msgstr "راه‌اندازی حسابداری"
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:506
 msgid "Accounts cannot be removed, as user doesn't have access to all the accounts of {0}"
@@ -3716,7 +3716,7 @@ msgstr "سن ({0})"
 #: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:58
 #: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:31
 msgid "Age as on"
-msgstr ""
+msgstr "قدمت تا تاریخ"
 
 #. Label of the ageing_based_on (Select) field in DocType 'Process Statement Of
 #. Accounts'
@@ -3990,11 +3990,11 @@ msgstr "همه آیتم‌ها در این سند قبلاً دارای یک ب�
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:935
 msgid "All items must be linked to a Sales Order or Subcontracting Inward Order for this Sales Invoice."
-msgstr ""
+msgstr "همه اقلام باید برای این فاکتور فروش به یک سفارش فروش یا سفارش ورودی پیمانکاری فرعی پیوند داده شوند."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:946
 msgid "All linked Sales Orders must be subcontracted."
-msgstr ""
+msgstr "همه سفارش‌های فروش پیوندخورده باید از نوع پیمانکاری فرعی باشند."
 
 #: erpnext/stock/doctype/pick_list/mapper.py:314
 msgid "All picked items have already been transferred against this Pick List"
@@ -5056,7 +5056,7 @@ msgstr ""
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:191
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:246
 msgid "Amount to Bill"
-msgstr ""
+msgstr "مبلغ قابل صورتحساب"
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1285
 msgid "Amount {0} {1} adjusted against {2} {3}"
@@ -5173,7 +5173,7 @@ msgstr "درآمد سالانه"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Purchase"
-msgstr ""
+msgstr "خرید سالانه"
 
 #. Label of the annual_revenue (Currency) field in DocType 'Lead'
 #. Label of the annual_revenue (Currency) field in DocType 'Opportunity'
@@ -5189,7 +5189,7 @@ msgstr "درآمد سالانه"
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Annual Sales"
-msgstr ""
+msgstr "فروش سالانه"
 
 #: erpnext/accounts/doctype/budget/budget.py:145
 msgid "Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' with overlapping fiscal years."
@@ -9219,7 +9219,7 @@ msgstr "تاریخ شروع بودجه"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Budget Variance"
-msgstr ""
+msgstr "انحراف بودجه"
 
 #. Name of a report
 #: erpnext/accounts/doctype/cost_center/cost_center_tree.js:121
@@ -12687,7 +12687,7 @@ msgstr "صورت مالی تلفیقی"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Consolidated Report"
-msgstr ""
+msgstr "گزارش تلفیقی"
 
 #. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice'
 #. Label of the consolidated_invoice (Link) field in DocType 'POS Invoice Merge
@@ -14027,7 +14027,7 @@ msgstr "قالب چاپ ایجاد کنید"
 
 #: erpnext/public/js/sales_order_proforma.js:63
 msgid "Create Proforma Invoice"
-msgstr ""
+msgstr "ایجاد پیش‌فاکتور"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Project'
@@ -14355,7 +14355,7 @@ msgstr "ایجاد برگه بسته بندی ..."
 
 #: erpnext/public/js/sales_order_proforma.js:240
 msgid "Creating Proforma Invoice..."
-msgstr ""
+msgstr "در حال ایجاد پیش‌فاکتور..."
 
 #: erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.js:68
 msgid "Creating Purchase Invoices ..."
@@ -15474,7 +15474,7 @@ msgstr "شماره LPO مشتری"
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Customer Ledger"
-msgstr ""
+msgstr "دفتر حساب مشتریان"
 
 #. Name of a report
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.json
@@ -18060,7 +18060,7 @@ msgstr "تخفیف (%)"
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Discount (%) on Price List Rate with Margin"
-msgstr ""
+msgstr "درصد تخفیف بر نرخ فهرست قیمت به‌همراه حاشیه سود"
 
 #. Label of the additional_discount_account (Link) field in DocType 'Sales
 #. Invoice'
@@ -19393,7 +19393,7 @@ msgstr "ایمیل به {0} ارسال شد"
 #. Label of the emailed_to (Small Text) field in DocType 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Emailed To"
-msgstr ""
+msgstr "ایمیل‌شده به"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:20
 msgid "Emails queued"
@@ -21722,7 +21722,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:617
 msgid "First Delivery Date"
-msgstr ""
+msgstr "تاریخ اولین تحویل"
 
 #. Label of the first_email (Time) field in DocType 'Project'
 #: erpnext/projects/doctype/project/project.json
@@ -23173,7 +23173,7 @@ msgstr "دریافت جزئیات گروه مشتری"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:648
 msgid "Get Delivery Schedule"
-msgstr ""
+msgstr "ایجاد برنامه تحویل"
 
 #. Label of the get_entries (Button) field in DocType 'Exchange Rate
 #. Revaluation'
@@ -23613,11 +23613,11 @@ msgstr "جمع کل (ارز شرکت)"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:253
 msgid "Grand Total (Transaction Currency)"
-msgstr ""
+msgstr "جمع کل (ارز تراکنش)"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:147
 msgid "Grand Total must match sum of Payment References"
-msgstr ""
+msgstr "جمع کل باید با مجموع ارجاع‌های پرداخت برابر باشد"
 
 #. Label of the grant_commission (Check) field in DocType 'POS Invoice Item'
 #. Label of the grant_commission (Check) field in DocType 'Sales Invoice Item'
@@ -24181,7 +24181,7 @@ msgstr "مخفی کردن تصاویر"
 #: erpnext/public/js/sales_order_proforma.js:101
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Hide Item Quantity in Print"
-msgstr ""
+msgstr "پنهان‌کردن مقدار کالا در چاپ"
 
 #: erpnext/selling/page/point_of_sale/pos_controller.js:261
 msgid "Hide Recent Orders"
@@ -24196,7 +24196,7 @@ msgstr "پنهان کردن آیتم‌های ناموجود"
 #. 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Hide the item quantity and rate on the printed proforma."
-msgstr ""
+msgstr "مقدار و نرخ کالا را در پیش‌فاکتور چاپی پنهان می‌کند."
 
 #. Description of the 'Hide If Zero' (Check) field in DocType 'Financial Report
 #. Row'
@@ -24567,7 +24567,7 @@ msgstr ""
 #. Description of the 'Update Stock' (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "If checked, updates inventory; stock and accounting entries are created together. Leave unchecked if a Delivery Note is created separately."
-msgstr ""
+msgstr "اگر انتخاب شود، موجودی را به‌روزرسانی می‌کند و ثبت‌های انبار و حسابداری هم‌زمان ایجاد می‌شوند. اگر یادداشت تحویل جداگانه ایجاد می‌کنید، این گزینه را انتخاب نکنید."
 
 #. Description of the 'Update Stock' (Check) field in DocType 'Purchase
 #. Invoice'
@@ -27451,7 +27451,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:404
 msgid "Is Packed Item"
-msgstr ""
+msgstr "کالای بسته‌بندی‌شده است"
 
 #. Label of the is_paid (Check) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
@@ -27763,7 +27763,7 @@ msgstr "نوع مشکل"
 #. DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Issue a debit note against an existing Sales Invoice to adjust the rate. The quantity will be retained from the original invoice."
-msgstr ""
+msgstr "برای اصلاح نرخ، یادداشت بدهکار در برابر فاکتور فروش موجود صادر کنید. مقدار از فاکتور اصلی حفظ می‌شود."
 
 #. Option for the 'Current State' (Select) field in DocType 'Share Balance'
 #. Option for the 'Status' (Select) field in DocType 'Proforma Invoice'
@@ -28971,7 +28971,7 @@ msgstr "جزئیات مالیاتی مبتنی بر آیتم"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Item Wise Tax Details"
-msgstr ""
+msgstr "جزئیات مالیات به تفکیک کالا"
 
 #: erpnext/controllers/taxes_and_totals.py:579
 msgid "Item Wise Tax Details do not match with Taxes and Charges at the following rows:"
@@ -33579,7 +33579,7 @@ msgstr "یادداشت جدید"
 
 #: erpnext/public/js/sales_order_proforma.js:330
 msgid "New Proforma Invoice"
-msgstr ""
+msgstr "پیش‌فاکتور جدید"
 
 #. Label of the purchase_invoice (Check) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -34164,7 +34164,7 @@ msgstr "هیچ محصولی یافت نشد"
 
 #: erpnext/public/js/sales_order_proforma.js:269
 msgid "No proforma invoices yet."
-msgstr ""
+msgstr "هنوز پیش‌فاکتوری وجود ندارد."
 
 #: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:733
 msgid "No raw materials planned for this plan yet"
@@ -36150,7 +36150,7 @@ msgstr ""
 #. Label of a chart in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 msgid "Outgoing Bills (Sales Invoice)"
-msgstr ""
+msgstr "صورتحساب‌های فروش"
 
 #. Label of the outgoing_rate (Float) field in DocType 'Serial and Batch Entry'
 #. Label of the outgoing_rate (Currency) field in DocType 'Stock Ledger Entry'
@@ -37813,7 +37813,7 @@ msgstr "حساب پرداختنی"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:302
 msgid "Payable Amount"
-msgstr ""
+msgstr "مبلغ پرداختنی"
 
 #. Label of a Sidebar Item
 #. Label of the payables (Check) field in DocType 'Email Digest'
@@ -38452,7 +38452,7 @@ msgstr "روش‌های پرداخت اجباری است. لطفاً حداقل 
 
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:374
 msgid "Payment methods refreshed. Please review before proceeding."
-msgstr ""
+msgstr "روش‌های پرداخت به‌روزرسانی شدند. لطفاً پیش از ادامه آن‌ها را بررسی کنید."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:466
 #: erpnext/selling/page/point_of_sale/pos_payment.js:366
@@ -39765,15 +39765,15 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:755
 msgid "Please enter a valid number of deliveries"
-msgstr ""
+msgstr "لطفاً تعداد معتبری برای تحویل‌ها وارد کنید."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:698
 msgid "Please enter a valid quantity"
-msgstr ""
+msgstr "لطفاً مقدار معتبری وارد کنید."
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:692
 msgid "Please enter at least one delivery date and quantity"
-msgstr ""
+msgstr "لطفاً دست‌کم یک تاریخ و مقدار تحویل وارد کنید."
 
 #: erpnext/accounts/doctype/cost_center/cost_center.js:114
 msgid "Please enter company name first"
@@ -39813,7 +39813,7 @@ msgstr "لطفاً برای تأیید نام شرکت را وارد کنید"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:752
 msgid "Please enter the first delivery date"
-msgstr ""
+msgstr "لطفاً تاریخ نخستین تحویل را وارد کنید."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:810
 msgid "Please enter the phone number first"
@@ -40004,7 +40004,7 @@ msgstr "لطفا ابتدا کد آیتم را انتخاب کنید"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1770
 msgid "Please select Items from the Table"
-msgstr ""
+msgstr "لطفاً کالاها را از جدول انتخاب کنید."
 
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.py:55
 msgid "Please select Maintenance Status as Completed or remove Completion Date"
@@ -40156,7 +40156,7 @@ msgstr "لطفاً فیلدی را برای ویرایش از numpad انتخا�
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:749
 msgid "Please select a frequency for delivery schedule"
-msgstr ""
+msgstr "لطفاً بازه تکرار برنامه تحویل را انتخاب کنید."
 
 #: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:137
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.js:72
@@ -40205,7 +40205,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1384
 msgid "Please select at least one item to continue"
-msgstr ""
+msgstr "برای ادامه، دست‌کم یک کالا را انتخاب کنید."
 
 #: erpnext/buying/doctype/purchase_order/services/drop_ship.py:17
 msgid "Please select at least one item to update delivered quantity."
@@ -40256,7 +40256,7 @@ msgstr "لطفا کد آیتم را انتخاب کنید"
 #: erpnext/selling/doctype/sales_order/sales_order.js:432
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.js:297
 msgid "Please select items to reserve."
-msgstr ""
+msgstr "لطفاً کالاهایی را که باید رزرو شوند انتخاب کنید."
 
 #: erpnext/public/js/stock_reservation.js:299
 #: erpnext/selling/doctype/sales_order/sales_order.js:563
@@ -42477,7 +42477,7 @@ msgstr "تجزیه و تحلیل سودآوری"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/doctype/sales_order/sales_order_dashboard.py:27
 msgid "Proforma"
-msgstr ""
+msgstr "پیش‌فاکتور"
 
 #. Label of the proforma_email_template (Link) field in DocType 'Selling
 #. Settings'
@@ -42502,7 +42502,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:275
 msgid "Proforma Invoice is not enabled in Selling Settings."
-msgstr ""
+msgstr "پیش‌فاکتور در تنظیمات فروش فعال نیست."
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:155
 msgid "Proforma Invoice {0}"
@@ -42510,30 +42510,30 @@ msgstr ""
 
 #: erpnext/public/js/sales_order_proforma.js:245
 msgid "Proforma Invoice {0} created"
-msgstr ""
+msgstr "پیش‌فاکتور {0} ایجاد شد"
 
 #. Label of the proforma_html (HTML) field in DocType 'Sales Order'
 #: erpnext/selling/doctype/sales_order/sales_order.json
 msgid "Proforma Invoices"
-msgstr ""
+msgstr "پیش‌فاکتورها"
 
 #: erpnext/public/js/sales_order_proforma.js:281
 msgid "Proforma No"
-msgstr ""
+msgstr "شماره پیش‌فاکتور"
 
 #. Label of the proforma_pdf (Attach) field in DocType 'Proforma Invoice'
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.json
 msgid "Proforma PDF"
-msgstr ""
+msgstr "فایل PDF پیش‌فاکتور"
 
 #: erpnext/public/js/sales_order_proforma.js:359
 msgid "Proforma emailed"
 msgstr ""
 
 #: erpnext/projects/doctype/task/task.py:173
-#, python-format
+#, no-c-format, no-python-format
 msgid "Progress % for a task cannot be more than 100."
-msgstr "% پیشرفت برای یک تسک نمی‌تواند بیشتر از 100 باشد."
+msgstr "٪ پیشرفت برای یک کار نمی‌تواند بیشتر از ۱۰۰ باشد."
 
 #: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:116
 msgid "Progress (%)"
@@ -51346,7 +51346,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/sales_order/sales_order_list.js:85
 msgid "Select Items up to Delivery Date"
-msgstr ""
+msgstr "انتخاب کالاها تا تاریخ تحویل"
 
 #. Label of the supplier_address (Link) field in DocType 'Subcontracting
 #. Receipt'
@@ -53002,7 +53002,7 @@ msgstr "مستقر شده"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice_list.js:33
 msgid "Settled with Credit Note"
-msgstr ""
+msgstr "تسویه‌شده با یادداشت بستانکار"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Setup Company'
@@ -53308,7 +53308,7 @@ msgstr "شهر حمل و نقل"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact"
-msgstr ""
+msgstr "مخاطب ارسال"
 
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_email (Data) field in DocType 'Sales Order'
@@ -53317,7 +53317,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Email"
-msgstr ""
+msgstr "ایمیل مخاطب ارسال"
 
 #. Label of the shipping_contact_mobile (Small Text) field in DocType 'Sales
 #. Invoice'
@@ -53329,7 +53329,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Mobile No"
-msgstr ""
+msgstr "شماره همراه مخاطب ارسال"
 
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Invoice'
 #. Label of the shipping_contact_person (Link) field in DocType 'Sales Order'
@@ -53338,7 +53338,7 @@ msgstr ""
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 msgid "Shipping Contact Person"
-msgstr ""
+msgstr "شخص مخاطب ارسال"
 
 #. Label of the shipping_country (Link) field in DocType 'Tax Rule'
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
@@ -54528,7 +54528,7 @@ msgstr "گذرواژه PDF صورتحساب"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.html:145
 msgid "Statement Period"
-msgstr ""
+msgstr "دوره صورت‌حساب"
 
 #. Label of the status_details (Section Break) field in DocType 'Service Level
 #. Agreement'
@@ -55779,7 +55779,7 @@ msgstr ""
 #: erpnext/subcontracting/report/utils.py:34
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Subcontracting Inward Order"
-msgstr ""
+msgstr "سفارش ورودی پیمانکاری فرعی"
 
 #. Label of the subcontracting_inward_order_item (Data) field in DocType 'Work
 #. Order'
@@ -56517,7 +56517,7 @@ msgstr ""
 #: erpnext/accounts/sidebar/accounts/accounts.json
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "Supplier Ledger"
-msgstr ""
+msgstr "دفتر حساب تأمین‌کنندگان"
 
 #. Name of a report
 #: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.json
@@ -57457,7 +57457,7 @@ msgstr "تنظیمات مالیاتی"
 #: erpnext/selling/sidebar/selling/selling.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "Tax Template"
-msgstr ""
+msgstr "الگوی مالیاتی"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.py:86
 msgid "Tax Template is mandatory."
@@ -60063,7 +60063,7 @@ msgstr ""
 
 #: erpnext/public/js/utils.js:194
 msgid "Total Advance Received: {0}"
-msgstr ""
+msgstr "مجموع پیش‌پرداخت دریافت‌شده: {0}"
 
 #. Label of the total_allocated_amount (Currency) field in DocType 'Payment
 #. Entry'
@@ -60963,7 +60963,7 @@ msgstr "مجموع (مقدار)"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Totals (Company Currency)"
-msgstr ""
+msgstr "مجموع (ارز شرکت)"
 
 #: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:14
 #: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.js:14
@@ -63583,7 +63583,7 @@ msgstr "اکنون مشاهده کنید"
 
 #: erpnext/public/js/sales_order_proforma.js:307
 msgid "View PDF"
-msgstr ""
+msgstr "مشاهده PDF"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'View Project Summary'
@@ -66738,9 +66738,9 @@ msgid "{0}% Delivered"
 msgstr "{0}% تحویل داده شده"
 
 #: erpnext/accounts/doctype/payment_term/payment_term.js:15
-#, python-format
+#, no-c-format, python-brace-format
 msgid "{0}% of total invoice value will be given as discount."
-msgstr "{0}% از ارزش کل فاکتور به عنوان تخفیف داده می‌شود."
+msgstr "{0}٪ از ارزش کل فاکتور به عنوان تخفیف داده می‌شود."
 
 #: erpnext/projects/doctype/task/task.py:137
 msgid "{0}'s {1} cannot be after {2}'s Expected End Date."
@@ -66834,3 +66834,46 @@ msgstr "{}"
 msgid "{} invoices"
 msgstr "{} فاکتورها"
 
+#: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
+msgid "Get to know ERPNext"
+msgstr "با ERPNext آشنا شوید"
+
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Invite your team"
+msgstr "تیم خود را دعوت کنید"
+
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Add the people you work with and choose what they can see."
+msgstr "افرادی را که با آن‌ها کار می‌کنید اضافه کنید و دسترسی‌هایشان را مشخص کنید."
+
+#: erpnext/setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json
+msgid "Get your books ready"
+msgstr "حساب‌های مالی خود را آماده کنید"
+
+#: erpnext/setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json
+msgid "Make your first sale"
+msgstr "اولین فروش خود را انجام دهید"
+
+#: erpnext/setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json
+msgid "Order from your suppliers"
+msgstr "از تأمین‌کنندگان خود سفارش دهید"
+
+#: erpnext/setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json
+msgid "Keep track of your stock"
+msgstr "موجودی خود را پیگیری کنید"
+
+#: erpnext/setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json
+msgid "Plan and run production"
+msgstr "تولید را برنامه‌ریزی و اجرا کنید"
+
+#: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json
+msgid "Plan and deliver projects"
+msgstr "پروژه‌ها را برنامه‌ریزی و تحویل دهید"
+
+#: erpnext/setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json
+msgid "Track what your business owns"
+msgstr "دارایی‌های کسب‌وکار خود را پیگیری کنید"
+
+#: erpnext/setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json
+msgid "Keep quality in check"
+msgstr "کیفیت را کنترل کنید"
