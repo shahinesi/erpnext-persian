@@ -114,6 +114,15 @@ class TestInit(ERPNextTestSuite):
 			with self.subTest(source=source):
 				self.assertEqual(catalog[source].string, translation)
 
+	def test_persian_proforma_settings_validation_message(self):
+		from frappe.gettext.translate import get_catalog
+
+		catalog = get_catalog("erpnext", "fa")
+		self.assertEqual(
+			catalog["Proforma Invoice is not enabled in Selling Settings."].string,
+			"پیش‌فاکتور در تنظیمات فروش فعال نیست.",
+		)
+
 	def test_persian_sales_form_field_translations(self):
 		from frappe.gettext.translate import get_catalog
 

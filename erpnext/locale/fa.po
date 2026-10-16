@@ -42502,7 +42502,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:275
 msgid "Proforma Invoice is not enabled in Selling Settings."
-msgstr ""
+msgstr "پیش‌فاکتور در تنظیمات فروش فعال نیست."
 
 #: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:155
 msgid "Proforma Invoice {0}"
