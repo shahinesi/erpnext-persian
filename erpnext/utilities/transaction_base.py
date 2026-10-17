@@ -371,6 +371,9 @@ class TransactionBase(StatusUpdater):
 			):
 				item_obj.set(fieldname, None)
 
+			if item_obj.get("mapped_additional_discount_amount"):
+				self.drop_mapped_discount(item_obj)
+
 		# 'item_details' has latest item related values
 		item_details = self.fetch_item_details(item_obj)
 
@@ -589,7 +592,7 @@ class TransactionBase(StatusUpdater):
 			"plc_conversion_rate": self.plc_conversion_rate,
 			"company": self.company,
 			"transaction_date": self.transaction_date or self.posting_date,
-			"campaign": self.campaign,
+			"campaign": self.get("utm_campaign"),
 			"sales_partner": self.sales_partner,
 			"ignore_pricing_rule": self.ignore_pricing_rule,
 			"doctype": self.doctype,

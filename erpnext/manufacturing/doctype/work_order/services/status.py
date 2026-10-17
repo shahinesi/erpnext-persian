@@ -185,15 +185,13 @@ class StatusService:
 		return flt(self.doc.qty, precision) > flt(total_qty, precision)
 
 	def _reservation_status(self, status):
-		for row in self.doc.required_items:
-			if not row.stock_reserved_qty:
-				continue
+		if not any(row.stock_reserved_qty for row in self.doc.required_items):
+			return status
 
-			if row.stock_reserved_qty >= row.required_qty:
-				status = "Stock Reserved"
-			else:
-				return "Stock Partially Reserved"
-		return status
+		if any(row.stock_reserved_qty < row.required_qty for row in self.doc.required_items):
+			return "Stock Partially Reserved"
+
+		return "Stock Reserved"
 
 	def update_work_order_qty(self):
 		"""Update Manufactured Qty and Material Transferred for Qty based on Stock Entry"""
@@ -235,12 +233,25 @@ class StatusService:
 				StockOverProductionError,
 			)
 
+		if purpose == "Manufacture":
+			self.validate_produced_qty_covers_disassembly(qty, precision)
+
 		self.doc.db_set(fieldname, qty)
 		if purpose == "Manufacture" and self.doc.production_plan:
 			ProductionPlanWorkOrderQuantities(self.doc.production_plan).validate_work_order(
 				self.doc, process_loss_qty=self.doc.process_loss_qty
 			)
 		self._update_produced_qty_in_so()
+
+	def validate_produced_qty_covers_disassembly(self, produced_qty, precision):
+		if flt(produced_qty, precision) >= flt(self.doc.disassembled_qty, precision):
+			return
+
+		frappe.throw(
+			_(
+				"Manufactured Qty ({0}) cannot be less than the Disassembled Qty ({1}) of Work Order {2}. Cancel the disassembly first."
+			).format(flt(produced_qty, precision), flt(self.doc.disassembled_qty, precision), self.doc.name)
+		)
 
 	def _skip_transfer_purpose(self, purpose):
 		return bool(
@@ -270,11 +281,12 @@ class StatusService:
 			update_produced_qty_in_so_item(self.doc.sales_order, self.doc.sales_order_item)
 
 	def update_disassembled_qty(self, qty, is_cancel=False):
+		precision = self.doc.precision("disassembled_qty")
 		if is_cancel:
-			self.doc.disassembled_qty = max(0, self.doc.disassembled_qty - qty)
+			self.doc.disassembled_qty = max(0, flt(self.doc.disassembled_qty - qty, precision))
 		else:
 			if self.doc.docstatus == 1:
-				self.doc.disassembled_qty += qty
+				self.doc.disassembled_qty = flt(self.doc.disassembled_qty + qty, precision)
 
 		if not is_cancel and self.doc.disassembled_qty > self.doc.produced_qty:
 			frappe.throw(_("Cannot disassemble more than produced quantity."))

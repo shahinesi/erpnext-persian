@@ -159,6 +159,24 @@ class ProductionPlan(Document):
 			validate_warehouse_company(self.for_warehouse, self.company)
 		self.enable_auto_reserve_stock()
 
+	def on_update(self):
+		self.clear_stale_schedule()
+
+	def clear_stale_schedule(self):
+		previous = self.get_doc_before_save()
+		if self.docstatus or not previous:
+			return
+
+		if get_schedule_signature(previous) == get_schedule_signature(self):
+			return
+
+		if frappe.db.exists("Production Plan Schedule", {"production_plan": self.name}):
+			self.delete_production_plan_schedule()
+			frappe.msgprint(
+				_("The items of the plan changed, so its schedule was cleared. Use Schedule Items again."),
+				alert=True,
+			)
+
 	def validate_raw_material_group_warehouse(self):
 		if not self.raw_material_group_warehouse:
 			return
@@ -290,6 +308,54 @@ class ProductionPlan(Document):
 		if previous_status != self.status and "Completed" in (previous_status, self.status):
 			self.update_bin_qty()
 
+	def before_submit(self):
+		self.validate_sales_order_planned_qty()
+
+	def validate_sales_order_planned_qty(self):
+		planned_qty = self.get_so_item_planned_qty()
+		if not planned_qty:
+			return
+
+		already_planned = self.get_so_wise_planned_qty(list({key[0] for key in planned_qty}))
+		so_items = {
+			row.name: row
+			for row in frappe.get_all(
+				"Sales Order Item",
+				filters={"name": ("in", [key[1] for key in planned_qty])},
+				fields=["name", "item_code", "stock_qty", "stock_uom"],
+			)
+		}
+		allowance = flt(
+			frappe.db.get_single_value("Manufacturing Settings", "overproduction_percentage_for_sales_order")
+		)
+		precision = frappe.get_precision("Production Plan Item", "planned_qty")
+
+		for (sales_order, so_item), qty in planned_qty.items():
+			row = so_items[so_item]
+			unplanned_qty = flt(
+				flt(row.stock_qty) * (1 + allowance / 100) - flt(already_planned.get((sales_order, so_item))),
+				precision,
+			)
+			if flt(qty, precision) > unplanned_qty:
+				frappe.throw(
+					_(
+						"Cannot plan {0} {1} of Item {2} against Sales Order {3}. Only {4} {1} is left to plan."
+					).format(
+						qty, row.stock_uom, frappe.bold(row.item_code), sales_order, max(unplanned_qty, 0)
+					),
+					title=_("Sales Order Qty Exceeded"),
+				)
+
+	def get_so_item_planned_qty(self):
+		"""Planned qty per Sales Order line, excluding product bundle components."""
+		planned_qty = {}
+		for row in self.po_items:
+			if row.sales_order and row.sales_order_item and not row.product_bundle_item:
+				key = (row.sales_order, row.sales_order_item)
+				planned_qty[key] = planned_qty.get(key, 0) + flt(row.planned_qty)
+
+		return planned_qty
+
 	def on_submit(self):
 		self.update_bin_qty()
 		self.update_sales_order()
@@ -304,6 +370,9 @@ class ProductionPlan(Document):
 		self.update_sales_order()
 		self.update_stock_reservation()
 		self.delete_sub_assembly_and_material_rows()
+
+	def on_trash(self):
+		self.delete_production_plan_schedule()
 
 	def delete_production_plan_schedule(self):
 		frappe.db.delete("Production Plan Schedule", {"production_plan": self.name})
@@ -412,6 +481,7 @@ class ProductionPlan(Document):
 		if close:
 			self.db_set("status", "Closed")
 			self.update_bin_qty()
+			self.delete_production_plan_schedule()
 			return
 
 		if self.total_produced_qty > 0:
@@ -535,3 +605,13 @@ class ProductionPlan(Document):
 
 	def all_items_completed(self):
 		return SubAssemblyService(self).all_items_completed()
+
+
+def get_schedule_signature(doc):
+	return (
+		sorted((row.name, row.item_code, row.bom_no, flt(row.planned_qty)) for row in doc.po_items),
+		sorted(
+			(row.name, row.production_item, row.bom_no, flt(row.qty), row.type_of_manufacturing)
+			for row in doc.sub_assembly_items
+		),
+	)
