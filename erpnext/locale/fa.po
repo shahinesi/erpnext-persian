@@ -9383,7 +9383,7 @@ msgstr "کارهای تغییر نام گروهی"
 #. Label of a Sidebar Item
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "Bulk Transaction"
-msgstr ""
+msgstr "تراکنش‌های گروهی"
 
 #. Name of a DocType
 #. Label of a Sidebar Item
@@ -14213,23 +14213,23 @@ msgstr "ایجاد ثبت موجودی"
 #. Label of an action in the Onboarding Step 'Create Subcontracted Item'
 #: erpnext/subcontracting/onboarding_step/create_subcontracted_item/create_subcontracted_item.json
 msgid "Create Subcontracted Item"
-msgstr ""
+msgstr "ایجاد کالای پیمانکاری"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Subcontracting Order'
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_order/create_subcontracting_order.json
 msgid "Create Subcontracting Order"
-msgstr ""
+msgstr "ایجاد سفارش پیمانکاری"
 
 #. Title of an Onboarding Step
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
 msgid "Create Subcontracting PO"
-msgstr ""
+msgstr "ایجاد سفارش خرید پیمانکاری"
 
 #. Label of an action in the Onboarding Step 'Create Subcontracting PO'
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
 msgid "Create Subcontracting Purchase Order"
-msgstr ""
+msgstr "ایجاد سفارش خرید پیمانکاری"
 
 #. Title of an Onboarding Step
 #: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
@@ -19138,7 +19138,7 @@ msgstr "EAN-8"
 #. Label of a Sidebar Item
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "EDI"
-msgstr ""
+msgstr "تبادل الکترونیکی داده‌ها"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -19159,7 +19159,7 @@ msgstr "ERPNext"
 #. Title of a Sidebar
 #: erpnext/erpnext_integrations/sidebar/erpnext_integrations/erpnext_integrations.json
 msgid "ERPNext Integrations"
-msgstr ""
+msgstr "یکپارچه‌سازی‌های ERPNext"
 
 #. Label of a Desktop Icon
 #. Name of a Workspace
@@ -27225,7 +27225,7 @@ msgstr "ورودی"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Inward Order Summary"
-msgstr ""
+msgstr "خلاصه سفارش‌های ورودی"
 
 #. Label of the is_account_payable (Check) field in DocType 'Cheque Print
 #. Template'
@@ -29364,7 +29364,7 @@ msgstr "آیتم‌های مورد نیاز"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Items To Be Delivered"
-msgstr ""
+msgstr "اقلام قابل تحویل"
 
 #. Label of a Sidebar Item
 #: erpnext/buying/sidebar/buying/buying.json
@@ -30225,13 +30225,13 @@ msgstr "سرنخ‌ها به شما کمک می‌کنند کسب‌وکار د�
 #. Label of an action in the Onboarding Step 'Learn Asset'
 #: erpnext/assets/onboarding_step/learn_asset/learn_asset.json
 msgid "Learn Asset"
-msgstr ""
+msgstr "آشنایی با دارایی‌ها"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Learn Subcontracting'
 #: erpnext/subcontracting/onboarding_step/learn_subcontracting/learn_subcontracting.json
 msgid "Learn Subcontracting"
-msgstr ""
+msgstr "آشنایی با پیمانکاری"
 
 #. Description of the 'Enable Common Party Accounting' (Check) field in DocType
 #. 'Accounts Settings'
@@ -45385,7 +45385,7 @@ msgstr "هزینه تامین مواد اولیه"
 #. Label of a Sidebar Item
 #: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
 msgid "Raw Materials To Be Received"
-msgstr ""
+msgstr "مواد اولیه در انتظار دریافت"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:883
 msgid "Raw Materials cannot be blank."
@@ -53106,7 +53106,7 @@ msgstr "راه‌اندازی شرکت"
 #. Label of an action in the Onboarding Step 'Setup Email Account'
 #: erpnext/setup/onboarding_step/setup_email_account/setup_email_account.json
 msgid "Setup Email Account"
-msgstr ""
+msgstr "راه‌اندازی حساب ایمیل"
 
 #. Title of the Module Onboarding 'Organization Onboarding'
 #: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
@@ -53117,17 +53117,17 @@ msgstr "راه‌اندازی سازمان"
 #. Label of an action in the Onboarding Step 'Setup Role Permissions'
 #: erpnext/setup/onboarding_step/setup_role_permissions/setup_role_permissions.json
 msgid "Setup Role Permissions"
-msgstr ""
+msgstr "تنظیم مجوزهای نقش"
 
 #. Label of an action in the Onboarding Step 'Setup Sales taxes'
 #: erpnext/accounts/onboarding_step/setup_sales_taxes/setup_sales_taxes.json
 msgid "Setup Sales Taxes"
-msgstr ""
+msgstr "تنظیم مالیات‌های فروش"
 
 #. Title of an Onboarding Step
 #: erpnext/accounts/onboarding_step/setup_sales_taxes/setup_sales_taxes.json
 msgid "Setup Sales taxes"
-msgstr ""
+msgstr "تنظیم مالیات‌های فروش"
 
 #. Title of an Onboarding Step
 #: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
@@ -56018,7 +56018,7 @@ msgstr "تنظیمات پیمانکاری فرعی"
 #. Title of the Module Onboarding 'Subcontracting Onboarding'
 #: erpnext/subcontracting/module_onboarding/subcontracting_onboarding/subcontracting_onboarding.json
 msgid "Subcontracting Setup"
-msgstr ""
+msgstr "راه‌اندازی پیمانکاری"
 
 #. Label of the subdivision (Autocomplete) field in DocType 'Holiday List'
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
@@ -57911,7 +57911,7 @@ msgstr "هزینه‌های تلفن"
 #. Label of a Sidebar Item
 #: erpnext/erpnext_integrations/sidebar/erpnext_integrations/erpnext_integrations.json
 msgid "Telephony"
-msgstr ""
+msgstr "تلفن"
 
 #. Label of a Sidebar Item
 #. Name of a DocType
@@ -62965,7 +62965,7 @@ msgstr "استفاده از موجودی منفی، ارزش‌گذاری FIFO/�
 #. Title of a Sidebar
 #: erpnext/utilities/sidebar/utilities/utilities.json
 msgid "Utilities"
-msgstr ""
+msgstr "ابزارها"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:133
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:220
@@ -63699,7 +63699,7 @@ msgstr "مشاهدهٔ تحلیل سفارش‌های خرید"
 #. Description of a report in the Onboarding Step 'View Sales Order Analysis'
 #: erpnext/selling/onboarding_step/view_sales_order_analysis/view_sales_order_analysis.json
 msgid "View Sales Order Analysis"
-msgstr ""
+msgstr "مشاهدهٔ تحلیل سفارش‌های فروش"
 
 #. Label of an action in the Onboarding Step 'View Stock Balance Report'
 #: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
