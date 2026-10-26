@@ -1428,7 +1428,7 @@ function set_time_to_resolve_and_response(frm, apply_sla_for_resolution) {
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<span class="indicator whitespace-nowrap ${time_to_respond.indicator}">
-					<span>Time to Respond: ${time_to_respond.diff_display}</span>
+					<span>${__("Time to Respond")}: ${time_to_respond.diff_display}</span>
 				</span>
 			</div>`;
 
@@ -1443,7 +1443,7 @@ function set_time_to_resolve_and_response(frm, apply_sla_for_resolution) {
 		alert += `
 			<div class="col-xs-12 col-sm-6">
 				<span class="indicator whitespace-nowrap ${time_to_resolve.indicator}">
-					<span>Time to Resolve: ${time_to_resolve.diff_display}</span>
+					<span>${__("Time to Resolve")}: ${time_to_resolve.diff_display}</span>
 				</span>
 			</div>`;
 	}
@@ -1455,17 +1455,18 @@ function set_time_to_resolve_and_response(frm, apply_sla_for_resolution) {
 
 function get_time_left(timestamp, agreement_status) {
 	const diff = moment(timestamp).diff(frappe.datetime.system_datetime(true));
-	const diff_display = diff >= 44500 ? moment.duration(diff).humanize() : "Failed";
-	let indicator = diff_display == "Failed" && agreement_status != "Fulfilled" ? "red" : "green";
+	const failed = diff < 44500;
+	const diff_display = failed ? __("Failed") : moment.duration(diff).humanize();
+	let indicator = failed && agreement_status != "Fulfilled" ? "red" : "green";
 	return { diff_display: diff_display, indicator: indicator };
 }
 
 function get_status(expected, actual) {
 	const time_left = moment(expected).diff(moment(actual));
 	if (time_left >= 0) {
-		return { diff_display: "Fulfilled", indicator: "green" };
+		return { diff_display: __("Fulfilled"), indicator: "green" };
 	} else {
-		return { diff_display: "Failed", indicator: "red" };
+		return { diff_display: __("Failed"), indicator: "red" };
 	}
 }
 

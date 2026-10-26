@@ -21148,6 +21148,10 @@ msgstr "فارنهایت"
 msgid "Failed Entries"
 msgstr "ثبت‌های ناموفق"
 
+#: erpnext/public/js/utils.js
+msgid "Failed"
+msgstr "ناموفق"
+
 #: erpnext/utilities/doctype/video_settings/video_settings.py:35
 msgid "Failed to authenticate the API key. Please check the error logs."
 msgstr "احراز هویت کلید API ناموفق بود. لطفاً لاگ خطاها را بررسی کنید."
@@ -59487,6 +59491,14 @@ msgstr "زمان بین عملیات (دقیقه)"
 #: erpnext/manufacturing/doctype/job_card_time_log/job_card_time_log.json
 msgid "Time In Mins"
 msgstr "زمان به دقیقه"
+
+#: erpnext/public/js/utils.js
+msgid "Time to Respond"
+msgstr "زمان پاسخ‌گویی"
+
+#: erpnext/public/js/utils.js
+msgid "Time to Resolve"
+msgstr "زمان رفع مشکل"
 
 #. Label of the time_logs (Table) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
