@@ -14213,23 +14213,23 @@ msgstr "ایجاد ثبت موجودی"
 #. Label of an action in the Onboarding Step 'Create Subcontracted Item'
 #: erpnext/subcontracting/onboarding_step/create_subcontracted_item/create_subcontracted_item.json
 msgid "Create Subcontracted Item"
-msgstr "ایجاد کالای پیمانکاری"
+msgstr "ایجاد کالای پیمانکاری فرعی"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Subcontracting Order'
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_order/create_subcontracting_order.json
 msgid "Create Subcontracting Order"
-msgstr "ایجاد سفارش پیمانکاری"
+msgstr "ایجاد سفارش پیمانکاری فرعی"
 
 #. Title of an Onboarding Step
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
 msgid "Create Subcontracting PO"
-msgstr "ایجاد سفارش خرید پیمانکاری"
+msgstr "ایجاد سفارش خرید پیمانکاری فرعی"
 
 #. Label of an action in the Onboarding Step 'Create Subcontracting PO'
 #: erpnext/subcontracting/onboarding_step/create_subcontracting_po/create_subcontracting_po.json
 msgid "Create Subcontracting Purchase Order"
-msgstr "ایجاد سفارش خرید پیمانکاری"
+msgstr "ایجاد سفارش خرید پیمانکاری فرعی"
 
 #. Title of an Onboarding Step
 #: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
@@ -30231,7 +30231,7 @@ msgstr "آشنایی با دارایی‌ها"
 #. Label of an action in the Onboarding Step 'Learn Subcontracting'
 #: erpnext/subcontracting/onboarding_step/learn_subcontracting/learn_subcontracting.json
 msgid "Learn Subcontracting"
-msgstr "آشنایی با پیمانکاری"
+msgstr "آشنایی با پیمانکاری فرعی"
 
 #. Description of the 'Enable Common Party Accounting' (Check) field in DocType
 #. 'Accounts Settings'
@@ -56018,7 +56018,7 @@ msgstr "تنظیمات پیمانکاری فرعی"
 #. Title of the Module Onboarding 'Subcontracting Onboarding'
 #: erpnext/subcontracting/module_onboarding/subcontracting_onboarding/subcontracting_onboarding.json
 msgid "Subcontracting Setup"
-msgstr "راه‌اندازی پیمانکاری"
+msgstr "راه‌اندازی پیمانکاری فرعی"
 
 #. Label of the subdivision (Autocomplete) field in DocType 'Holiday List'
 #: erpnext/setup/doctype/holiday_list/holiday_list.json
