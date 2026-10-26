@@ -11,6 +11,7 @@ const PRODUCTION_PLAN = path.join(
   "manufacturing/doctype/production_plan/production_plan.js"
 );
 const BOOK_APPOINTMENT = path.join(ROOT, "www/book_appointment/index.js");
+const CUSTOMER_OVERVIEW = path.join(ROOT, "public/js/customer_overview.js");
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
 function extractFunction(sourcePath, name, context) {
@@ -26,6 +27,21 @@ function extractFunction(sourcePath, name, context) {
     }
   }
   assert.fail(`Unclosed function ${name} in ${sourcePath}`);
+}
+
+function extractMethod(sourcePath, name, context) {
+  const source = fs.readFileSync(sourcePath, "utf8");
+  const start = source.indexOf(`${name}() {`);
+  assert.notEqual(start, -1, `Missing ${name} in ${sourcePath}`);
+  const open = source.indexOf("{", start);
+  let depth = 0;
+  for (let index = open; index < source.length; index++) {
+    if (source[index] === "{") depth++;
+    if (source[index] === "}" && --depth === 0) {
+      return vm.runInNewContext(`({${source.slice(start, index + 1)}}).${name}`, context);
+    }
+  }
+  assert.fail(`Unclosed ${name} method in ${sourcePath}`);
 }
 
 function productionPlanContext(language = "fa-IR") {
@@ -99,6 +115,65 @@ describe("ERPNext production schedule Persian date display", () => {
       label: "moment-relative:2026-10-27 12:00:00",
       color: "gray",
     });
+  });
+});
+
+describe("ERPNext customer overview period date display", () => {
+  function context(language) {
+    const calls = [];
+    return {
+      calls,
+      context: {
+        frappe: {
+          boot: { lang: language },
+          datetime: {
+            str_to_user(value, onlyTime, onlyDate) {
+              calls.push([value, onlyTime, onlyDate]);
+              return `shared:${value}`;
+            },
+          },
+        },
+        moment(value) {
+          return {
+            year() {
+              return Number(value.slice(0, 4));
+            },
+            format(format) {
+              return `moment:${value}:${format}`;
+            },
+          };
+        },
+      },
+    };
+  }
+
+  const receiver = {
+    sales: {
+      data: {
+        period_range: { from_date: "2026-03-21", to_date: "2026-03-31" },
+      },
+    },
+  };
+
+  it("uses Frappe's shared Jalali formatter for Persian period labels", () => {
+    const { calls, context: sandbox } = context("fa-IR");
+    const periodText = extractMethod(CUSTOMER_OVERVIEW, "period_text", sandbox);
+
+    assert.equal(periodText.call(receiver), "shared:2026-03-21 – shared:2026-03-31");
+    assert.deepEqual(calls, [
+      ["2026-03-21", false, true],
+      ["2026-03-31", false, true],
+    ]);
+  });
+
+  it("preserves the existing English period date formats", () => {
+    const { context: sandbox } = context("en-US");
+    const periodText = extractMethod(CUSTOMER_OVERVIEW, "period_text", sandbox);
+
+    assert.equal(
+      periodText.call(receiver),
+      "moment:2026-03-21:D MMM – moment:2026-03-31:D MMM YYYY"
+    );
   });
 });
 

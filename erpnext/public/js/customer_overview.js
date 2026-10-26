@@ -273,6 +273,12 @@ erpnext.CustomerOverview = class CustomerOverview {
 	period_text() {
 		const range = this.sales && this.sales.data && this.sales.data.period_range;
 		if (!range) return "";
+		if ((frappe.boot?.lang || "").toLowerCase().startsWith("fa")) {
+			const from = frappe.datetime.str_to_user(range.from_date, false, true);
+			const to = frappe.datetime.str_to_user(range.to_date, false, true);
+			return `${from} – ${to}`;
+		}
+
 		const from = moment(range.from_date);
 		const to = moment(range.to_date);
 		const from_fmt = from.year() === to.year() ? "D MMM" : "D MMM YYYY";
