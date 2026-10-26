@@ -1119,7 +1119,10 @@ function format_schedule_date(value) {
 		return "-";
 	}
 
-	return moment(value).format("Do MMMM YYYY, h:mm A");
+	const language = (frappe.boot?.lang || "").toLowerCase().split(/[-_]/)[0];
+	return language === "fa"
+		? frappe.datetime.str_to_user(value)
+		: moment(value).format("Do MMMM YYYY, h:mm A");
 }
 
 function schedule_duration_parts(total_mins) {
@@ -1138,7 +1141,9 @@ function schedule_duration_parts(total_mins) {
 function schedule_starts_in(start) {
 	let mins = moment(start).diff(moment(), "minutes");
 	if (mins <= 0) {
-		return { label: moment(start).fromNow(), color: "gray" };
+		const language = (frappe.boot?.lang || "").toLowerCase().split(/[-_]/)[0];
+		const label = language === "fa" ? frappe.datetime.prettyDate(start) : moment(start).fromNow();
+		return { label, color: "gray" };
 	}
 
 	return {

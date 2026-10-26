@@ -128,9 +128,14 @@ function clear_time_slots() {
 function get_slot_layout(time) {
 	let timezone = document.getElementById("appointment-timezone").value;
 	time = new Date(time);
-	let start_time_string = moment(time).tz(timezone).format("LT");
+	let start_time = moment(time).tz(timezone);
+	let start_time_string = frappe.boot?.lang?.toLowerCase().startsWith("fa")
+		? frappe.datetime.str_to_user(start_time.format("HH:mm:ss"), true)
+		: start_time.format("LT");
 	let end_time = moment(time).tz(timezone).add(window.appointment_settings.appointment_duration, "minutes");
-	let end_time_string = end_time.format("LT");
+	let end_time_string = frappe.boot?.lang?.toLowerCase().startsWith("fa")
+		? frappe.datetime.str_to_user(end_time.format("HH:mm:ss"), true)
+		: end_time.format("LT");
 	return `<span style="font-size: 1.2em;">${start_time_string}</span><br><span class="text-muted small">${__(
 		"to"
 	)} ${end_time_string}</span>`;
@@ -187,8 +192,12 @@ function setup_details_page() {
 	let date_container = document.getElementsByClassName("date-span")[0];
 	let time_container = document.getElementsByClassName("time-span")[0];
 	setup_search_params();
-	date_container.innerHTML = moment(window.selected_date).format("MMM Do YYYY");
-	time_container.innerHTML = moment(window.selected_time, "HH:mm:ss").format("LT");
+	date_container.innerHTML = frappe.boot?.lang?.toLowerCase().startsWith("fa")
+		? frappe.datetime.str_to_user(window.selected_date, false, true)
+		: moment(window.selected_date).format("MMM Do YYYY");
+	time_container.innerHTML = frappe.boot?.lang?.toLowerCase().startsWith("fa")
+		? frappe.datetime.str_to_user(window.selected_time, true)
+		: moment(window.selected_time, "HH:mm:ss").format("LT");
 }
 
 function setup_search_params() {
