@@ -1456,7 +1456,12 @@ function set_time_to_resolve_and_response(frm, apply_sla_for_resolution) {
 function get_time_left(timestamp, agreement_status) {
 	const diff = moment(timestamp).diff(frappe.datetime.system_datetime(true));
 	const failed = diff < 44500;
-	const diff_display = failed ? __("Failed") : moment.duration(diff).humanize();
+	const is_persian = (frappe.boot?.lang || "").toLowerCase().startsWith("fa");
+	const diff_display = failed
+		? __("Failed")
+		: is_persian
+			? frappe.utils.get_formatted_duration(diff / 1000, { hide_seconds: 1 })
+			: moment.duration(diff).humanize();
 	let indicator = failed && agreement_status != "Fulfilled" ? "red" : "green";
 	return { diff_display: diff_display, indicator: indicator };
 }
