@@ -1367,11 +1367,18 @@ $(document).on("app_ready", function () {
 							});
 							if (hold_statuses.includes(frm.doc.status)) {
 								frm.dashboard.clear_headline();
+								const is_persian = (frappe.boot?.lang || "")
+									.toLowerCase()
+									.startsWith("fa");
+								const hold_duration = is_persian
+									? frappe.utils.get_formatted_duration(
+											moment().diff(frm.doc.on_hold_since) / 1000,
+											{ hide_seconds: 1 }
+										)
+									: moment(frm.doc.on_hold_since).fromNow(true);
 								let message = {
 									indicator: "orange",
-									msg: __("SLA is on hold since {0}", [
-										moment(frm.doc.on_hold_since).fromNow(true),
-									]),
+									msg: __("SLA is on hold since {0}", [hold_duration]),
 								};
 								frm.dashboard.set_headline_alert(
 									'<div class="row">' +
