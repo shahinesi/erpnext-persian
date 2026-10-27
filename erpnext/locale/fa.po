@@ -38982,7 +38982,7 @@ msgstr "دوره بر اساس"
 #. Label of the period_from_date (Datetime) field in DocType 'Bisect Nodes'
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
 msgid "Period_from_date"
-msgstr "Period_from_date"
+msgstr "تاریخ آغاز دوره"
 
 #. Label of the section_break_tcvw (Section Break) field in DocType 'Journal
 #. Entry'
@@ -49820,7 +49820,7 @@ msgstr "بنابراین نه."
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "SCIO Detail"
-msgstr "SCIO Detail"
+msgstr "جزئیات SCIO"
 
 #. Label of the sco_rm_detail (Data) field in DocType 'Stock Entry Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
