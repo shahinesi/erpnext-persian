@@ -25,7 +25,7 @@
 		</span>
 	</div>
 	<div class="col-xs-6 text-muted text-right small">
-		{{ frappe.utils.format_date(doc.transaction_date, 'medium') }}
+		<time datetime="{{ doc.transaction_date }}" data-frappe-date="{{ doc.transaction_date }}" data-frappe-date-type="date">{{ frappe.utils.format_date(doc.transaction_date, 'medium') }}</time>
 	</div>
 </div>
 

@@ -57,8 +57,8 @@
 
           <tr>
             <td>{{ certification['name'] }}</td>
-            <td>{{ frappe.format_date(certification['from_date']) }}</td>
-            <td>{{ frappe.format_date(certification['to_date']) }}</td>
+            <td><time datetime="{{ certification['from_date'] }}" data-frappe-date="{{ certification['from_date'] }}" data-frappe-date-type="date">{{ frappe.format_date(certification['from_date']) }}</time></td>
+            <td><time datetime="{{ certification['to_date'] }}" data-frappe-date="{{ certification['to_date'] }}" data-frappe-date-type="date">{{ frappe.format_date(certification['to_date']) }}</time></td>
             <td>{{ frappe.utils.fmt_money(certification['amount'],currency=frappe.db.get_value("Currency",certification['currency'],"symbol")) }}</td>
           </tr>
 					{% endfor %}

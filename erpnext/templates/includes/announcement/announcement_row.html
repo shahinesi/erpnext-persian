@@ -7,7 +7,7 @@
 					<p class="post-description more">{{ doc.description }}</p>
 					<p class="post-by text-muted small">
 						<i>{{ doc.posted_by }}</i>
-						<i class="spacer-dot"></i> {{ frappe.format_date(doc.modified) }}
+						<i class="spacer-dot"></i> <time datetime="{{ doc.modified }}" data-frappe-date="{{ doc.modified }}" data-frappe-date-type="date">{{ frappe.format_date(doc.modified) }}</time>
 						<i class="spacer-dot"></i> {{ doc.num_attachments }} attachments
 					</p>
 				</div>

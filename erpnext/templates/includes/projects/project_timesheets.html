@@ -4,8 +4,8 @@
       <div class="col-xs-2">{{ timesheet.name }}</div>
       <a class="transaction-item-link" href="/timesheet/{{ timesheet.name}}">Link</a>
       <div class="col-xs-2">{{ timesheet.status }}</div>
-      <div class="col-xs-2">{{ frappe.utils.format_date(timesheet.from_time, "medium") }}</div>
-      <div class="col-xs-2">{{ frappe.utils.format_date(timesheet.to_time, "medium") }}</div>
+      <div class="col-xs-2"><time datetime="{{ timesheet.from_time }}" data-frappe-date="{{ timesheet.from_time }}" data-frappe-date-type="date">{{ frappe.utils.format_date(timesheet.from_time, "medium") }}</time></div>
+      <div class="col-xs-2"><time datetime="{{ timesheet.to_time }}" data-frappe-date="{{ timesheet.to_time }}" data-frappe-date-type="date">{{ frappe.utils.format_date(timesheet.to_time, "medium") }}</time></div>
       <div class="col-xs-2">
         {% set user_details = frappe
           .db

@@ -80,6 +80,7 @@ def get_link_quotation(supplier, rfq):
 	)
 
 	for data in quotation:
+		data.transaction_date_iso = str(data.transaction_date)
 		data.transaction_date = formatdate(data.transaction_date)
 
 	return quotation or None

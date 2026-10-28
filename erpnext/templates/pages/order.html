@@ -53,10 +53,10 @@
 	<div>
 		<div class="row transaction-subheading  mt-1">
 			<div class="col-6 text-muted small mt-1">
-				{{ frappe.utils.format_date(doc.transaction_date, 'medium') }}
+				<time datetime="{{ doc.transaction_date }}" data-frappe-date="{{ doc.transaction_date }}" data-frappe-date-type="date">{{ frappe.utils.format_date(doc.transaction_date, 'medium') }}</time>
 				{% if doc.valid_till %}
 					<p>
-						{{ _("Valid Till") }}: {{ frappe.utils.format_date(doc.valid_till, 'medium') }}
+						{{ _("Valid Till") }}: <time datetime="{{ doc.valid_till }}" data-frappe-date="{{ doc.valid_till }}" data-frappe-date-type="date">{{ frappe.utils.format_date(doc.valid_till, 'medium') }}</time>
 					</p>
 				{% endif %}
 			</div>

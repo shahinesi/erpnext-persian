@@ -8,7 +8,7 @@
           {{ doc.practitioner }}
         </div>
         <div class="col-xs-4 text-right small text-muted">
-          {{ frappe.format_date(doc.encounter_date) }}
+          <time datetime="{{ doc.encounter_date }}" data-frappe-date="{{ doc.encounter_date }}" data-frappe-date-type="date">{{ frappe.format_date(doc.encounter_date) }}</time>
         </div>
     </div>
   </a>

@@ -23,7 +23,7 @@
 				</span>
 			</div>
 			<div class="col-2 text-right text-muted">
-				{{ frappe.format_date(doc.modified) }}
+					<time datetime="{{ doc.modified }}" data-frappe-date="{{ doc.modified }}" data-frappe-date-type="date">{{ frappe.format_date(doc.modified) }}</time>
 			</div>
 		</div>
 	</a>

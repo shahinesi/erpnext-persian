@@ -23,7 +23,7 @@
 {% block page_content %}
 <div class="row">
     <div class="col-12 text-muted text-right h6">
-        {{ doc.get_formatted("transaction_date") }}
+		<time datetime="{{ doc.transaction_date }}" data-frappe-date="{{ doc.transaction_date }}" data-frappe-date-type="date">{{ doc.get_formatted("transaction_date") }}</time>
     </div>
 </div>
 <div class="rfq-content" style="margin-top:15px">
@@ -80,7 +80,7 @@
 										<span class="small gray">{{d.status}}</span>
 									</div>
 									<div class="col-sm-3">
-										<span class="small gray">{{d.transaction_date}}</span>
+						<time class="small gray" datetime="{{ d.transaction_date_iso }}" data-frappe-date="{{ d.transaction_date_iso }}" data-frappe-date-type="date">{{d.transaction_date}}</time>
 									</div>
 								</div>
 								<a class="transaction-item-link" href="/supplier-quotations/{{d.name}}">Link</a>
