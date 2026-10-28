@@ -65792,7 +65792,7 @@ msgstr "exchangerate.host"
 
 #: erpnext/crm/report/sales_pipeline_analytics/sales_pipeline_analytics.py:193
 msgid "fieldname"
-msgstr "fieldname"
+msgstr "نام فیلد"
 
 #: erpnext/setup/doctype/item_group/item_group.py:50
 msgid "for tax category {0}"
