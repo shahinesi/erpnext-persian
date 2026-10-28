@@ -1,7 +1,7 @@
 import { useAtom } from 'jotai'
 import { bankRecDateAtom } from './bankRecAtoms'
 import { useMemo, useState } from 'react'
-import { AVAILABLE_TIME_PERIODS, formatDate, getDatesForTimePeriod, TimePeriod } from '@/lib/date'
+import { AVAILABLE_TIME_PERIODS, formatCanonicalDate, formatDate, getDatesForTimePeriod, TimePeriod } from '@/lib/date'
 import { Button } from '@/components/ui/button'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { ChevronDownIcon, ChevronLeftIcon, ChevronRight } from 'lucide-react'
@@ -291,7 +291,7 @@ const BankRecDateFilter = () => {
                     defaultMonth={dateObj.from}
                     onSelect={(date) => {
                         if (date) {
-                            setBankRecDate({ fromDate: formatDate(date.from, 'YYYY-MM-DD'), toDate: formatDate(date.to, 'YYYY-MM-DD') })
+                            setBankRecDate({ fromDate: date.from ? formatCanonicalDate(date.from) : '', toDate: date.to ? formatCanonicalDate(date.to) : '' })
                         }
                     }}
                 />

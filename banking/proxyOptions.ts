@@ -1,9 +1,11 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
-const common_site_config = JSON.parse(
-	readFileSync(new URL('../../../sites/common_site_config.json', import.meta.url), 'utf8')
-) as { webserver_port: string | number };
-const { webserver_port } = common_site_config;
+const commonSiteConfigUrl = new URL('../../../sites/common_site_config.json', import.meta.url);
+const commonSiteConfig = existsSync(fileURLToPath(commonSiteConfigUrl))
+	? JSON.parse(readFileSync(commonSiteConfigUrl, 'utf8')) as { webserver_port?: string | number }
+	: {};
+const webserver_port = commonSiteConfig.webserver_port || process.env.FRAPPE_WEB_SERVER_PORT || 8000;
 
 export default {
 	'^/(app|api|assets|files|private)': {

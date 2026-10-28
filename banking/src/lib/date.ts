@@ -3,8 +3,9 @@ import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
 import relativeTime from 'dayjs/plugin/relativeTime';
-import quarterOfYear from 'dayjs/plugin/quarterOfYear'
+import quarterOfYear from 'dayjs/plugin/quarterOfYear';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
+import { formatJalaliDate, getJalaliMonthRange, getJalaliWeekRange, parseJalaliDateInput } from './jalaliDate';
 import _ from '@/lib/translate';
 
 dayjs.extend(utc);
@@ -14,171 +15,176 @@ dayjs.extend(relativeTime);
 dayjs.extend(quarterOfYear);
 dayjs.extend(customParseFormat);
 
-const FRAPPE_DATE_FORMAT = "YYYY-MM-DD"
+const FRAPPE_DATE_FORMAT = 'YYYY-MM-DD';
+const getDocumentLocale = () => {
+    const documentLocale = typeof document !== 'undefined' ? document.documentElement.lang : '';
+    const frappeLocale = typeof window !== 'undefined'
+        ? window.frappe?.boot?.lang || window.frappe?.boot?.user?.language
+        : '';
+    return documentLocale || frappeLocale || 'en';
+};
 
-export const getUserDateFormat = () => {
+export const isPersianLocale = () => /^fa(?:-|$)/i.test(getDocumentLocale());
 
-    return window?.frappe?.boot?.user?.defaults?.date_format.toUpperCase() || window?.frappe.boot.sysdefaults.date_format.toUpperCase()
+export const getUserDateFormat = () =>
+    window?.frappe?.boot?.user?.defaults?.date_format?.toUpperCase()
+    || window?.frappe?.boot?.sysdefaults?.date_format?.toUpperCase()
+    || FRAPPE_DATE_FORMAT;
 
-}
-// const FRAPPE_DATETIME_FORMAT = "YYYY-MM-DD HH:mm:ss"
-
-export type TimePeriod = 'This Week' | 'This Month' | 'This Quarter' | 'This Year' | 'Last Week' | 'Last Month' | 'Last Quarter' | 'Last Year' | 'Date Range'
+export type TimePeriod = 'This Week' | 'This Month' | 'This Quarter' | 'This Year' | 'Last Week' | 'Last Month' | 'Last Quarter' | 'Last Year' | 'Date Range';
 
 export const AVAILABLE_TIME_PERIODS: TimePeriod[] = [
-    'This Month',
-    'This Week',
-    'This Quarter',
-    'This Year',
-    'Last Week',
-    'Last Month',
-    'Last Quarter',
-    'Last Year',
+    'This Month', 'This Week', 'This Quarter', 'This Year',
+    'Last Week', 'Last Month', 'Last Quarter', 'Last Year',
 ];
 
-/**
- * Get the start and end dates for a given time period
- * @param timePeriod - The time period to get the dates for
- * @param format - The date format to use (defaults to FRAPPE_DATE_FORMAT)
- * @param baseDate - Optional base date to use for calculations (defaults to current date)
- * @returns The start and end dates in specified format, or empty strings if invalid
- */
+const formatJalaliWeek = (date: dayjs.Dayjs, format: string, label: TimePeriod) => {
+    const { from, to } = getJalaliWeekRange(date.toDate());
+    return {
+        fromDate: dayjs(from).format(format),
+        toDate: dayjs(to).format(format),
+        format: "Do MMM 'YY",
+        translatedLabel: _(label),
+    };
+};
+
+/** Return canonical Gregorian boundaries; Persian month/week periods use jalaali-js. */
 export const getDatesForTimePeriod = (
     timePeriod: TimePeriod,
     format: string = FRAPPE_DATE_FORMAT,
-    baseDate?: string
+    baseDate?: string,
 ) => {
-
-    const daysJSObject = baseDate ? dayjs(baseDate) : dayjs()
-
-    // Based on the time period, get the start and end dates
+    const date = baseDate ? dayjs(baseDate) : dayjs();
+    const jalali = isPersianLocale();
 
     if (timePeriod === 'This Week') {
+        if (jalali) return formatJalaliWeek(date, format, 'This Week');
         return {
-            fromDate: daysJSObject.startOf('week').format(format),
-            toDate: daysJSObject.endOf('week').format(format),
+            fromDate: date.startOf('week').format(format),
+            toDate: date.endOf('week').format(format),
             format: "Do MMM 'YY",
-            translatedLabel: _('This Week')
-        }
+            translatedLabel: _('This Week'),
+        };
     }
 
     if (timePeriod === 'This Month' || timePeriod === 'Date Range') {
-        return {
-            fromDate: daysJSObject.startOf('month').format(format),
-            toDate: daysJSObject.endOf('month').format(format),
-            format: "Do MMM 'YY",
-            translatedLabel: _('This Month')
+        if (jalali) {
+            const range = getJalaliMonthRange(date.toDate());
+            return {
+                fromDate: dayjs(range.from).format(format),
+                toDate: dayjs(range.to).format(format),
+                format: "Do MMM 'YY",
+                translatedLabel: _('This Month'),
+            };
         }
+        return {
+            fromDate: date.startOf('month').format(format),
+            toDate: date.endOf('month').format(format),
+            format: "Do MMM 'YY",
+            translatedLabel: _('This Month'),
+        };
     }
 
     if (timePeriod === 'This Quarter') {
         return {
-            fromDate: daysJSObject.startOf('quarter').format(format),
-            toDate: daysJSObject.endOf('quarter').format(format),
+            fromDate: date.startOf('quarter').format(format),
+            toDate: date.endOf('quarter').format(format),
             format: 'MMM YYYY',
-            translatedLabel: _('This Quarter')
-        }
+            translatedLabel: _('This Quarter'),
+        };
     }
 
     if (timePeriod === 'This Year') {
         return {
-            fromDate: daysJSObject.startOf('year').format(format),
-            toDate: daysJSObject.endOf('year').format(format),
+            fromDate: date.startOf('year').format(format),
+            toDate: date.endOf('year').format(format),
             format: 'MMM YYYY',
-            translatedLabel: _('This Year')
-        }
+            translatedLabel: _('This Year'),
+        };
     }
 
     if (timePeriod === 'Last Week') {
-        const lastWeek = daysJSObject.subtract(1, 'week')
+        const previousWeek = date.subtract(1, 'week');
+        if (jalali) return formatJalaliWeek(previousWeek, format, 'Last Week');
         return {
-            fromDate: lastWeek.startOf('week').format(format),
-            toDate: lastWeek.endOf('week').format(format),
+            fromDate: previousWeek.startOf('week').format(format),
+            toDate: previousWeek.endOf('week').format(format),
             format: "Do MMM 'YY",
-            translatedLabel: _('Last Week')
-        }
+            translatedLabel: _('Last Week'),
+        };
     }
 
     if (timePeriod === 'Last Month') {
-        const lastMonth = daysJSObject.subtract(1, 'month')
-        return {
-            fromDate: lastMonth.startOf('month').format(format),
-            toDate: lastMonth.endOf('month').format(format),
-            format: "Do MMM 'YY",
-            translatedLabel: _('Last Month')
+        if (jalali) {
+            const range = getJalaliMonthRange(date.toDate(), -1);
+            return {
+                fromDate: dayjs(range.from).format(format),
+                toDate: dayjs(range.to).format(format),
+                format: "Do MMM 'YY",
+                translatedLabel: _('Last Month'),
+            };
         }
+        const previousMonth = date.subtract(1, 'month');
+        return {
+            fromDate: previousMonth.startOf('month').format(format),
+            toDate: previousMonth.endOf('month').format(format),
+            format: "Do MMM 'YY",
+            translatedLabel: _('Last Month'),
+        };
     }
 
     if (timePeriod === 'Last Quarter') {
-        const lastQuarter = daysJSObject.subtract(1, 'quarter')
+        const previousQuarter = date.subtract(1, 'quarter');
         return {
-            fromDate: lastQuarter.startOf('quarter').format(format),
-            toDate: lastQuarter.endOf('quarter').format(format),
+            fromDate: previousQuarter.startOf('quarter').format(format),
+            toDate: previousQuarter.endOf('quarter').format(format),
             format: 'MMM YYYY',
-            translatedLabel: _('Last Quarter')
-        }
+            translatedLabel: _('Last Quarter'),
+        };
     }
 
     if (timePeriod === 'Last Year') {
-        const lastYear = daysJSObject.subtract(1, 'year')
+        const previousYear = date.subtract(1, 'year');
         return {
-            fromDate: lastYear.startOf('year').format(format),
-            toDate: lastYear.endOf('year').format(format),
+            fromDate: previousYear.startOf('year').format(format),
+            toDate: previousYear.endOf('year').format(format),
             format: 'MMM YYYY',
-            translatedLabel: _('Last Year')
-        }
+            translatedLabel: _('Last Year'),
+        };
     }
 
-    return {
-        fromDate: '',
-        toDate: '',
-        format: 'Do MMM YY',
-        translatedLabel: _('Date Range')
-    }
-}
+    return { fromDate: '', toDate: '', format: 'Do MMM YY', translatedLabel: _('Date Range') };
+};
 
 const toUserTimezone = (timestamp: string) => {
+    const systemTimezone = window.frappe?.boot?.time_zone?.system;
+    const userTimezone = window.frappe?.boot?.time_zone?.user;
+    return systemTimezone && userTimezone
+        ? dayjs.tz(timestamp, systemTimezone).clone().tz(userTimezone)
+        : dayjs(timestamp);
+};
 
-    const systemTimezone = window.frappe?.boot?.time_zone?.system
-    const userTimezone = window.frappe?.boot?.time_zone?.user
+export const getTimeago = (date?: string) => date ? toUserTimezone(date).fromNow() : '';
 
-    if (systemTimezone && userTimezone) {
-        return dayjs.tz(timestamp, systemTimezone).clone().tz(userTimezone)
-    } else {
-        return dayjs(timestamp)
-    }
-
-}
-
-export const getTimeago = (date?: string) => {
-    if (date) {
-        const userDate = toUserTimezone(date)
-        return userDate.fromNow()
-    }
-    return ''
-}
-
+/** Format a canonical Gregorian date for the active UI locale. */
 export const formatDate = (date?: string | Date, format?: string) => {
+    if (!date) return '';
+    const outputFormat = format || getUserDateFormat();
+    const parsed = dayjs(date);
+    if (isPersianLocale() && parsed.isValid()) return formatJalaliDate(parsed.toDate(), outputFormat);
+    return parsed.format(outputFormat);
+};
 
-    if (!format) {
-        format = getUserDateFormat()
-    }
+/** Serialize a date for Frappe APIs and DB fields without locale conversion. */
+export const formatCanonicalDate = (date: string | Date) => dayjs(date).format(FRAPPE_DATE_FORMAT);
 
-    if (date) {
-        return dayjs(date).format(format)
-    }
-    return ''
-}
+export const toDate = (date: string, format: string = FRAPPE_DATE_FORMAT) => dayjs(date, format).toDate();
 
-/**
- * Utility function to convert a date string to a Date object
- * @param date 
- * @returns 
- */
-export const toDate = (date: string, format: string = "YYYY-MM-DD") => {
-    return dayjs(date, format).toDate()
-}
+/** Parse dates typed in a Persian text field, returning a Gregorian Date for the model. */
+export const parseDateInput = (value: string, format: string = getUserDateFormat()) => {
+    if (!isPersianLocale()) return toDate(value, format);
 
-export const today = () => {
-    return dayjs().format(FRAPPE_DATE_FORMAT)
-}
+    return parseJalaliDateInput(value, format);
+};
+
+export const today = () => dayjs().format(FRAPPE_DATE_FORMAT);
