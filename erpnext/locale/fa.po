@@ -407,7 +407,7 @@ msgstr "(G) مجموع تغییر در ارزش موجودی"
 #. Time'
 #: erpnext/stock/doctype/item_lead_time/item_lead_time.json
 msgid "(Good Units Produced / Total Units Produced) × 100"
-msgstr "(واحدهای تولید شده‌ی بی‌نقص / کل واحدهای تولید شده) × ۱۰۰"
+msgstr "(واحدهای تولید شده‌ی بی‌نقص / کل واحدهای تولید شده) × 100"
 
 #: erpnext/stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:283
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:166
@@ -484,11 +484,11 @@ msgstr "1 امتیاز وفاداری = ارز پایه چقدر است؟"
 
 #: erpnext/public/js/templates/shop_floor_template.html:1012
 msgid "1 completed job card"
-msgstr "۱ کارت کار تکمیل‌شده"
+msgstr "1 کارت کار تکمیل‌شده"
 
 #: erpnext/public/js/templates/shop_floor_template.html:880
 msgid "1 draft job card awaiting submission"
-msgstr "۱ کارت کار پیش‌نویس در انتظار ارسال"
+msgstr "1 کارت کار پیش‌نویس در انتظار ارسال"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Video Settings'
 #: erpnext/utilities/doctype/video_settings/video_settings.json
@@ -497,19 +497,19 @@ msgstr "1 ساعت"
 
 #: banking/src/components/features/ActionLog/ActionLogDialogBody.tsx:236
 msgid "1 invoice"
-msgstr "۱ فاکتور"
+msgstr "1 فاکتور"
 
 #: erpnext/public/js/templates/shop_floor_template.html:921
 msgid "1 job card awaiting Manufacture entry"
-msgstr "۱ کارت کار در انتظار ورود به تولید"
+msgstr "1 کارت کار در انتظار ورود به تولید"
 
 #: erpnext/public/js/templates/shop_floor_template.html:962
 msgid "1 pending job card"
-msgstr "۱ کارت کار معلق"
+msgstr "1 کارت کار معلق"
 
 #: erpnext/public/js/templates/shop_floor_template.html:1050
 msgid "1 submitted today"
-msgstr "۱ ارسال شده امروز"
+msgstr "1 ارسال شده امروز"
 
 #. Option for the 'No of Employees' (Select) field in DocType 'Lead'
 #. Option for the 'No of Employees' (Select) field in DocType 'Opportunity'
@@ -10863,7 +10863,7 @@ msgstr "اگر ثبت انتقال مواد مورد نیاز نیست علام�
 #: erpnext/accounts/doctype/item_tax_template_detail/item_tax_template_detail.json
 #, python-format
 msgid "Check if this tax is not applicable to items (distinct from 0% rate)"
-msgstr "بررسی کنید که آیا این مالیات برای آیتم‌ها قابل اعمال نیست (متفاوت از نرخ ۰٪)"
+msgstr "بررسی کنید که آیا این مالیات برای آیتم‌ها قابل اعمال نیست (متفاوت از نرخ 0٪)"
 
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.py:72
 msgid "Check row {0} for account {1}: Party Type is only allowed for Receivable or Payable accounts"
@@ -13235,7 +13235,7 @@ msgstr "نرخ تبدیل نمی‌تواند 0 باشد"
 
 #: erpnext/controllers/accounts_controller.py:1443
 msgid "Conversion rate is 1.00, but document currency is different from company currency"
-msgstr "نرخ تبدیل ۱.۰۰ است، اما واحد پول سند با واحد پول شرکت متفاوت است"
+msgstr "نرخ تبدیل 1.00 است، اما واحد پول سند با واحد پول شرکت متفاوت است"
 
 #: erpnext/controllers/accounts_controller.py:1439
 msgid "Conversion rate must be 1.00 if document currency is same as company currency"
@@ -13641,7 +13641,7 @@ msgstr "پیکربندی هزینه"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:558
 msgid "Cost allocation between finished goods and secondary items should equal 100%"
-msgstr "تخصیص بها بین کالاهای نهایی و آیتم‌های ثانویه باید برابر با ۱۰۰٪ باشد"
+msgstr "تخصیص بها بین کالاهای نهایی و آیتم‌های ثانویه باید برابر با 100٪ باشد"
 
 #. Label of the cost_allocation (Currency) field in DocType 'BOM'
 #: erpnext/manufacturing/doctype/bom/bom.json
@@ -14781,7 +14781,7 @@ msgstr "مجموع وزن معیارها باید 100% باشد"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.py:197
 msgid "Cron Interval should be between 1 and 59 Min"
-msgstr "فاصله Cron باید بین ۱ تا ۵۹ دقیقه باشد"
+msgstr "فاصله Cron باید بین 1 تا 59 دقیقه باشد"
 
 #. Description of a DocType
 #: erpnext/setup/doctype/website_item_group/website_item_group.json
@@ -16908,7 +16908,7 @@ msgstr "تاریخی را تعیین می‌کند که پس از آن آیتم 
 #. 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Defines when payment is due (e.g. Net 30, 50% advance). Applied automatically on invoices for this customer."
-msgstr "تعیین می‌کند پرداخت چه زمانی سررسید می‌شود (مثلاً Net 30، یا ۵۰٪ پیش‌پرداخت). به‌طور خودکار روی فاکتورهای این مشتری اعمال می‌شود."
+msgstr "تعیین می‌کند پرداخت چه زمانی سررسید می‌شود (مثلاً Net 30، یا 50٪ پیش‌پرداخت). به‌طور خودکار روی فاکتورهای این مشتری اعمال می‌شود."
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -18725,7 +18725,7 @@ msgstr "نوع سند قبلاً به عنوان بعد استفاده شده ا
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Documents Processed on each trigger. Queue Size should be between 5 and 100"
-msgstr "تعداد اسنادی که در هر محرک پردازش می‌شوند. اندازه صف باید بین ۵ و ۱۰۰ باشد"
+msgstr "تعداد اسنادی که در هر محرک پردازش می‌شوند. اندازه صف باید بین 5 و 100 باشد"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:486
 msgid "Documents: {0} have deferred revenue/expense enabled for them. Cannot repost."
@@ -20025,7 +20025,7 @@ msgstr "با فعال کردن این گزینه، در صورتی که برای
 #. field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>"
-msgstr "فعال‌سازی این گزینه به شما امکان می‌دهد موارد زیر را ثبت کنید: - <br><br> ۱. پیش‌پرداخت‌های دریافت‌شده در <b>حساب بدهی</b> به‌جای <b>حساب دارایی</b> -<br><br>۲. پیش‌پرداخت‌های پرداخت‌شده در <b>حساب دارایی</b> به‌جای <b> حساب بدهی</b>"
+msgstr "فعال‌سازی این گزینه به شما امکان می‌دهد موارد زیر را ثبت کنید: - <br><br> 1. پیش‌پرداخت‌های دریافت‌شده در <b>حساب بدهی</b> به‌جای <b>حساب دارایی</b> -<br><br>2. پیش‌پرداخت‌های پرداخت‌شده در <b>حساب دارایی</b> به‌جای <b> حساب بدهی</b>"
 
 #. Description of the 'Allow multi-currency invoices against single party
 #. account ' (Check) field in DocType 'Accounts Settings'
@@ -20440,7 +20440,7 @@ msgstr "مثال: ABCD.#####. اگر سری تنظیم شده باشد و Batch 
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:468
 msgid "Example: If the transaction amount is 200, then this will be calculated as {} = {}"
-msgstr "مثال: اگر مبلغ تراکنش ۲۰۰ باشد، این مقدار به صورت {} = {} محاسبه می‌شود"
+msgstr "مثال: اگر مبلغ تراکنش 200 باشد، این مقدار به صورت {} = {} محاسبه می‌شود"
 
 #: erpnext/manufacturing/doctype/work_order/services/required_items.py:246
 msgid "Exceeds Pending Qty"
@@ -22230,11 +22230,11 @@ msgstr "برای مثال 2012، 2012-13"
 
 #: banking/src/components/features/Settings/Preferences.tsx:154
 msgid "For example, if set to 4, the system will try to find matching transactions in other banks 4 days before and after the transaction date. This is because transactions can clear on different days on different bank accounts."
-msgstr "برای مثال، اگر این مقدار روی ۴ تنظیم شود، سیستم تلاش می‌کند تراکنش‌های مطابق را در سایر بانک‌ها، ۴ روز قبل و بعد از تاریخ تراکنش پیدا کند. دلیل این امر آن است که تراکنش‌ها ممکن است در حساب‌های بانکی مختلف در روزهای متفاوتی تسویه شوند."
+msgstr "برای مثال، اگر این مقدار روی 4 تنظیم شود، سیستم تلاش می‌کند تراکنش‌های مطابق را در سایر بانک‌ها، 4 روز قبل و بعد از تاریخ تراکنش پیدا کند. دلیل این امر آن است که تراکنش‌ها ممکن است در حساب‌های بانکی مختلف در روزهای متفاوتی تسویه شوند."
 
 #: banking/src/components/features/Settings/Preferences.tsx:60
 msgid "For example, if set to 4, the system will try to find matching transfer transactions in other banks 4 days before and after the transaction date. This is because transactions can clear on different days on different bank accounts."
-msgstr "برای مثال، اگر این مقدار روی ۴ تنظیم شود، سیستم تلاش می‌کند تراکنش‌های انتقال مطابق را در سایر بانک‌ها، ۴ روز قبل و بعد از تاریخ تراکنش پیدا کند. دلیل این امر آن است که تراکنش‌ها ممکن است در حساب‌های بانکی مختلف در روزهای متفاوتی تسویه شوند."
+msgstr "برای مثال، اگر این مقدار روی 4 تنظیم شود، سیستم تلاش می‌کند تراکنش‌های انتقال مطابق را در سایر بانک‌ها، 4 روز قبل و بعد از تاریخ تراکنش پیدا کند. دلیل این امر آن است که تراکنش‌ها ممکن است در حساب‌های بانکی مختلف در روزهای متفاوتی تسویه شوند."
 
 #. Description of the 'Collection Factor (=1 LP)' (Currency) field in DocType
 #. 'Loyalty Program Collection'
@@ -24562,7 +24562,7 @@ msgstr "اگر «ماه‌ها» انتخاب شود، صرف نظر از تعد
 msgid "If <b>Enabled</b> - Reconciliation happens on the <b>Advance Payment posting date</b><br>\n"
 "If <b>Disabled</b> - Reconciliation happens on oldest of 2 Dates: <b>Invoice Date</b> or the <b>Advance Payment posting date</b><br>\n"
 msgstr "اگر <b>فعال</b> باشد - تطبیق در <b>تاریخ ثبت پیش‌پرداخت</b> انجام می‌شود<br>\n"
-"اگر <b>غیرفعال</b> باشد - تطبیق در قدیمی‌ترین تاریخ از بین ۲ تاریخ انجام می‌شود: <b>تاریخ فاکتور</b> یا <b>تاریخ ثبت پیش‌پرداخت</b><br>\n"
+"اگر <b>غیرفعال</b> باشد - تطبیق در قدیمی‌ترین تاریخ از بین 2 تاریخ انجام می‌شود: <b>تاریخ فاکتور</b> یا <b>تاریخ ثبت پیش‌پرداخت</b><br>\n"
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:34
 msgid "If Auto Opt In is checked, then the customers will be automatically linked with the concerned Loyalty Program (on save)"
@@ -25037,7 +25037,7 @@ msgstr "در صورت علامت زدن، هزینه BOM به طور خودکا�
 
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.js:82
 msgid "If two or more Pricing Rules are found based on the above conditions, Priority is applied. Priority is a number between 0 to 20 while default value is zero (blank). Higher number means it will take precedence if there are multiple Pricing Rules with same conditions."
-msgstr "اگر دو یا چند قانون قیمت‌گذاری بر اساس شرط‌های بالا یافت شود، اولویت اعمال می‌شود. اولویت عددی بین ۰ تا ۲۰ است و مقدار پیش‌فرض صفر (خالی) است. عدد بالاتر به این معناست که در صورت وجود چند قانون قیمت‌گذاری با شرط‌های یکسان، آن قانون در اولویت قرار می‌گیرد."
+msgstr "اگر دو یا چند قانون قیمت‌گذاری بر اساس شرط‌های بالا یافت شود، اولویت اعمال می‌شود. اولویت عددی بین 0 تا 20 است و مقدار پیش‌فرض صفر (خالی) است. عدد بالاتر به این معناست که در صورت وجود چند قانون قیمت‌گذاری با شرط‌های یکسان، آن قانون در اولویت قرار می‌گیرد."
 
 #: erpnext/accounts/doctype/loyalty_program/loyalty_program.js:31
 msgid "If unlimited expiry for the Loyalty Points, keep the Expiry Duration empty or 0."
@@ -25245,7 +25245,7 @@ msgstr "شریک اجرایی"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:119
 msgid "Import 1 transaction"
-msgstr "درون‌بُرد ۱ تراکنش"
+msgstr "درون‌بُرد 1 تراکنش"
 
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:258
 #: banking/src/components/features/BankReconciliation/BankTransactionList.tsx:295
@@ -25329,7 +25329,7 @@ msgstr "{0} DocType وارد شد"
 
 #: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:138
 msgid "Importing 1 transaction"
-msgstr "در حال درون‌بُرد ۱ تراکنش"
+msgstr "در حال درون‌بُرد 1 تراکنش"
 
 #: erpnext/edi/doctype/code_list/code_list_import.py:39
 msgid "Importing Code Lists from remote URLs is not allowed."
@@ -25371,7 +25371,7 @@ msgstr "به دقیقه"
 #. DocType 'Appointment Booking Settings'
 #: erpnext/crm/doctype/appointment_booking_settings/appointment_booking_settings.json
 msgid "In Minutes (min: 15 mins, max: 60 mins)"
-msgstr "به دقیقه (حداقل: ۱۵ دقیقه، حداکثر: ۶۰ دقیقه)"
+msgstr "به دقیقه (حداقل: 15 دقیقه، حداکثر: 60 دقیقه)"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:154
 #: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:181
@@ -29998,7 +29998,7 @@ msgstr "آخرین تاریخ تکمیل"
 
 #: erpnext/accounts/doctype/account/account.py:708
 msgid "Last GL Entry update was done {0}. This operation is not allowed while system is actively being used. Please wait for 5 minutes before retrying."
-msgstr "آخرین به‌روزرسانی ثبت دفتر کل {0} انجام شد. این عملیات در حین استفاده فعال از سیستم مجاز نیست. لطفاً ۵ دقیقه صبر کنید و سپس دوباره تلاش کنید."
+msgstr "آخرین به‌روزرسانی ثبت دفتر کل {0} انجام شد. این عملیات در حین استفاده فعال از سیستم مجاز نیست. لطفاً 5 دقیقه صبر کنید و سپس دوباره تلاش کنید."
 
 #. Label of the last_integration_date (Date) field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
@@ -33660,7 +33660,7 @@ msgstr "برای مبلغ مابه‌التفاوت یک ثبت دفتر روز�
 #. Label of a number card in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "New Lead (Last 1 Month)"
-msgstr "سرنخ جدید (۱ ماه گذشته)"
+msgstr "سرنخ جدید (1 ماه گذشته)"
 
 #: erpnext/assets/doctype/location/location_tree.js:23
 msgid "New Location"
@@ -38706,7 +38706,7 @@ msgstr "مقدار در انتظار نمی‌تواند بیشتر از {0} ب�
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:62
 msgid "Pending Quantity cannot be less than 0"
-msgstr "مقدار در انتظار نمی‌تواند کمتر از ۰ باشد"
+msgstr "مقدار در انتظار نمی‌تواند کمتر از 0 باشد"
 
 #. Option for the 'Status' (Select) field in DocType 'Task'
 #. Option in a Select field in the tasks Web Form
@@ -41910,7 +41910,7 @@ msgstr "اولویت های"
 
 #: erpnext/stock/doctype/putaway_rule/putaway_rule.py:61
 msgid "Priority cannot be less than 1."
-msgstr "اولویت نمی‌تواند کمتر از ۱ باشد."
+msgstr "اولویت نمی‌تواند کمتر از 1 باشد."
 
 #: erpnext/support/doctype/service_level_agreement/service_level_agreement.py:767
 msgid "Priority has been changed to {0}."
@@ -48362,7 +48362,7 @@ msgstr "ردیف # {0}: مورد برگشتی {1} در {2} {3} وجود ندار
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:364
 msgid "Row #1: Sequence ID must be 1 for Operation {0}."
-msgstr "ردیف #۱: شناسه توالی برای عملیات {0} باید ۱ باشد."
+msgstr "ردیف #1: شناسه توالی برای عملیات {0} باید 1 باشد."
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:568
 #: erpnext/accounts/doctype/sales_invoice/services/pos.py:320
@@ -49483,7 +49483,7 @@ msgstr "ردیف {0}: مقدار آیتم {1} نمی‌تواند بیشتر ا�
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1121
 msgid "Row {0}: Operation time should be greater than 0 for operation {1}"
-msgstr "ردیف {0}: زمان عملیات باید بزرگ‌تر از ۰ برای عملیات {1} باشد"
+msgstr "ردیف {0}: زمان عملیات باید بزرگ‌تر از 0 برای عملیات {1} باشد"
 
 #: erpnext/stock/doctype/delivery_note/services/packing.py:28
 msgid "Row {0}: Packed Qty must be equal to {1} Qty."
@@ -52988,7 +52988,7 @@ msgstr "اگر مشتری یک شرکت مدیریت دولتی است، این 
 #. Settings'
 #: erpnext/support/doctype/support_settings/support_settings.json
 msgid "Set this value to 0 to disable the feature."
-msgstr "این مقدار را روی ۰ تنظیم کنید تا این ویژگی غیرفعال شود."
+msgstr "این مقدار را روی 0 تنظیم کنید تا این ویژگی غیرفعال شود."
 
 #: banking/src/components/features/Settings/MatchingRules.tsx:37
 msgid "Set up rules to automatically classify transactions. Drag and drop rules to reorder their priority."
@@ -53928,7 +53928,7 @@ msgstr "عبارت ساده پایتون، مثال: territory != 'همه قلم
 msgid "Simple Python formula applied on Reading fields.<br> Numeric eg. 1: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\n"
 "Numeric eg. 2: <b>mean &gt; 3.5</b> (mean of populated fields)<br>\n"
 "Value based eg.:  <b>reading_value in (\"A\", \"B\", \"C\")</b>"
-msgstr "فرمول ساده پایتون که روی فیلدهای خوانش اعمال می‌شود.<br> مثال عددی ۱: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\\nمثال عددی ۲: <b>mean &gt; 3.5</b> (میانگین فیلدهای پرشده)<br>\\nمثال مبتنی بر مقدار:  <b>reading_value in (\\\"A\\\", \\\"B\\\", \\\"C\\\")</b>"
+msgstr "فرمول ساده پایتون که روی فیلدهای خوانش اعمال می‌شود.<br> مثال عددی 1: <b>reading_1 &gt; 0.2 and reading_1 &lt; 0.5</b><br>\\nمثال عددی 2: <b>mean &gt; 3.5</b> (میانگین فیلدهای پرشده)<br>\\nمثال مبتنی بر مقدار:  <b>reading_value in (\\\"A\\\", \\\"B\\\", \\\"C\\\")</b>"
 
 #. Option for the 'Call Routing' (Select) field in DocType 'Incoming Call
 #. Settings'
@@ -54258,7 +54258,7 @@ msgstr "شرط‌های محاسبهٔ مبلغ حمل را مشخص کنید."
 #. 'Global Defaults'
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
 msgid "Speeds up Item search on large catalogues. Requires a single app server: the index is a file on that server's disk, and several servers would each answer from a different copy. Building it takes about 20 minutes for 3 million items, and runs in the background."
-msgstr "جستجوی آیتم را در کاتالوگ‌های بزرگ تسریع می‌کند. به یک سرور برنامه واحد نیاز دارد: فهرست‌نما فایلی روی دیسک آن سرور است و چند سرور هر یک از نسخه‌ای متفاوت پاسخ می‌دادند. ساخت آن برای ۳ میلیون آیتم حدود ۲۰ دقیقه طول می‌کشد و در پس‌زمینه اجرا می‌شود."
+msgstr "جستجوی آیتم را در کاتالوگ‌های بزرگ تسریع می‌کند. به یک سرور برنامه واحد نیاز دارد: فهرست‌نما فایلی روی دیسک آن سرور است و چند سرور هر یک از نسخه‌ای متفاوت پاسخ می‌دادند. ساخت آن برای 3 میلیون آیتم حدود 20 دقیقه طول می‌کشد و در پس‌زمینه اجرا می‌شود."
 
 #: erpnext/accounts/doctype/budget/budget.py:220
 msgid "Spending for Account {0} ({1}) between {2} and {3} has already exceeded the new allocated budget. Spent: {4}, Budget: {5}"
@@ -54469,11 +54469,11 @@ msgstr "نام رتبه"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:80
 msgid "Standing scores must be continuous and cover 0 to 100 without gaps or overlaps"
-msgstr "امتیازهای رتبه‌بندی باید پیوسته باشند و بدون شکاف یا هم‌پوشانی، بازه ۰ تا ۱۰۰ را پوشش دهند"
+msgstr "امتیازهای رتبه‌بندی باید پیوسته باشند و بدون شکاف یا هم‌پوشانی، بازه 0 تا 100 را پوشش دهند"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:83
 msgid "Standing scores must cover the full range from 0 to 100"
-msgstr "امتیازهای رتبه باید کل بازه از ۰ تا ۱۰۰ را پوشش دهند"
+msgstr "امتیازهای رتبه باید کل بازه از 0 تا 100 را پوشش دهند"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:75
 msgid "Standing {0} must have a minimum grade lower than its maximum grade"
@@ -58235,7 +58235,7 @@ msgstr "متنی که در صورت مالی نمایش داده می‌شود (
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:89
 msgid "The 'From Package No.' field must not be empty or have a value less than 1."
-msgstr "فیلد 'از شماره بسته' نباید خالی باشد یا مقداری کمتر از ۱ داشته باشد."
+msgstr "فیلد 'از شماره بسته' نباید خالی باشد یا مقداری کمتر از 1 داشته باشد."
 
 #. Description of the 'Current BOM' (Link) field in DocType 'BOM Update Tool'
 #: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
@@ -58664,13 +58664,13 @@ msgstr "حساب درگاه پرداخت در طرح {0} با حساب درگا�
 #. 'Buying Settings'
 #: erpnext/buying/doctype/buying_settings/buying_settings.json
 msgid "The percentage by which you are allowed to order more on a Purchase Order than the quantity requested on the originating Material Request. For example, if the Material Request has 100 units and the allowance is 10%, you can order up to 110 units"
-msgstr "درصدی که شما مجاز به سفارش بیشتر از مقدار درخواست شده در درخواست اولیه مواد در یک سفارش خرید هستید. به عنوان مثال، اگر درخواست مواد ۱۰۰ واحد داشته باشد و میزان مجاز ۱۰٪ باشد، می‌توانید تا ۱۱۰ واحد سفارش دهید"
+msgstr "درصدی که شما مجاز به سفارش بیشتر از مقدار درخواست شده در درخواست اولیه مواد در یک سفارش خرید هستید. به عنوان مثال، اگر درخواست مواد 100 واحد داشته باشد و میزان مجاز 10٪ باشد، می‌توانید تا 110 واحد سفارش دهید"
 
 #. Description of the 'Over Billing Allowance (%)' (Currency) field in DocType
 #. 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "The percentage you are allowed to bill more against the amount ordered. For example, if the order value is $100 for an item and tolerance is set as 10%, then you are allowed to bill up to $110 "
-msgstr "درصدی که مجاز هستید بیش از مبلغ سفارش‌داده‌شده صورتحساب صادر کنید. برای مثال، اگر ارزش سفارش برای یک آیتم $100 و تلورانس ۱۰٪ تنظیم شده باشد، می‌توانید تا $110 صورتحساب صادر کنید. "
+msgstr "درصدی که مجاز هستید بیش از مبلغ سفارش‌داده‌شده صورتحساب صادر کنید. برای مثال، اگر ارزش سفارش برای یک آیتم $100 و تلورانس 10٪ تنظیم شده باشد، می‌توانید تا $110 صورتحساب صادر کنید. "
 
 #. Description of the 'Over Picking Allowance (%)' (Percent) field in DocType
 #. 'Stock Settings'
@@ -58682,7 +58682,7 @@ msgstr "درصد مجاز برای انتخاب آیتم‌های بیشتر ا�
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "The percentage you are allowed to receive or deliver more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed to receive 110 units."
-msgstr "درصد مجاز برای دریافت یا تحویل بیشتر از مقدار سفارش داده‌شده. به‌عنوان‌مثال، اگر ۱۰۰ واحد سفارش داده‌اید و میزان مجاز شما ۱۰٪ باشد، می‌توانید ۱۱۰ واحد دریافت کنید."
+msgstr "درصد مجاز برای دریافت یا تحویل بیشتر از مقدار سفارش داده‌شده. به‌عنوان‌مثال، اگر 100 واحد سفارش داده‌اید و میزان مجاز شما 10٪ باشد، می‌توانید 110 واحد دریافت کنید."
 
 #. Description of the 'Over Transfer Allowance (%)' (Float) field in DocType
 #. 'Stock Settings'
@@ -58989,7 +58989,7 @@ msgstr "یک تراکنش تطبیق‌نشده قبل از {0} وجود دار�
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1076
 msgid "There must be at least 1 Finished Good in this Stock Entry"
-msgstr "این ثبت موجودی باید حداقل شامل ۱ کالای تمام‌شده باشد"
+msgstr "این ثبت موجودی باید حداقل شامل 1 کالای تمام‌شده باشد"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:161
 msgid "There was an error creating Bank Account while linking with Plaid."
@@ -60997,7 +60997,7 @@ msgstr "مبلغ توزیع کل {0} باید برابر با مبلغ بودج�
 
 #: erpnext/accounts/doctype/budget/budget.py:373
 msgid "Total distribution percent must equal 100 (currently {0})"
-msgstr "درصد توزیع کل باید برابر با ۱۰۰ باشد (در حال حاضر {0})"
+msgstr "درصد توزیع کل باید برابر با 100 باشد (در حال حاضر {0})"
 
 #: erpnext/projects/doctype/project/project_dashboard.html:2
 msgid "Total hours: {0}"
@@ -64792,28 +64792,28 @@ msgstr "نوع سند کسر"
 
 #: banking/src/components/features/Settings/Preferences.tsx:70
 msgid "Within 1 day"
-msgstr "طی ۱ روز"
+msgstr "طی 1 روز"
 
 #: banking/src/components/features/Settings/Preferences.tsx:71
 msgid "Within 2 days"
-msgstr "طی ۲ روز"
+msgstr "طی 2 روز"
 
 #: banking/src/components/features/Settings/Preferences.tsx:72
 msgid "Within 3 days"
-msgstr "طی ۳ روز"
+msgstr "طی 3 روز"
 
 #: banking/src/components/features/Settings/Preferences.tsx:73
 msgid "Within 4 days"
-msgstr "طی ۴ روز"
+msgstr "طی 4 روز"
 
 #: banking/src/components/features/Settings/Preferences.tsx:74
 msgid "Within 5 days"
-msgstr "طی ۵ روز"
+msgstr "طی 5 روز"
 
 #. Label of a number card in the CRM Workspace
 #: erpnext/crm/workspace/crm/crm.json
 msgid "Won Opportunity (Last 1 Month)"
-msgstr "فرصت برنده شده (۱ ماه گذشته)"
+msgstr "فرصت برنده شده (1 ماه گذشته)"
 
 #. Label of the work_done (Small Text) field in DocType 'Maintenance Visit
 #. Purpose'
@@ -65776,7 +65776,7 @@ msgstr "مثلاً کارمزد بانک"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:228
 msgid "e.g. Last 3 weeks, Q1, May 2025"
-msgstr "مثلاً: ۳ هفتهٔ گذشته، سه‌ماههٔ اول، مه ۲۰۲۵"
+msgstr "مثلاً: 3 هفتهٔ گذشته، سه‌ماههٔ اول، مه 2025"
 
 #. Description of the 'Shipping Rule Label' (Data) field in DocType 'Shipping
 #. Rule'
@@ -66175,7 +66175,7 @@ msgstr "{0} با ثبت‌های افتتاحیه باز قابل تغییر ن�
 
 #: erpnext/public/js/utils/sales_common.js:356
 msgid "{0} cannot be greater than 100"
-msgstr "{0} نمی‌تواند بزرگتر از ۱۰۰ باشد"
+msgstr "{0} نمی‌تواند بزرگتر از 100 باشد"
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:136
 msgid "{0} cannot be used as a Main Cost Center because it has been used as child in Cost Center Allocation {1}"
