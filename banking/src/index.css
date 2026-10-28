@@ -18,7 +18,21 @@
   src: url("/assets/frappe/css/fonts/inter/InterVariable-Italic.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: Vazirmatn;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/assets/frappe/css/fonts/vazirmatn/Vazirmatn-wght.woff2") format("woff2");
+}
+
 @custom-variant dark (&:is(.dark *));
+
+html:lang(fa) {
+  --font-sans: "Vazirmatn", "InterVariable", ui-sans-serif, system-ui, sans-serif;
+  --font-numeric: "Vazirmatn", ui-monospace, monospace;
+  font-feature-settings: "ss01";
+}
 
 @theme inline {
   --color-*: initial;
