@@ -5791,7 +5791,7 @@ msgstr "مقدار ورود"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Arshin"
-msgstr "Arshin"
+msgstr "ارشین"
 
 #: erpnext/stock/report/serial_no_ledger/serial_no_ledger.js:57
 #: erpnext/stock/report/stock_ageing/stock_ageing.js:16
@@ -8102,7 +8102,7 @@ msgstr "بارکدها"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Barleycorn"
-msgstr "Barleycorn"
+msgstr "دانهٔ جو"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -8833,7 +8833,7 @@ msgstr "بیو / معرفی نامه"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Biot"
-msgstr "Biot"
+msgstr "بیوت"
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:9
 msgid "Biotechnology"
@@ -9177,7 +9177,7 @@ msgstr "مرور BOM"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu (It)"
-msgstr "Btu (It)"
+msgstr "بی‌تی‌یو (جدول بین‌المللی)"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -9187,7 +9187,7 @@ msgstr "Btu (It)"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Btu (Th)"
-msgstr "Btu (Th)"
+msgstr "بی‌تی‌یو (ترموشیمیایی)"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -33119,7 +33119,7 @@ msgstr "نادیده گرفتن ایمیل"
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "N/A"
-msgstr "N/A"
+msgstr "قابل‌اعمال نیست"
 
 #. Label of the name_and_employee_id (Section Break) field in DocType 'Sales
 #. Person'
@@ -42086,7 +42086,7 @@ msgstr "پردازش صورت‌حساب‌ها"
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_statement_of_accounts_cc/process_statement_of_accounts_cc.json
 msgid "Process Statement Of Accounts CC"
-msgstr "Process Statement Of Accounts CC"
+msgstr "پردازش صورت‌حساب‌ها (CC)"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/process_statement_of_accounts_customer/process_statement_of_accounts_customer.json
@@ -43711,19 +43711,19 @@ msgstr "قانون جانمایی از قبل برای آیتم {0} در انب�
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:77
 msgid "Q1"
-msgstr "Q1"
+msgstr "سه‌ماههٔ نخست"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:77
 msgid "Q2"
-msgstr "Q2"
+msgstr "سه‌ماههٔ دوم"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:77
 msgid "Q3"
-msgstr "Q3"
+msgstr "سه‌ماههٔ سوم"
 
 #: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:77
 msgid "Q4"
-msgstr "Q4"
+msgstr "سه‌ماههٔ چهارم"
 
 #: erpnext/public/js/templates/shop_floor_template.html:763
 msgid "QC Available"
@@ -60078,7 +60078,7 @@ msgstr "مشتریان برتر"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Torr"
-msgstr "Torr"
+msgstr "تور"
 
 #. Label of the base_total (Currency) field in DocType 'Advance Taxes and
 #. Charges'
@@ -61198,7 +61198,7 @@ msgstr "مورد رکورد حذف تراکنش"
 #. Name of a DocType
 #: erpnext/setup/doctype/transaction_deletion_record_to_delete/transaction_deletion_record_to_delete.json
 msgid "Transaction Deletion Record To Delete"
-msgstr "Transaction Deletion Record To Delete"
+msgstr "رکورد تراکنش برای حذف"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:1119
 msgid "Transaction Deletion Record {0} is already running. {1}"
@@ -63414,7 +63414,7 @@ msgstr "مقدار یا مقدار"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Vara"
-msgstr "Vara"
+msgstr "وارا"
 
 #. Label of the variable (Data) field in DocType 'Bank Statement Import Log
 #. Column Map'
@@ -63596,7 +63596,7 @@ msgstr "نسخه‌ها"
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
 msgid "Versta"
-msgstr "Versta"
+msgstr "ورستا"
 
 #. Label of the via_customer_portal (Check) field in DocType 'Issue'
 #. Label of a field in the issues Web Form
