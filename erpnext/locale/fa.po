@@ -66940,3 +66940,2121 @@ msgstr "{}"
 msgid "{} invoices"
 msgstr "{} فاکتورها"
 
+
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:295
+msgid "(none)"
+msgstr "هیچ‌کدام"
+
+#: erpnext/selling/doctype/customer/customer_overview.py:239
+msgid "0–30 days"
+msgstr "0 تا 30 روز"
+
+#: erpnext/public/js/customer_overview.js:29
+msgid "1 day to pay"
+msgstr "1 روز تا سررسید"
+
+#: erpnext/public/js/customer_overview.js:24
+msgid "1 order"
+msgstr "1 سفارش"
+
+#: erpnext/public/js/customer_overview.js:23
+msgid "1 quotation"
+msgstr "1 پیش‌فاکتور"
+
+#: erpnext/selling/doctype/customer/customer_overview.py:240
+msgid "31–60 days"
+msgstr "31 تا 60 روز"
+
+#: erpnext/selling/doctype/customer/customer_overview.py:241
+msgid "61–90 days"
+msgstr "61 تا 90 روز"
+
+#: erpnext/selling/doctype/customer/customer_overview.py:242
+msgid "90+ days"
+msgstr "بیش از 90 روز"
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:364
+msgid "A selected Serial No no longer exists. Please select it again."
+msgstr "شماره سریال انتخاب‌شده دیگر وجود ندارد. لطفاً دوباره آن را انتخاب کنید."
+
+#: erpnext/public/js/setup_wizard.js:135
+msgid "A short code added to account names, like Cash - AC."
+msgstr "کد اختصاری‌ای که به نام حساب‌ها اضافه می‌شود؛ مانند Cash - AC."
+
+#: erpnext/projects/doctype/task/task_kanban.js:8
+msgid "A task becomes Overdue on its own once its Expected End Date passes"
+msgstr "پس از گذشت تاریخ پایان مورد انتظار، کار به‌طور خودکار معوق می‌شود."
+
+#. Label of an action in the Onboarding Step 'Record an asset you already own'
+#: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json
+msgid "Add Asset"
+msgstr "افزودن دارایی"
+
+#. Label of an action in the Onboarding Step 'Add the bank account you use'
+#: erpnext/accounts/onboarding_step/add_bank_account/add_bank_account.json
+msgid "Add Bank Account"
+msgstr "افزودن حساب بانکی"
+
+#. Label of an action in the Onboarding Step 'Add a customer'
+#: erpnext/selling/onboarding_step/create_customer/create_customer.json
+msgid "Add Customer"
+msgstr "افزودن مشتری"
+
+#. Label of an action in the Onboarding Step 'Add a supplier'
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Add Supplier"
+msgstr "افزودن تأمین‌کننده"
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_customer/create_customer.json
+msgid "Add a customer"
+msgstr "افزودن مشتری"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_finished_goods/create_finished_goods.json
+msgid "Add a product you make"
+msgstr "افزودن محصول تولیدی"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json
+msgid "Add a raw material"
+msgstr "افزودن مادهٔ اولیه"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "Add a supplier"
+msgstr "افزودن تأمین‌کننده"
+
+#. Description of the Onboarding Step 'Order from your suppliers'
+#: erpnext/setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json
+msgid "Add a supplier, order from them and pay their bill."
+msgstr "تأمین‌کننده‌ای اضافه کنید، از او سفارش دهید و صورتحسابش را پرداخت کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/create_asset_item/create_asset_item.json
+msgid "Add an asset item"
+msgstr "افزودن کالای دارایی"
+
+#. Description of the Onboarding Step 'Make your first sale'
+#: erpnext/setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json
+msgid "Add an item and a customer, bill them and collect the payment."
+msgstr "کالا و مشتری را اضافه کنید، صورتحساب بفرستید و وجه را دریافت کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_buying_item/create_buying_item.json
+msgid "Add an item you buy"
+msgstr "افزودن کالای خریداری‌شده"
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_selling_item/create_selling_item.json
+msgid "Add an item you sell"
+msgstr "افزودن کالای فروشی"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/create_item/create_item.json
+msgid "Add an item you stock"
+msgstr "افزودن کالای انبارشده"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:65
+msgid "Add and Save"
+msgstr "افزودن و ذخیره"
+
+#: erpnext/public/js/setup_wizard.js:152
+msgid "Add demo data so you can explore"
+msgstr "افزودن داده‌های نمونه برای آشنایی"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/add_bank_account/add_bank_account.json
+msgid "Add the bank account you use"
+msgstr "افزودن حساب بانکی مورد استفاده"
+
+#. Description of the Onboarding Step 'Invite your team'
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Add the people you work with and choose what they can see."
+msgstr "همکارانتان را اضافه کنید و مشخص کنید به چه اطلاعاتی دسترسی داشته باشند."
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:52
+msgid "Adding demo data"
+msgstr "در حال افزودن داده‌های نمونه"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:692
+msgid "All raw materials are already mapped to finished goods"
+msgstr "همهٔ مواد اولیه از قبل به محصولات نهایی نگاشت شده‌اند."
+
+#: erpnext/public/js/customer_overview.js:604
+msgid "Applies to {0}. Set to 0 to use the Customer Group or Company credit limit, if set."
+msgstr "برای {0} اعمال می‌شود. برای استفاده از سقف اعتبار گروه مشتری یا شرکت، در صورت تعریف، مقدار 0 را وارد کنید."
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:26
+msgid "Applying recommended settings"
+msgstr "در حال اعمال تنظیمات پیشنهادی"
+
+#. Label of a Sidebar Item
+#: erpnext/setup/sidebar/setup/setup.json
+msgid "Appointment Booking"
+msgstr "رزرو نوبت"
+
+#. Label of a Link in the Assets Workspace
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Maintenance Report"
+msgstr "گزارش نگهداری دارایی"
+
+#. Label of a Card Break in the Assets Workspace
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Asset Reports"
+msgstr "گزارش‌های دارایی"
+
+#. Description of a report in the Onboarding Step 'Know what you own and owe'
+#: erpnext/accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json
+msgid "Assets, liabilities and equity on any date."
+msgstr "دارایی‌ها، بدهی‌ها و حقوق مالکانه در هر تاریخ."
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Audit Reports"
+msgstr "گزارش‌های حسابرسی"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:792
+msgid "Auto Assign"
+msgstr "تخصیص خودکار"
+
+#. Label of the auto_map_raw_materials_to_finished_goods (Check) field in
+#. DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "Auto Map Raw Materials to Finished Goods"
+msgstr "نگاشت خودکار مواد اولیه به محصولات نهایی"
+
+#: erpnext/public/js/customer_overview.js:448
+msgid "Avg {0}"
+msgstr "میانگین {0}"
+
+#. Label of a Card Break in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "BOM Reports"
+msgstr "گزارش‌های صورت مواد و عملیات (BOM)"
+
+#. Label of a Link in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Bank Reconciliation (old)"
+msgstr "تطبیق بانکی (نسخهٔ قدیمی)"
+
+#. Name of a list layout for Journal Entry
+#: erpnext/accounts/doctype/journal_entry/list_filter/journal_entry_bank_and_cash.json
+msgid "Bank and Cash"
+msgstr "بانک و صندوق"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1481
+msgid "Batch Nos {0} are not part of the original document."
+msgstr "شماره دسته‌های {0} در سند اصلی نیستند."
+
+#. Name of a list layout for Item
+#: erpnext/stock/doctype/item/list_filter/item_batch_tracked.json
+msgid "Batch Tracked"
+msgstr "دارای رهگیری دسته‌ای"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:421
+msgid "Books are closed till {0} by Period Closing Voucher, remove these rows: {1}"
+msgstr "دفاتر با سند بستن دوره تا تاریخ {0} بسته شده‌اند؛ این ردیف‌ها را حذف کنید: {1}"
+
+#. Description of the Onboarding Step 'Plan and deliver projects'
+#: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json
+msgid "Break a project into tasks and log the time your team spends."
+msgstr "پروژه را به کارها تقسیم کنید و زمان صرف‌شدهٔ تیم را ثبت کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Break it into tasks"
+msgstr "تقسیم به کارها"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:305
+msgid "CSV entries must be a list of rows"
+msgstr "ورودی‌های CSV باید فهرستی از ردیف‌ها باشند."
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:191
+msgid "Cannot cancel Stock Closing Entry {0} because the later Stock Closing Entry {1} is built on it. Cancel {1} first."
+msgstr "سند بستن موجودی {0} را نمی‌توان لغو کرد، چون سند بستن موجودی بعدیِ {1} بر اساس آن ساخته شده است. ابتدا {1} را لغو کنید."
+
+#: erpnext/stock/doctype/material_request/material_request.py:618
+msgid "Cannot create Work Orders from a stopped Material Request"
+msgstr "از درخواست مواد متوقف‌شده نمی‌توان دستور کار تولید ایجاد کرد."
+
+#: erpnext/stock/doctype/stock_settings/stock_settings.py:170
+msgid "Cannot disable Serial and Batch No for Item, as there are items with serial / batch enabled."
+msgstr "نمی‌توان رهگیری شماره سریال یا دسته را برای کالا غیرفعال کرد؛ کالاهایی با رهگیری فعال وجود دارند."
+
+#: erpnext/stock/doctype/item/item.py:1326
+msgid "Cannot enable {0} as {1} is disabled in {2}"
+msgstr "نمی‌توان {0} را فعال کرد، چون {1} در {2} غیرفعال است."
+
+#: erpnext/stock/doctype/item/item.py:740
+msgid "Cannot merge because both items have {0} {1}"
+msgstr "ادغام ممکن نیست، چون هر دو کالا {0} {1} دارند."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/view_asset_depreciation/view_asset_depreciation.json
+msgid "Check its depreciation"
+msgstr "استهلاک آن را بررسی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/view_accounts_payable/view_accounts_payable.json
+msgid "Check what you owe"
+msgstr "بدهی‌های خود را بررسی کنید"
+
+#. Description of the Onboarding Step 'Get your books ready'
+#: erpnext/setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json
+msgid "Check your chart of accounts and taxes, and add the bank account you use."
+msgstr "سرفصل‌های حساب و مالیات‌ها را بررسی کنید و حساب بانکی مورد استفاده را اضافه کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/view_profit_and_loss/view_profit_and_loss.json
+msgid "Check your profit"
+msgstr "سود خود را بررسی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+msgid "Check your stock levels"
+msgstr "موجودی انبار خود را بررسی کنید"
+
+#: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:47
+msgid "Choose a bank account in this chart's filters, or set a default bank account on {0}, to see its balance."
+msgstr "برای مشاهدهٔ مانده، در فیلترهای این نمودار یک حساب بانکی انتخاب کنید یا حساب بانکی پیش‌فرض {0} را تعیین کنید."
+
+#: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:44
+msgid "Choose a company in this chart's filters to see its bank balance."
+msgstr "برای مشاهدهٔ ماندهٔ بانکی، یک شرکت را در فیلترهای این نمودار انتخاب کنید."
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:434
+msgid "Closed Period Rows Selected"
+msgstr "ردیف‌های دورهٔ بسته انتخاب شده‌اند"
+
+#. Name of a list layout for Opportunity
+#: erpnext/crm/doctype/opportunity/list_filter/opportunity_closing_this_month.json
+msgid "Closing This Month"
+msgstr "بسته‌شده در این ماه"
+
+#: erpnext/public/js/setup_wizard.js:271
+msgid "Company Abbreviation cannot have more than {0} characters"
+msgstr "مخفف شرکت نمی‌تواند بیش از {0} نویسه داشته باشد."
+
+#. Name of a list layout for Work Order
+#: erpnext/manufacturing/doctype/work_order/list_filter/work_order_completed_this_month.json
+msgid "Completed This Month"
+msgstr "تکمیل‌شده در این ماه"
+
+#: erpnext/stock/doctype/stock_entry/services/material_transfer.py:230
+msgid "Components can be returned only after Work Order {0} is Completed or Closed"
+msgstr "قطعات فقط پس از تکمیل یا بستن دستور کار {0} قابل برگشت هستند."
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_sales_order/create_sales_order.json
+msgid "Confirm a sales order"
+msgstr "تأیید سفارش فروش"
+
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.js:51
+msgid "Could not download the statement. Please try again."
+msgstr "دریافت صورت‌حساب ممکن نشد. لطفاً دوباره تلاش کنید."
+
+#: erpnext/public/js/customer_overview.js:314
+#: erpnext/public/js/customer_overview.js:466
+#: erpnext/public/js/customer_overview.js:517
+msgid "Could not load receivables"
+msgstr "بارگذاری حساب‌های دریافتنی ممکن نشد."
+
+#: erpnext/public/js/customer_overview.js:297
+#: erpnext/public/js/customer_overview.js:412
+#: erpnext/public/js/customer_overview.js:657
+msgid "Could not load sales"
+msgstr "بارگذاری اطلاعات فروش ممکن نشد."
+
+#. Label of an action in the Onboarding Step 'Schedule its upkeep'
+#: erpnext/assets/onboarding_step/create_asset_maintenance/create_asset_maintenance.json
+msgid "Create Asset Maintenance"
+msgstr "ایجاد برنامهٔ نگهداری دارایی"
+
+#. Label of an action in the Onboarding Step 'Hand it to a person or place'
+#: erpnext/assets/onboarding_step/create_asset_movement/create_asset_movement.json
+msgid "Create Asset Movement"
+msgstr "ثبت جابه‌جایی دارایی"
+
+#. Label of an action in the Onboarding Step 'Write its bill of materials'
+#: erpnext/manufacturing/onboarding_step/create_bill_of_materials/create_bill_of_materials.json
+msgid "Create BOM"
+msgstr "ایجاد صورت مواد و عملیات (BOM)"
+
+#. Label of an action in the Onboarding Step 'Plan maintenance visits'
+#: erpnext/quality_management/onboarding_step/create_maintenance_schedule/create_maintenance_schedule.json
+msgid "Create Maintenance Schedule"
+msgstr "ایجاد برنامهٔ زمان‌بندی نگهداری"
+
+#. Label of an action in the Onboarding Step 'Log a problem'
+#: erpnext/quality_management/onboarding_step/create_non_conformance/create_non_conformance.json
+msgid "Create Non Conformance"
+msgstr "ثبت عدم انطباق"
+
+#. Label of an action in the Onboarding Step 'Plan production from your orders'
+#: erpnext/manufacturing/onboarding_step/create_production_plan/create_production_plan.json
+msgid "Create Production Plan"
+msgstr "ایجاد برنامهٔ تولید"
+
+#. Label of an action in the Onboarding Step 'Reuse it as a template'
+#: erpnext/projects/onboarding_step/create_project_template/create_project_template.json
+msgid "Create Project Template"
+msgstr "ایجاد الگوی پروژه"
+
+#. Label of an action in the Onboarding Step 'Set a quality goal'
+#: erpnext/quality_management/onboarding_step/create_quality_goal/create_quality_goal.json
+msgid "Create Quality Goal"
+msgstr "ایجاد هدف کیفیت"
+
+#. Label of an action in the Onboarding Step 'Inspect goods coming in or going
+#. out'
+#: erpnext/quality_management/onboarding_step/create_quality_inspection/create_quality_inspection.json
+msgid "Create Quality Inspection"
+msgstr "ایجاد بازرسی کیفیت"
+
+#. Label of an action in the Onboarding Step 'Decide what to check'
+#: erpnext/quality_management/onboarding_step/create_quality_inspection_template/create_quality_inspection_template.json
+msgid "Create Quality Inspection Template"
+msgstr "ایجاد الگوی بازرسی کیفیت"
+
+#. Label of an action in the Onboarding Step 'Write down how the work is done'
+#: erpnext/quality_management/onboarding_step/create_quality_procedure/create_quality_procedure.json
+msgid "Create Quality Procedure"
+msgstr "ایجاد روش اجرایی کیفیت"
+
+#. Label of an action in the Onboarding Step 'Review how a goal is going'
+#: erpnext/quality_management/onboarding_step/create_quality_review/create_quality_review.json
+msgid "Create Quality Review"
+msgstr "ایجاد بازبینی کیفیت"
+
+#. Label of an action in the Onboarding Step 'Enter the stock you have today'
+#: erpnext/stock/onboarding_step/create_opening_stock/create_opening_stock.json
+msgid "Create Stock Reconciliation"
+msgstr "ایجاد تطبیق موجودی"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:21
+msgid "Creating your company"
+msgstr "در حال ایجاد شرکت"
+
+#. Name of a list layout for Sales Invoice
+#: erpnext/accounts/doctype/sales_invoice/list_filter/sales_invoice_credit_notes.json
+msgid "Credit Notes"
+msgstr "یادداشت‌های بستانکاری"
+
+#: erpnext/public/js/customer_overview.js:344
+msgid "Credit balance, no invoices to apply it to"
+msgstr "ماندهٔ بستانکاری وجود دارد، اما صورتحسابی برای تخصیص آن نیست."
+
+#: erpnext/public/js/customer_overview.js:632
+msgid "Credit limit updated"
+msgstr "سقف اعتبار به‌روزرسانی شد."
+
+#: erpnext/public/js/customer_overview.js:519
+msgid "Credit usage is unavailable with your permissions."
+msgstr "با سطح دسترسی شما، میزان استفاده از اعتبار در دسترس نیست."
+
+#. Label of a Card Break in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Customer Reports"
+msgstr "گزارش‌های مشتریان"
+
+#. Name of a list layout for Purchase Invoice
+#: erpnext/accounts/doctype/purchase_invoice/list_filter/purchase_invoice_debit_notes.json
+msgid "Debit Notes"
+msgstr "یادداشت‌های بدهکاری"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_quality_inspection_template/create_quality_inspection_template.json
+msgid "Decide what to check"
+msgstr "موارد بازرسی را مشخص کنید"
+
+#: erpnext/crm/doctype/opportunity/opportunity_kanban.js:24
+msgid "Declare opportunities lost one at a time"
+msgstr "فرصت‌ها را تک‌به‌تک ازدست‌رفته اعلام کنید."
+
+#. Name of a list layout for BOM
+#: erpnext/manufacturing/doctype/bom/list_filter/bom_default_boms.json
+msgid "Default BOMs"
+msgstr "صورت‌های مواد و عملیات پیش‌فرض"
+
+#. Name of a list layout for Asset
+#: erpnext/assets/doctype/asset/list_filter/asset_disposed.json
+msgid "Disposed"
+msgstr "اسقاط‌شده"
+
+#. Name of a list layout for Journal Entry
+#. Name of a list layout for Payment Entry
+#. Name of a list layout for Purchase Invoice
+#. Name of a list layout for Sales Invoice
+#. Name of a list layout for Asset
+#. Name of a list layout for Purchase Order
+#. Name of a list layout for Supplier Quotation
+#. Name of a list layout for BOM
+#. Name of a list layout for Timesheet
+#. Name of a list layout for Quotation
+#. Name of a list layout for Sales Order
+#. Name of a list layout for Delivery Note
+#. Name of a list layout for Material Request
+#. Name of a list layout for Purchase Receipt
+#. Name of a list layout for Stock Entry
+#: erpnext/accounts/doctype/journal_entry/list_filter/journal_entry_drafts.json
+#: erpnext/accounts/doctype/payment_entry/list_filter/payment_entry_drafts.json
+#: erpnext/accounts/doctype/purchase_invoice/list_filter/purchase_invoice_drafts.json
+#: erpnext/accounts/doctype/sales_invoice/list_filter/sales_invoice_drafts.json
+#: erpnext/assets/doctype/asset/list_filter/asset_drafts.json
+#: erpnext/buying/doctype/purchase_order/list_filter/purchase_order_drafts.json
+#: erpnext/buying/doctype/supplier_quotation/list_filter/supplier_quotation_drafts.json
+#: erpnext/manufacturing/doctype/bom/list_filter/bom_drafts.json
+#: erpnext/projects/doctype/timesheet/list_filter/timesheet_drafts.json
+#: erpnext/selling/doctype/quotation/list_filter/quotation_drafts.json
+#: erpnext/selling/doctype/sales_order/list_filter/sales_order_drafts.json
+#: erpnext/stock/doctype/delivery_note/list_filter/delivery_note_drafts.json
+#: erpnext/stock/doctype/material_request/list_filter/material_request_drafts.json
+#: erpnext/stock/doctype/purchase_receipt/list_filter/purchase_receipt_drafts.json
+#: erpnext/stock/doctype/stock_entry/list_filter/stock_entry_drafts.json
+msgid "Drafts"
+msgstr "پیش‌نویس‌ها"
+
+#. Name of a list layout for Project
+#: erpnext/projects/doctype/project/list_filter/project_due_this_month.json
+msgid "Due This Month"
+msgstr "سررسید در این ماه"
+
+#. Name of a list layout for Work Order
+#. Name of a list layout for Task
+#: erpnext/manufacturing/doctype/work_order/list_filter/work_order_due_in_7_days.json
+#: erpnext/projects/doctype/task/list_filter/task_due_in_7_days.json
+msgid "Due in 7 Days"
+msgstr "سررسید تا 7 روز آینده"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1521
+msgid "Duplicate Batch No {0} found"
+msgstr "شماره دستهٔ تکراری {0} پیدا شد."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1512
+msgid "Duplicate Serial No {0} found"
+msgstr "شماره سریال تکراری {0} پیدا شد."
+
+#. Label of an action in the Onboarding Step 'Spot your best sellers'
+#: erpnext/selling/onboarding_step/view_sales_analytics/view_sales_analytics.json
+msgid "Open Sales Analytics"
+msgstr "بازکردن تحلیل فروش"
+
+#. Label of an action in the Onboarding Step 'Review your taxes'
+#: erpnext/accounts/onboarding_step/review_taxes/review_taxes.json
+msgid "Open Sales Taxes and Charges Template"
+msgstr "بازکردن الگوی مالیات و هزینه‌های فروش"
+
+#. Label of an action in the Onboarding Step 'Make your first sale'
+#: erpnext/setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json
+msgid "Open Selling"
+msgstr "بازکردن بخش فروش"
+
+#. Label of an action in the Onboarding Step 'Keep track of your stock'
+#: erpnext/setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json
+msgid "Open Stock"
+msgstr "بازکردن بخش انبار"
+
+#. Label of an action in the Onboarding Step 'Check your stock levels'
+#: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+msgid "Open Stock Balance"
+msgstr "بازکردن تراز موجودی"
+
+#. Label of an action in the Onboarding Step 'Follow every movement'
+#: erpnext/stock/onboarding_step/view_stock_ledger/view_stock_ledger.json
+msgid "Open Stock Ledger"
+msgstr "بازکردن دفتر موجودی"
+
+#. Label of an action in the Onboarding Step 'Review your warehouses'
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "Open Warehouse"
+msgstr "بازکردن انبار"
+
+#. Label of an action in the Onboarding Step 'See how production is going'
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "Open Work Order Summary"
+msgstr "بازکردن خلاصهٔ دستورهای کار"
+
+#. Name of a list layout for Journal Entry
+#: erpnext/accounts/doctype/journal_entry/list_filter/journal_entry_opening_entries.json
+msgid "Opening Entries"
+msgstr "اسناد افتتاحیه"
+
+#. Name of a Kanban board for Opportunity
+#: erpnext/crm/doctype/opportunity/kanban_board/opportunity_pipeline.json
+msgid "Opportunity Pipeline"
+msgstr "قیف فرصت‌های فروش"
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Order Status Reports"
+msgstr "گزارش‌های وضعیت سفارش"
+
+#. Title of the Module Onboarding 'Buying Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/buying/module_onboarding/buying_onboarding/buying_onboarding.json
+#: erpnext/setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json
+msgid "Order from your suppliers"
+msgstr "از تأمین‌کنندگان خود سفارش دهید."
+
+#: erpnext/public/js/customer_overview.js:545
+msgid "Over credit limit by {0}"
+msgstr "بیش از سقف اعتبار به میزان {0}"
+
+#: erpnext/public/js/customer_overview.js:489
+#, python-format
+msgid "Overdue {0} · {1}% of unpaid invoices"
+msgstr "{0} معوق · {1}% از صورتحساب‌ها پرداخت نشده‌اند."
+
+#. Label of the overview_html (HTML) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Overview HTML"
+msgstr "نمای کلی (HTML)"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/pay_supplier/pay_supplier.json
+msgid "Pay your supplier"
+msgstr "پرداخت به تأمین‌کننده"
+
+#: erpnext/public/js/customer_overview.js:708
+msgid "Pending Billing"
+msgstr "در انتظار صدور صورتحساب"
+
+#: erpnext/public/js/customer_overview.js:696
+msgid "Pending Delivery"
+msgstr "در انتظار تحویل"
+
+#: erpnext/stock/serial_batch_identity.py:60
+msgid "Physical numbers cannot be empty"
+msgstr "مقادیر فیزیکی نمی‌توانند خالی باشند."
+
+#: erpnext/stock/serial_batch_identity.py:57
+msgid "Physical numbers must be a list of strings"
+msgstr "مقادیر فیزیکی باید فهرستی از رشته‌ها باشند."
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_purchase_order/create_purchase_order.json
+msgid "Place a purchase order"
+msgstr "ثبت سفارش خرید"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_work_order/create_work_order.json
+msgid "Plan a work order"
+msgstr "برنامه‌ریزی دستور کار تولید"
+
+#. Title of the Module Onboarding 'Projects Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/projects/module_onboarding/projects_onboarding/projects_onboarding.json
+#: erpnext/setup/onboarding_step/complete_projects_onboarding/complete_projects_onboarding.json
+msgid "Plan and deliver projects"
+msgstr "برنامه‌ریزی و تحویل پروژه‌ها"
+
+#. Title of the Module Onboarding 'Manufacturing Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/module_onboarding/manufacturing_onboarding/manufacturing_onboarding.json
+#: erpnext/setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json
+msgid "Plan and run production"
+msgstr "برنامه‌ریزی و اجرای تولید"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_maintenance_schedule/create_maintenance_schedule.json
+msgid "Plan maintenance visits"
+msgstr "برنامه‌ریزی بازدیدهای نگهداری"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_production_plan/create_production_plan.json
+msgid "Plan production from your orders"
+msgstr "برنامه‌ریزی تولید بر اساس سفارش‌ها"
+
+#. Label of a Card Break in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Planning Reports"
+msgstr "گزارش‌های برنامه‌ریزی"
+
+#: erpnext/public/js/setup_wizard.js:193
+msgid "Please enter a valid date for when your financial year begins."
+msgstr "لطفاً تاریخ معتبری برای آغاز سال مالی وارد کنید."
+
+#: erpnext/public/js/setup_wizard.js:173
+msgid "Please pick a company name other than Company."
+msgstr "لطفاً نامی به‌جز «Company» برای شرکت انتخاب کنید."
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:79
+msgid "Please select a valid Batch No for this Item in the transaction row"
+msgstr "لطفاً در ردیف تراکنش، شماره دستهٔ معتبری برای این کالا انتخاب کنید."
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:674
+msgid "Please wait for barcode scanning to finish"
+msgstr "لطفاً تا پایان اسکن بارکد صبر کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/create_journal_entry/create_journal_entry.json
+msgid "Post a journal entry"
+msgstr "ثبت سند حسابداری"
+
+#. Label of a Card Break in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Production Reports"
+msgstr "گزارش‌های تولید"
+
+#. Description of the Onboarding Step 'Track progress and costs'
+#. Description of a report in the Onboarding Step 'Track progress and costs'
+#: erpnext/projects/onboarding_step/view_project_summary/view_project_summary.json
+msgid "Progress, hours and costs for every project."
+msgstr "پیشرفت، ساعات کار و هزینه‌های هر پروژه."
+
+#. Label of a Card Break in the Projects Workspace
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Project Reports"
+msgstr "گزارش‌های پروژه"
+
+#. Description of the Onboarding Step 'Plan production from your orders'
+#: erpnext/manufacturing/onboarding_step/create_production_plan/create_production_plan.json
+msgid "Pull in open sales orders and work out what to make, and what to buy, to fill them."
+msgstr "سفارش‌های باز فروش را وارد کنید تا مشخص شود برای تکمیل آن‌ها چه چیزی باید تولید یا خریداری شود."
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Purchase Reports"
+msgstr "گزارش‌های خرید"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1313
+msgid "Qty for Manufacture must be greater than the process loss of {0} to produce a finished good."
+msgstr "برای تولید محصول نهایی، مقدار تولید باید از ضایعات فرایند {0} بیشتر باشد."
+
+#. Label of a Card Break in the Quality Workspace
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Quality Reports"
+msgstr "گزارش‌های کیفیت"
+
+#: erpnext/public/js/customer_overview.js:250
+msgid "Quotations, orders, invoices and payments for this customer will show up here."
+msgstr "پیش‌فاکتورها، سفارش‌ها، صورتحساب‌ها و پرداخت‌های این مشتری اینجا نمایش داده می‌شوند."
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_quotation/create_quotation.json
+msgid "Quote a price"
+msgstr "ثبت پیش‌فاکتور"
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:431
+msgid "Raw material {0} is already mapped and can't be changed after {1} is submitted"
+msgstr "مادهٔ اولیهٔ {0} از قبل نگاشت شده و پس از ثبت {1} نمی‌توان نگاشت آن را تغییر داد."
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:478
+msgid "Raw material {0} is mapped to {1}, which is not a finished good of this entry"
+msgstr "مادهٔ اولیهٔ {0} به {1} نگاشت شده است، اما کالای مقصد محصول نهایی این سند نیست."
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Receivables & Payables"
+msgstr "حساب‌های دریافتنی و پرداختنی"
+
+#: erpnext/public/js/customer_overview.js:462
+msgid "Receivables Ageing"
+msgstr "تحلیل سنی حساب‌های دریافتنی"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/create_purchase_receipt/create_purchase_receipt.json
+msgid "Receive goods from a supplier"
+msgstr "دریافت کالا از تأمین‌کننده"
+
+#: erpnext/public/js/customer_overview.js:26
+msgid "Reconcile with 1 unpaid invoice"
+msgstr "تطبیق با 1 صورتحساب پرداخت‌نشده"
+
+#: erpnext/public/js/customer_overview.js:26
+msgid "Reconcile with {0} unpaid invoices"
+msgstr "تطبیق با {0} صورتحساب پرداخت‌نشده"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Reconciliation"
+msgstr "تطبیق"
+
+#: erpnext/public/js/utils/barcode_scanner.js:157
+msgid "Record"
+msgstr "ثبت"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_supplier_quotation/create_supplier_quotation.json
+msgid "Record a supplier's quote"
+msgstr "ثبت پیش‌فاکتور تأمین‌کننده"
+
+#. Description of the Onboarding Step 'Track what your business owns'
+#: erpnext/setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json
+msgid "Record an asset and see what it's worth year by year."
+msgstr "دارایی را ثبت کنید و ارزش آن را در هر سال ببینید."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json
+msgid "Record an asset you already own"
+msgstr "ثبت دارایی‌ای که از قبل در اختیار دارید"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Registers & Profitability"
+msgstr "دفاتر و سودآوری"
+
+#: erpnext/stock/report/utils.py:35
+msgid "Report already contains column {0}"
+msgstr "گزارش از قبل ستون {0} را دارد."
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:79
+msgid "Repost GL Entries"
+msgstr "بازپردازش اسناد دفتر کل"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:50
+msgid "Repost Stock & GL Entries"
+msgstr "بازپردازش اسناد موجودی و دفتر کل"
+
+#. Name of a list layout for Material Request
+#: erpnext/stock/doctype/material_request/list_filter/material_request_required_in_7_days.json
+msgid "Required in 7 Days"
+msgstr "موردنیاز تا 7 روز آینده"
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_project_template/create_project_template.json
+msgid "Reuse it as a template"
+msgstr "استفادهٔ مجدد به‌عنوان الگو"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_quality_review/create_quality_review.json
+msgid "Review how a goal is going"
+msgstr "روند پیشرفت هدف را بررسی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "Review your chart of accounts"
+msgstr "سرفصل‌های حساب خود را بازبینی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/review_taxes/review_taxes.json
+msgid "Review your taxes"
+msgstr "مالیات‌های خود را بازبینی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "Review your warehouses"
+msgstr "انبارهای خود را بازبینی کنید"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.py:244
+msgid "Row #{0}: Planned Qty must be greater than 0 for Item {1}."
+msgstr "ردیف {0}: مقدار برنامه‌ریزی‌شده برای کالای {1} باید بیشتر از 0 باشد."
+
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.py:55
+msgid "Row #{0}: Selected Serial No no longer exists."
+msgstr "ردیف {0}: شماره سریال انتخاب‌شده دیگر وجود ندارد."
+
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:315
+#: erpnext/selling/doctype/installation_note/installation_note.py:110
+msgid "Row #{0}: Serial and Batch Bundle does not belong to Item {1}"
+msgstr "ردیف {0}: بستهٔ شماره‌های سریال و دسته به کالای {1} تعلق ندارد."
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:422
+msgid "Row {0} is not a raw material serial / batch entry of {1}"
+msgstr "ردیف {0} ورودی شماره سریال/دستهٔ مادهٔ اولیهٔ {1} نیست."
+
+#: erpnext/accounts/services/party_validation.py:85
+msgid "Row {0}: Item {1} is not allowed for {2} {3}."
+msgstr "ردیف {0}: کالاى {1} برای {2} {3} مجاز نیست."
+
+#. Name of a list layout for Issue
+#: erpnext/support/doctype/issue/list_filter/issue_sla_failed.json
+msgid "SLA Failed"
+msgstr "SLA محقق نشد"
+
+#: erpnext/public/js/customer_overview.js:126
+msgid "Sales Period"
+msgstr "دورهٔ فروش"
+
+#. Label of a Card Break in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Sales Reports"
+msgstr "گزارش‌های فروش"
+
+#. Label of a Card Break in the Selling Workspace
+#: erpnext/selling/workspace/selling/selling.json
+msgid "Sales Team Reports"
+msgstr "گزارش‌های تیم فروش"
+
+#. Description of a report in the Onboarding Step 'Spot your best sellers'
+#: erpnext/selling/onboarding_step/view_sales_analytics/view_sales_analytics.json
+msgid "Sales by customer, item or territory, over any period."
+msgstr "فروش به تفکیک مشتری، کالا یا منطقه در هر بازهٔ زمانی."
+
+#: erpnext/public/js/customer_overview.js:592
+#: erpnext/public/js/customer_overview.js:619
+msgid "Save or discard your other changes to this customer first."
+msgstr "ابتدا تغییرات دیگر این مشتری را ذخیره یا لغو کنید."
+
+#. Description of the Onboarding Step 'Reuse it as a template'
+#: erpnext/projects/onboarding_step/create_project_template/create_project_template.json
+msgid "Save the tasks you repeat on every job, and start the next project from them."
+msgstr "کارهای تکراری هر پروژه را ذخیره کنید و پروژهٔ بعدی را با همان‌ها آغاز کنید."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:346
+msgid "Scanned batch quantities must be greater than zero"
+msgstr "مقدار دسته‌های اسکن‌شده باید بیشتر از صفر باشد."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:344
+msgid "Scanned batches must be a list of numbers and quantities"
+msgstr "دسته‌های اسکن‌شده باید فهرستی از شماره‌ها و مقدارها باشند."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:282
+msgid "Scanned serials must be a list of numbers and batches"
+msgstr "شماره‌های سریال اسکن‌شده باید فهرستی از شماره‌ها و دسته‌ها باشند."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/create_asset_maintenance/create_asset_maintenance.json
+msgid "Schedule its upkeep"
+msgstr "زمان‌بندی نگهداری آن را تنظیم کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/view_fixed_asset_register/view_fixed_asset_register.json
+msgid "See everything you own"
+msgstr "همهٔ دارایی‌های خود را ببینید"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "See how production is going"
+msgstr "روند تولید را ببینید"
+
+#: erpnext/public/js/utils/barcode_scanner.js:132
+msgid "Select Scanned Item"
+msgstr "انتخاب کالای اسکن‌شده"
+
+#. Description of the 'Represents Company' (Link) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Select the related company that this Customer represents for inter-company transactions."
+msgstr "شرکت مرتبطی را انتخاب کنید که این مشتری در تراکنش‌های بین‌شرکتی نمایندگی آن را دارد."
+
+#. Description of the 'Represents Company' (Link) field in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "Select the related company that this Supplier represents for inter-company transactions."
+msgstr "شرکت مرتبطی را انتخاب کنید که این تأمین‌کننده در تراکنش‌های بین‌شرکتی نمایندگی آن را دارد."
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_sales_invoice/create_sales_invoice.json
+msgid "Send your first invoice"
+msgstr "اولین صورتحساب خود را ارسال کنید"
+
+#. Label of a Sidebar Item
+#: erpnext/stock/sidebar/stock/stock.json
+msgid "Serial & Batch"
+msgstr "سریال و دسته"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Serial & Batch Reports"
+msgstr "گزارش‌های سریال و دسته"
+
+#: erpnext/stock/doctype/item/item.py:1331
+msgid "Serial / Batch No Not Activated"
+msgstr "رهگیری شماره سریال/دسته فعال نشده است."
+
+#: erpnext/stock/get_item_details.py:444
+msgid "Serial No {0} belongs to multiple items. Please select an Item first."
+msgstr "شماره سریال {0} به چند کالا تعلق دارد. ابتدا یک کالا انتخاب کنید."
+
+#: erpnext/selling/page/point_of_sale/pos_controller.js:864
+msgid "Serial No {0} is already added."
+msgstr "شماره سریال {0} از قبل اضافه شده است."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1470
+msgid "Serial Nos {0} are not part of the original document."
+msgstr "شماره‌های سریال {0} جزو سند اصلی نیستند."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2442
+msgid "Serial and Batch Bundle {0} is not a draft and its entries cannot be modified."
+msgstr "بستهٔ سریال و دستهٔ {0} پیش‌نویس نیست و ورودی‌های آن را نمی‌توان تغییر داد."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1947
+msgid "Serial and batch entries can only be changed in a draft bundle"
+msgstr "ورودی‌های سریال و دسته فقط در بستهٔ پیش‌نویس قابل تغییر هستند."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1952
+msgid "Serial and batch input must be a dictionary"
+msgstr "ورودی سریال و دسته باید از نوع دیکشنری باشد."
+
+#. Name of a list layout for Item
+#: erpnext/stock/doctype/item/list_filter/item_serialized.json
+msgid "Serialized"
+msgstr "دارای شماره سریال"
+
+#: erpnext/public/js/customer_overview.js:560
+#: erpnext/public/js/customer_overview.js:611
+msgid "Set Credit Limit"
+msgstr "تعیین سقف اعتبار"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_quality_goal/create_quality_goal.json
+msgid "Set a quality goal"
+msgstr "تعیین هدف کیفیت"
+
+#. Description of the 'From Date' (Date) field in DocType 'Stock Closing Entry'
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+msgid "Set automatically to the day after the previous Stock Closing Entry, or to the first stock transaction's date"
+msgstr "به‌طور خودکار روی روز پس از آخرین سند بستن موجودی یا تاریخ نخستین تراکنش موجودی تنظیم می‌شود."
+
+#: erpnext/public/js/customer_overview.js:556
+msgid "Set one for {0} to check new orders and invoices against it."
+msgstr "برای {0} سقف اعتباری تعیین کنید تا سفارش‌ها و صورتحساب‌های جدید با آن سنجیده شوند."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/create_asset_category/create_asset_category.json
+msgid "Set up an asset category"
+msgstr "تنظیم دسته‌بندی دارایی"
+
+#: erpnext/public/js/customer_overview.js:513
+msgid "Edit credit limit"
+msgstr "ویرایش سقف اعتبار"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/create_accounting_purchase_invoice/create_accounting_purchase_invoice.json
+msgid "Enter a supplier's bill"
+msgstr "صورتحساب تأمین‌کننده را وارد کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/create_opening_stock/create_opening_stock.json
+msgid "Enter the stock you have today"
+msgstr "موجودی فعلی خود را وارد کنید."
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/create_purchase_invoice/create_purchase_invoice.json
+msgid "Enter their bill"
+msgstr "صورتحساب آن را وارد کنید."
+
+#. Description of a report in the Onboarding Step 'Check its depreciation'
+#: erpnext/assets/onboarding_step/view_asset_depreciation/view_asset_depreciation.json
+msgid "Every depreciation posted, asset by asset."
+msgstr "همهٔ اسناد ثبت‌شدهٔ استهلاک، به تفکیک دارایی."
+
+#. Description of a report in the Onboarding Step 'Follow every movement'
+#: erpnext/stock/onboarding_step/view_stock_ledger/view_stock_ledger.json
+msgid "Every movement of every item, in and out."
+msgstr "همهٔ ورود و خروج‌های هر کالا."
+
+#. Description of a report in the Onboarding Step 'Trace every posting'
+#: erpnext/accounts/onboarding_step/view_general_ledger/view_general_ledger.json
+msgid "Every posting, with its debit and credit."
+msgstr "همهٔ اسناد ثبت‌شده، همراه با بدهکار و بستانکار."
+
+#. Description of a report in the Onboarding Step 'See how production is going'
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "Every work order, how far along it is, and what is late."
+msgstr "همهٔ دستورهای کار، میزان پیشرفت و موارد با تأخیر."
+
+#: erpnext/stock/tests/test_serial_batch_identity.py:1195
+msgid "Existing notice"
+msgstr "اطلاعیهٔ موجود"
+
+#. Name of a list layout for Batch
+#: erpnext/stock/doctype/batch/list_filter/batch_expiring_soon.json
+msgid "Expiring Soon"
+msgstr "به‌زودی منقضی می‌شود"
+
+#. Name of a list layout for Quotation
+#: erpnext/selling/doctype/quotation/list_filter/quotation_expiring_in_7_days.json
+msgid "Expiring in 7 Days"
+msgstr "منقضی‌شدن تا 7 روز آینده"
+
+#: erpnext/public/js/utils/serial_batch_inline_editor.js:609
+msgid "Fetch"
+msgstr "دریافت"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/finish_work_order/finish_work_order.json
+msgid "Finish making it"
+msgstr "پایان تولید"
+
+#. Label of the fg_batch_no (Link) field in DocType 'Serial and Batch Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+msgid "Finished Good Batch No"
+msgstr "شماره دستهٔ محصول نهایی"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1560
+msgid "Finished Good Does Not Match BOM"
+msgstr "محصول نهایی با صورت مواد و عملیات (BOM) مطابقت ندارد."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:771
+msgid "Finished Good Serial / Batch No"
+msgstr "شماره سریال/دستهٔ محصول نهایی"
+
+#. Label of the fg_serial_no (Link) field in DocType 'Serial and Batch Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+msgid "Finished Good Serial No"
+msgstr "شماره سریال محصول نهایی"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1584
+msgid "Finished Good UOM Mismatch"
+msgstr "واحد اندازه‌گیری محصول نهایی مطابقت ندارد."
+
+#. Description of the 'Finished Good Batch No' (Link) field in DocType 'Serial
+#. and Batch Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+msgid "Finished good batch this raw material was consumed into (Manufacture / Repack)"
+msgstr "دستهٔ محصول نهایی‌ای که این مادهٔ اولیه در تولید/بسته‌بندی مجدد مصرف شده است."
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:548
+msgid "Finished good mapping can't be changed for a cancelled entry"
+msgstr "نگاشت محصول نهایی در سند لغوشده قابل تغییر نیست."
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:544
+msgid "Finished good mapping is only allowed for Manufacture and Repack entries"
+msgstr "نگاشت محصول نهایی فقط برای اسناد تولید و بسته‌بندی مجدد مجاز است."
+
+#. Description of the 'Finished Good Serial No' (Link) field in DocType 'Serial
+#. and Batch Entry'
+#: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
+msgid "Finished good serial no this raw material was consumed into (Manufacture / Repack)"
+msgstr "شماره سریال محصول نهایی‌ای که این مادهٔ اولیه در تولید/بسته‌بندی مجدد مصرف شده است."
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/view_stock_ledger/view_stock_ledger.json
+msgid "Follow every movement"
+msgstr "پیگیری همهٔ جابه‌جایی‌ها"
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/view_accounts_receivable/view_accounts_receivable.json
+msgid "Follow up on unpaid invoices"
+msgstr "پیگیری صورتحساب‌های پرداخت‌نشده"
+
+#. Name of a list layout for Pick List
+#: erpnext/stock/doctype/pick_list/list_filter/pick_list_for_delivery.json
+msgid "For Delivery"
+msgstr "برای تحویل"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:45
+msgid "From Date cannot be after As On Date"
+msgstr "تاریخ شروع نمی‌تواند بعد از تاریخ «تا تاریخ» باشد."
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/create_payment_entry/create_payment_entry.json
+msgid "Get paid"
+msgstr "دریافت وجه"
+
+#. Title of the Module Onboarding 'Organization Onboarding'
+#: erpnext/setup/module_onboarding/organization_onboarding/organization_onboarding.json
+msgid "Get to know ERPNext"
+msgstr "آشنایی با ERPNext"
+
+#. Title of the Module Onboarding 'Accounting Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/accounts/module_onboarding/accounting_onboarding/accounting_onboarding.json
+#: erpnext/setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json
+msgid "Get your books ready"
+msgstr "آماده‌سازی دفاتر حسابداری"
+
+#: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:49
+msgid "Group the report by Purchase Order or by Item, not both."
+msgstr "گزارش را بر اساس سفارش خرید یا کالا گروه‌بندی کنید، نه هر دو."
+
+#. Title of an Onboarding Step
+#: erpnext/assets/onboarding_step/create_asset_movement/create_asset_movement.json
+msgid "Hand it to a person or place"
+msgstr "تحویل به شخص یا محل"
+
+#. Name of a list layout for Asset
+#: erpnext/assets/doctype/asset/list_filter/asset_in_use.json
+msgid "In Use"
+msgstr "در حال استفاده"
+
+#. Description of the Onboarding Step 'Check your profit'
+#: erpnext/accounts/onboarding_step/view_profit_and_loss/view_profit_and_loss.json
+msgid "Income against expenses for any period, built from every invoice and payment you have recorded."
+msgstr "درآمد در برابر هزینه‌ها برای هر بازه، بر پایهٔ همهٔ صورتحساب‌ها و پرداخت‌های ثبت‌شده."
+
+#. Description of a report in the Onboarding Step 'Check your profit'
+#: erpnext/accounts/onboarding_step/view_profit_and_loss/view_profit_and_loss.json
+msgid "Income against expenses, from every invoice and payment."
+msgstr "درآمد در برابر هزینه‌ها، بر پایهٔ همهٔ صورتحساب‌ها و پرداخت‌ها."
+
+#. Name of a list layout for Customer
+#: erpnext/selling/doctype/customer/list_filter/customer_individuals.json
+msgid "Individuals"
+msgstr "اشخاص حقیقی"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_quality_inspection/create_quality_inspection.json
+msgid "Inspect goods coming in or going out"
+msgstr "بازرسی کالاهای ورودی و خروجی"
+
+#: erpnext/stock/stock_ledger.py:2212
+msgid "Invalid operator {0}"
+msgstr "عملگر {0} نامعتبر است."
+
+#. Title of an Onboarding Step
+#: erpnext/setup/onboarding_step/invite_users/invite_users.json
+msgid "Invite your team"
+msgstr "دعوت از اعضای تیم"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Invoicing & Payments"
+msgstr "صورتحساب‌ها و پرداخت‌ها"
+
+#. Name of a Kanban board for Issue
+#: erpnext/support/doctype/issue/kanban_board/issue_status.json
+msgid "Issue Status"
+msgstr "وضعیت مشکل"
+
+#. Name of a list layout for Stock Entry
+#: erpnext/stock/doctype/stock_entry/list_filter/stock_entry_issues_and_receipts.json
+msgid "Issues and Receipts"
+msgstr "حواله‌های خروج و رسیدها"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Item Reports"
+msgstr "گزارش‌های کالا"
+
+#: erpnext/accounts/services/party_validation.py:88
+msgid "Item Restricted for Party"
+msgstr "کالا برای این طرف حساب محدود شده است."
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:3749
+#: erpnext/stock/serial_batch_identity.py:55
+msgid "Item is required"
+msgstr "انتخاب کالا الزامی است."
+
+#: erpnext/stock/serial_batch_identity.py:181
+msgid "Item {0} does not have serial numbers enabled"
+msgstr "رهگیری شماره سریال برای کالای {0} فعال نیست."
+
+#. Title of the Module Onboarding 'Quality Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/quality_management/module_onboarding/quality_onboarding/quality_onboarding.json
+#: erpnext/setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json
+msgid "Keep quality in check"
+msgstr "کیفیت را کنترل کنید"
+
+#. Title of an Onboarding Step
+#. Title of the Module Onboarding 'Stock Onboarding'
+#: erpnext/setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json
+#: erpnext/stock/module_onboarding/stock_onboarding/stock_onboarding.json
+msgid "Keep track of your stock"
+msgstr "موجودی انبار خود را پیگیری کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json
+msgid "Know what you own and owe"
+msgstr "از دارایی‌ها و بدهی‌های خود آگاه باشید"
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:194
+msgid "Later Stock Closing Entry Exists"
+msgstr "سند بستن موجودی بعدی وجود دارد."
+
+#. Name of a Kanban board for Lead
+#: erpnext/crm/doctype/lead/kanban_board/lead_pipeline.json
+msgid "Lead Pipeline"
+msgstr "قیف سرنخ‌های فروش"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Ledger Tools"
+msgstr "ابزارهای دفتر کل"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_non_conformance/create_non_conformance.json
+msgid "Log a problem"
+msgstr "ثبت مشکل"
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_timesheet/create_timesheet.json
+msgid "Log time against it"
+msgstr "ثبت زمان صرف‌شده برای آن"
+
+#. Title of the Module Onboarding 'Selling Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/selling/module_onboarding/selling_onboarding/selling_onboarding.json
+#: erpnext/setup/onboarding_step/complete_selling_onboarding/complete_selling_onboarding.json
+msgid "Make your first sale"
+msgstr "اولین فروش خود را انجام دهید"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:446
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:708
+msgid "Map Raw Materials to Finished Goods"
+msgstr "نگاشت مواد اولیه به محصولات نهایی"
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:402
+msgid "Mapping must be a dictionary of raw material entries to finished goods"
+msgstr "نگاشت باید دیکشنری‌ای از ورودی‌های مواد اولیه به محصولات نهایی باشد."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:790
+msgid "Mapping saved"
+msgstr "نگاشت ذخیره شد."
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/open_banking/open_banking.json
+msgid "Match your bank statement"
+msgstr "تطبیق صورت‌حساب بانکی"
+
+#: erpnext/stock/doctype/material_request/material_request.py:615
+msgid "Material Request must be submitted to create Work Orders"
+msgstr "برای ایجاد دستورهای کار، درخواست مواد باید ثبت نهایی شده باشد."
+
+#. Label of a Sidebar Item
+#: erpnext/quality_management/sidebar/quality/quality.json
+msgid "Meetings & Feedback"
+msgstr "جلسه‌ها و بازخوردها"
+
+#: erpnext/public/js/customer_overview.js:408
+msgid "Monthly Sales Trend"
+msgstr "روند ماهانهٔ فروش"
+
+#: erpnext/public/js/customer_overview.js:409
+msgid "Monthly, net of returns"
+msgstr "ماهانه، پس از کسر برگشت از فروش"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/move_stock/move_stock.json
+msgid "Move stock between warehouses"
+msgstr "انتقال موجودی بین انبارها"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Movement Reports"
+msgstr "گزارش‌های جابه‌جایی"
+
+#. Name of a list layout for Asset
+#: erpnext/assets/doctype/asset/list_filter/asset_needs_attention.json
+msgid "Needs Attention"
+msgstr "نیازمند رسیدگی"
+
+#: erpnext/public/js/customer_overview.js:292
+#: erpnext/public/js/customer_overview.js:395
+msgid "Net Sales"
+msgstr "فروش خالص"
+
+#. Name of a list layout for Lead
+#: erpnext/crm/doctype/lead/list_filter/lead_new_this_week.json
+msgid "New This Week"
+msgstr "موارد جدید این هفته"
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:339
+msgid "No Matching Vouchers Found"
+msgstr "سند منطبقی پیدا نشد."
+
+#: erpnext/public/js/customer_overview.js:249
+msgid "No activity yet"
+msgstr "هنوز فعالیتی ثبت نشده است."
+
+#: erpnext/public/js/customer_overview.js:555
+msgid "No credit limit"
+msgstr "بدون سقف اعتبار"
+
+#: erpnext/public/js/customer_overview.js:414
+msgid "No sales in this period"
+msgstr "در این بازه فروشی ثبت نشده است."
+
+#: erpnext/public/js/customer_overview.js:772
+msgid "No transactions yet"
+msgstr "هنوز تراکنشی ثبت نشده است."
+
+#: erpnext/public/js/customer_overview.js:343
+msgid "No unapplied payments"
+msgstr "پرداخت تخصیص‌نیافته‌ای وجود ندارد."
+
+#: erpnext/public/js/customer_overview.js:664
+msgid "None open"
+msgstr "مورد بازی وجود ندارد."
+
+#: erpnext/public/js/customer_overview.js:28
+msgid "Not applied to 1 unpaid invoice"
+msgstr "به 1 صورتحساب پرداخت‌نشده تخصیص نیافته است."
+
+#: erpnext/public/js/customer_overview.js:28
+msgid "Not applied to {0} unpaid invoices"
+msgstr "به {0} صورتحساب پرداخت‌نشده تخصیص نیافته است."
+
+#: erpnext/public/js/customer_overview.js:339
+msgid "Not available in Accounts Receivable Summary"
+msgstr "در خلاصهٔ حساب‌های دریافتنی در دسترس نیست."
+
+#: erpnext/public/js/customer_overview.js:532
+#: erpnext/selling/doctype/customer/customer_overview.py:238
+msgid "Not due"
+msgstr "سررسیدنشده"
+
+#: erpnext/selling/doctype/customer/customer_overview.py:84
+msgid "Not permitted for company {0}"
+msgstr "برای شرکت {0} مجاز نیست."
+
+#: erpnext/public/js/customer_overview.js:469
+msgid "Nothing outstanding"
+msgstr "مورد پرداخت‌نشده‌ای وجود ندارد."
+
+#: erpnext/public/js/customer_overview.js:491
+msgid "Nothing overdue"
+msgstr "مورد معوقی وجود ندارد."
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:309
+msgid "Only users with the {0} role can repost GL entries"
+msgstr "فقط کاربران دارای نقش {0} می‌توانند اسناد دفتر کل را بازپردازش کنند."
+
+#. Label of an action in the Onboarding Step 'Get your books ready'
+#: erpnext/setup/onboarding_step/complete_accounting_onboarding/complete_accounting_onboarding.json
+msgid "Open Accounts"
+msgstr "بازکردن حساب‌ها"
+
+#. Label of an action in the Onboarding Step 'Check what you owe'
+#: erpnext/buying/onboarding_step/view_accounts_payable/view_accounts_payable.json
+msgid "Open Accounts Payable"
+msgstr "بازکردن حساب‌های پرداختنی"
+
+#. Label of an action in the Onboarding Step 'Follow up on unpaid invoices'
+#: erpnext/selling/onboarding_step/view_accounts_receivable/view_accounts_receivable.json
+msgid "Open Accounts Receivable"
+msgstr "بازکردن حساب‌های دریافتنی"
+
+#. Label of an action in the Onboarding Step 'Check its depreciation'
+#: erpnext/assets/onboarding_step/view_asset_depreciation/view_asset_depreciation.json
+msgid "Open Asset Depreciation Ledger"
+msgstr "بازکردن دفتر استهلاک دارایی"
+
+#. Label of an action in the Onboarding Step 'Track what your business owns'
+#: erpnext/setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json
+msgid "Open Assets"
+msgstr "بازکردن دارایی‌ها"
+
+#. Label of an action in the Onboarding Step 'Know what you own and owe'
+#: erpnext/accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json
+msgid "Open Balance Sheet"
+msgstr "بازکردن ترازنامه"
+
+#. Label of an action in the Onboarding Step 'Match your bank statement'
+#: erpnext/accounts/onboarding_step/open_banking/open_banking.json
+msgid "Open Banking"
+msgstr "بازکردن بخش بانکداری"
+
+#. Label of an action in the Onboarding Step 'Order from your suppliers'
+#: erpnext/setup/onboarding_step/complete_buying_onboarding/complete_buying_onboarding.json
+msgid "Open Buying"
+msgstr "بازکردن بخش خرید"
+
+#. Label of an action in the Onboarding Step 'Review your chart of accounts'
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "Open Chart of Accounts"
+msgstr "بازکردن سرفصل‌های حساب"
+
+#. Label of an action in the Onboarding Step 'Spot delayed tasks'
+#: erpnext/projects/onboarding_step/view_delayed_tasks/view_delayed_tasks.json
+msgid "Open Delayed Tasks Summary"
+msgstr "بازکردن خلاصهٔ کارهای با تأخیر"
+
+#. Label of an action in the Onboarding Step 'See everything you own'
+#: erpnext/assets/onboarding_step/view_fixed_asset_register/view_fixed_asset_register.json
+msgid "Open Fixed Asset Register"
+msgstr "بازکردن دفتر دارایی‌های ثابت"
+
+#. Label of an action in the Onboarding Step 'Trace every posting'
+#: erpnext/accounts/onboarding_step/view_general_ledger/view_general_ledger.json
+msgid "Open General Ledger"
+msgstr "بازکردن دفتر کل"
+
+#. Label of an action in the Onboarding Step 'Plan and run production'
+#: erpnext/setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json
+msgid "Open Manufacturing"
+msgstr "بازکردن بخش تولید"
+
+#: erpnext/public/js/customer_overview.js:648
+msgid "Open Pipeline"
+msgstr "بازکردن قیف فروش"
+
+#. Label of an action in the Onboarding Step 'Check your profit'
+#: erpnext/accounts/onboarding_step/view_profit_and_loss/view_profit_and_loss.json
+msgid "Open Profit and Loss"
+msgstr "بازکردن سود و زیان"
+
+#. Label of an action in the Onboarding Step 'Track progress and costs'
+#: erpnext/projects/onboarding_step/view_project_summary/view_project_summary.json
+msgid "Open Project Summary"
+msgstr "بازکردن خلاصهٔ پروژه"
+
+#. Label of an action in the Onboarding Step 'Track your orders'
+#: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
+msgid "Open Purchase Order Analysis"
+msgstr "بازکردن تحلیل سفارش خرید"
+
+#. Label of an action in the Onboarding Step 'Keep quality in check'
+#: erpnext/setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json
+msgid "Open Quality"
+msgstr "بازکردن بخش کیفیت"
+
+
+#. Description of the Onboarding Step 'Add a supplier'
+#: erpnext/buying/onboarding_step/create_supplier/create_supplier.json
+msgid "A business or person you buy from. See [Supplier](https://docs.frappe.io/erpnext/user/manual/en/supplier)."
+msgstr "یک کسب‌وکار یا شخصی که از او خرید می‌کنید. راهنما: [تأمین‌کننده](https://docs.frappe.io/erpnext/user/manual/en/supplier)."
+
+#. Description of the Onboarding Step 'Add a customer'
+#: erpnext/selling/onboarding_step/create_customer/create_customer.json
+msgid "A business or person you sell to. See [Customer](https://docs.frappe.io/erpnext/user/manual/en/customer)."
+msgstr "یک کسب‌وکار یا شخصی که به او می‌فروشید. راهنما: [مشتری](https://docs.frappe.io/erpnext/user/manual/en/customer)."
+
+#. Description of the Onboarding Step 'Add an item you sell'
+#: erpnext/selling/onboarding_step/create_selling_item/create_selling_item.json
+msgid "A product or a service you sell. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "محصول یا خدمتی که می‌فروشید. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Start a project'
+#: erpnext/projects/onboarding_step/create_project/create_project.json
+msgid "Anything with a start and an end: a client job, an installation, an internal initiative. See [Project](https://docs.frappe.io/erpnext/user/manual/en/project)."
+msgstr "کاری با زمان شروع و پایان؛ مانند پروژهٔ مشتری، نصب یا طرح داخلی. راهنما: [پروژه](https://docs.frappe.io/erpnext/user/manual/en/project)."
+
+#. Description of the Onboarding Step 'Add an item you stock'
+#: erpnext/stock/onboarding_step/create_item/create_item.json
+msgid "Anything you keep on shelves and count. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "هر چیزی که در انبار نگه می‌دارید و موجودی آن را می‌شمارید. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Know what you own and owe'
+#: erpnext/accounts/onboarding_step/view_balance_sheet/view_balance_sheet.json
+msgid "Assets, liabilities and equity on any date, straight from your ledger. See [Balance Sheet](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet)."
+msgstr "دارایی‌ها، بدهی‌ها و حقوق صاحبان سهام در هر تاریخ، بر پایهٔ دفتر کل. راهنما: [ترازنامه](https://docs.frappe.io/erpnext/user/manual/en/balance-sheet)."
+
+#. Description of the Onboarding Step 'Send your first invoice'
+#: erpnext/selling/onboarding_step/create_sales_invoice/create_sales_invoice.json
+msgid "Bill your customer for the item. Submit it, then use **Print** to see it on paper or send it as a PDF. See [Sales Invoice](https://docs.frappe.io/erpnext/user/manual/en/sales-invoice)."
+msgstr "برای کالا از مشتری صورتحساب صادر کنید. آن را ثبت کنید و با «چاپ» روی کاغذ ببینید یا به‌صورت PDF بفرستید. راهنما: [صورتحساب فروش](https://docs.frappe.io/erpnext/user/manual/en/sales-invoice)."
+
+#. Description of the Onboarding Step 'Review how a goal is going'
+#: erpnext/quality_management/onboarding_step/create_quality_review/create_quality_review.json
+msgid "Compare the results against the goal, and decide what to change. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr "نتیجه‌ها را با هدف مقایسه کنید و دربارهٔ تغییرات تصمیم بگیرید. راهنما: [مدیریت کیفیت](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+
+#. Description of the Onboarding Step 'Set up an asset category'
+#: erpnext/assets/onboarding_step/create_asset_category/create_asset_category.json
+msgid "Computers, vehicles, furniture: how each kind depreciates, and which accounts it posts to. See [Asset Category](https://docs.frappe.io/erpnext/user/manual/en/asset-category)."
+msgstr "رایانه، خودرو و مبلمان: روش استهلاک هرکدام و حساب‌هایی که در آن‌ها ثبت می‌شود. راهنما: [دستهٔ دارایی](https://docs.frappe.io/erpnext/user/manual/en/asset-category)."
+
+#. Description of the Onboarding Step 'Confirm a sales order'
+#: erpnext/selling/onboarding_step/create_sales_order/create_sales_order.json
+msgid "Confirm what the customer ordered and when it is due. Deliver and invoice from the order itself. See [Sales Order](https://docs.frappe.io/erpnext/user/manual/en/sales-order)."
+msgstr "سفارش مشتری و موعد آن را تأیید کنید. کالا را تحویل دهید و از همان سفارش صورتحساب صادر کنید. راهنما: [سفارش فروش](https://docs.frappe.io/erpnext/user/manual/en/sales-order)."
+
+#. Description of the Onboarding Step 'Plan a work order'
+#: erpnext/manufacturing/onboarding_step/create_work_order/create_work_order.json
+msgid "Decide how many to make. The raw materials you need are worked out from the BOM. See [Work Order](https://docs.frappe.io/erpnext/user/manual/en/work-order)."
+msgstr "تعداد موردنیاز برای تولید را تعیین کنید؛ مواد اولیه بر اساس BOM محاسبه می‌شوند. راهنما: [سفارش کار](https://docs.frappe.io/erpnext/user/manual/en/work-order)."
+
+#. Description of the Onboarding Step 'Check its depreciation'
+#: erpnext/assets/onboarding_step/view_asset_depreciation/view_asset_depreciation.json
+msgid "Depreciation is posted on schedule, asset by asset, without a journal entry from you. See [Depreciation](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation)."
+msgstr "استهلاک هر دارایی طبق برنامه ثبت می‌شود و نیازی به ثبت سند روزنامه‌ای از طرف شما نیست. راهنما: [استهلاک](https://docs.frappe.io/erpnext/user/manual/en/asset-depreciation)."
+
+#. Description of the Onboarding Step 'Follow every movement'
+#: erpnext/stock/onboarding_step/view_stock_ledger/view_stock_ledger.json
+msgid "Every movement of every item, in and out, with the balance after each. See [Stock Ledger](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger)."
+msgstr "تمام ورود و خروج هر کالا، همراه با مانده پس از هر حرکت. راهنما: [دفتر کل موجودی](https://docs.frappe.io/erpnext/user/manual/en/stock-ledger)."
+
+#. Description of the Onboarding Step 'Trace every posting'
+#: erpnext/accounts/onboarding_step/view_general_ledger/view_general_ledger.json
+msgid "Every posting from your invoices and payments, with its debit and credit. See [General Ledger](https://docs.frappe.io/erpnext/user/manual/en/general-ledger)."
+msgstr "تمام ثبت‌های حاصل از صورتحساب‌ها و پرداخت‌ها، همراه با بدهکار و بستانکار. راهنما: [دفتر کل](https://docs.frappe.io/erpnext/user/manual/en/general-ledger)."
+
+#. Description of the Onboarding Step 'See how production is going'
+#: erpnext/manufacturing/onboarding_step/view_work_order_summary_report/view_work_order_summary_report.json
+msgid "Every work order, how far along it is, and what is running late. See [Work Order Summary](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary)."
+msgstr "همهٔ سفارش‌های کار، میزان پیشرفت و مواردی که از برنامه عقب مانده‌اند. راهنما: [خلاصهٔ سفارش کار](https://docs.frappe.io/erpnext/user/manual/en/work-order-summary)."
+
+#. Description of the Onboarding Step 'Post a journal entry'
+#: erpnext/accounts/onboarding_step/create_journal_entry/create_journal_entry.json
+msgid "For anything that isn't an invoice or a payment: accruals, depreciation, or fixing a mistake. See [Journal Entry](https://docs.frappe.io/erpnext/user/manual/en/journal-entry)."
+msgstr "برای مواردی غیر از صورتحساب یا پرداخت، مانند تعهدات، استهلاک یا اصلاح اشتباه. راهنما: [سند روزنامه](https://docs.frappe.io/erpnext/user/manual/en/journal-entry)."
+
+#. Description of the Onboarding Step 'Move stock between warehouses'
+#: erpnext/stock/onboarding_step/move_stock/move_stock.json
+msgid "From the store to the shop floor, or between branches. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+msgstr "کالا را از انبار به خط تولید یا میان شعب جابه‌جا کنید. راهنما: [حوالهٔ انبار](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+
+#. Description of the Onboarding Step 'Add an item you buy'
+#: erpnext/buying/onboarding_step/create_buying_item/create_buying_item.json
+msgid "Goods or services you buy from suppliers. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "کالاها یا خدماتی که از تأمین‌کنندگان می‌خرید. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Enter the stock you have today'
+#: erpnext/stock/onboarding_step/create_opening_stock/create_opening_stock.json
+msgid "How much of each item is on your shelves, and what it is worth. From here, every receipt and delivery keeps it up to date. See [Stock Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+msgstr "مقدار و ارزش هر کالا در قفسه‌ها را ببینید. هر رسید و تحویل، موجودی را به‌روز می‌کند. راهنما: [مغایرت‌گیری موجودی](https://docs.frappe.io/erpnext/user/manual/en/stock-reconciliation)."
+
+#. Description of the Onboarding Step 'Match your bank statement'
+#: erpnext/accounts/onboarding_step/open_banking/open_banking.json
+msgid "Import a statement from your bank and pair each line with a payment, so your books agree with it. See [Bank Reconciliation](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation)."
+msgstr "صورت‌حساب بانکی را وارد کنید و هر ردیف را با پرداخت متناظر تطبیق دهید تا دفاتر با بانک سازگار شوند. راهنما: [مغایرت‌گیری بانکی](https://docs.frappe.io/erpnext/user/manual/en/bank-reconciliation)."
+
+#. Description of the Onboarding Step 'Pay your supplier'
+#: erpnext/buying/onboarding_step/pay_supplier/pay_supplier.json
+msgid "It clears their bill and takes the money out of your bank or cash account. See [Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+msgstr "بدهی تأمین‌کننده را تسویه و مبلغ را از حساب بانکی یا نقدی کسر می‌کند. راهنما: [سند پرداخت](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+
+#. Description of the Onboarding Step 'Enter a supplier's bill'
+#: erpnext/accounts/onboarding_step/create_accounting_purchase_invoice/create_accounting_purchase_invoice.json
+msgid "It posts the expense, and what you owe the supplier, to your ledger. See [Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+msgstr "هزینه و بدهی شما به تأمین‌کننده را در دفتر کل ثبت می‌کند. راهنما: [صورتحساب خرید](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:700
+msgid "Link the Serial and Batch Bundles of the raw materials and finished goods first. If you skip this, they are mapped automatically on submit."
+msgstr "ابتدا بسته‌های سریال و بچ مواد اولیه و کالای نهایی را پیوند دهید. در غیر این صورت، هنگام ثبت به‌صورت خودکار نگاشت می‌شوند."
+
+#. Description of the Onboarding Step 'Record a supplier's quote'
+#: erpnext/buying/onboarding_step/create_supplier_quotation/create_supplier_quotation.json
+msgid "Note down a price a supplier offered, so you can compare suppliers before you order. See [Supplier Quotation](https://docs.frappe.io/erpnext/user/manual/en/supplier-quotation)."
+msgstr "قیمت پیشنهادی تأمین‌کننده را ثبت کنید تا پیش از سفارش، پیشنهادها را مقایسه کنید. راهنما: [پیش‌فاکتور تأمین‌کننده](https://docs.frappe.io/erpnext/user/manual/en/supplier-quotation)."
+
+#. Description of the 'Auto Map Raw Materials to Finished Goods' (Check) field
+#. in DocType 'Stock Settings'
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "On submit of a Manufacture / Repack entry, map the raw material serial / batch nos that were not mapped in draft to the finished goods, in order"
+msgstr "هنگام ثبت سند تولید یا بازبسته‌بندی، سریال‌ها یا بچ‌های مواد اولیه‌ای را که در پیش‌نویس نگاشت نشده‌اند، به کالای نهایی نگاشت کنید."
+
+#. Description of the Onboarding Step 'Quote a price'
+#: erpnext/selling/onboarding_step/create_quotation/create_quotation.json
+msgid "Once the customer agrees, turn it into a sales order or an invoice from the quotation itself. See [Quotation](https://docs.frappe.io/erpnext/user/manual/en/quotation)."
+msgstr "پس از موافقت مشتری، از همان پیش‌فاکتور آن را به سفارش فروش یا صورتحساب تبدیل کنید. راهنما: [پیش‌فاکتور](https://docs.frappe.io/erpnext/user/manual/en/quotation)."
+
+#. Description of the Onboarding Step 'Place a purchase order'
+#: erpnext/buying/onboarding_step/create_purchase_order/create_purchase_order.json
+msgid "Order from the supplier. When the goods arrive, receive them and record the bill from the order itself. See [Purchase Order](https://docs.frappe.io/erpnext/user/manual/en/purchase-order)."
+msgstr "به تأمین‌کننده سفارش دهید. با رسیدن کالا، آن را دریافت و صورتحساب را از همان سفارش ثبت کنید. راهنما: [سفارش خرید](https://docs.frappe.io/erpnext/user/manual/en/purchase-order)."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:713
+msgid "Pick the finished good serial / batch each raw material went into. The Serial No and Batch Traceability report uses this mapping."
+msgstr "سریال یا بچ کالای نهایی‌ای را انتخاب کنید که هر مادهٔ اولیه در آن به‌کار رفته است. گزارش ردیابی سریال و بچ از این نگاشت استفاده می‌کند."
+
+#. Description of the Onboarding Step 'Finish making it'
+#: erpnext/manufacturing/onboarding_step/finish_work_order/finish_work_order.json
+msgid "Raw materials come out of stock and the finished products go in. From the work order, **Finish** fills this in for you. See [Stock Entry](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+msgstr "مواد اولیه از موجودی خارج و محصولات نهایی به آن افزوده می‌شوند. در حوالهٔ انبارِ سفارش کار، گزینهٔ «تکمیل» این اطلاعات را پر می‌کند. راهنما: [حوالهٔ انبار](https://docs.frappe.io/erpnext/user/manual/en/stock-entry)."
+
+#. Description of the Onboarding Step 'Log time against it'
+#: erpnext/projects/onboarding_step/create_timesheet/create_timesheet.json
+msgid "Record the hours spent on tasks. Bill them to the customer or use them to cost the project. See [Timesheet](https://docs.frappe.io/erpnext/user/manual/en/timesheets)."
+msgstr "ساعت‌های صرف‌شده برای کارها را ثبت کنید. هزینه را برای مشتری منظور کنید یا برای محاسبهٔ هزینهٔ پروژه به‌کار ببرید. راهنما: [کاربرگ زمان](https://docs.frappe.io/erpnext/user/manual/en/timesheets)."
+
+#. Description of the Onboarding Step 'Inspect goods coming in or going out'
+#: erpnext/quality_management/onboarding_step/create_quality_inspection/create_quality_inspection.json
+msgid "Record the results against a receipt or a delivery, and accept or reject the goods. See [Quality Inspection](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection)."
+msgstr "نتیجهٔ بازرسی را برای رسید یا تحویل ثبت کنید و کالا را بپذیرید یا رد کنید. راهنما: [بازرسی کیفیت](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection)."
+
+#. Description of the Onboarding Step 'Hand it to a person or place'
+#: erpnext/assets/onboarding_step/create_asset_movement/create_asset_movement.json
+msgid "Record who has it and where it is, so you always know. See [Asset Movement](https://docs.frappe.io/erpnext/user/manual/en/asset-movement)."
+msgstr "مسئول و محل هر دارایی را ثبت کنید تا همیشه از وضعیت آن باخبر باشید. راهنما: [جابه‌جایی دارایی](https://docs.frappe.io/erpnext/user/manual/en/asset-movement)."
+
+#. Description of the Onboarding Step 'Plan maintenance visits'
+#: erpnext/quality_management/onboarding_step/create_maintenance_schedule/create_maintenance_schedule.json
+msgid "Regular service visits for equipment you sold, planned ahead for the whole contract. See [Maintenance Schedule](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule)."
+msgstr "بازدیدهای دوره‌ای از تجهیزات فروخته‌شده را برای تمام مدت قرارداد از پیش برنامه‌ریزی کنید. راهنما: [برنامهٔ نگهداری](https://docs.frappe.io/erpnext/user/manual/en/maintenance-schedule)."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1575
+msgid "Row {0}: {1} has stock UOM {2}, but Finished Good Quantity is in {3}, the stock UOM of {4}. Make it through a Work Order, or uncheck From BOM."
+msgstr "ردیف {0}: واحد اندازه‌گیری موجودی {1} برابر {2} است، اما مقدار کالای نهایی با {3} ثبت شده که واحد موجودی {4} است. آن را از طریق سفارش کار تولید کنید یا گزینهٔ «از BOM» را بردارید."
+
+#. Description of the Onboarding Step 'Spot your best sellers'
+#: erpnext/selling/onboarding_step/view_sales_analytics/view_sales_analytics.json
+msgid "Sales by customer, item or territory, over any period. See [Sales Analytics](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics)."
+msgstr "فروش را به تفکیک مشتری، کالا یا منطقه و در هر بازهٔ زمانی ببینید. راهنما: [تحلیل فروش](https://docs.frappe.io/erpnext/user/manual/en/sales-analytics)."
+
+#. Description of the Onboarding Step 'Schedule its upkeep'
+#: erpnext/assets/onboarding_step/create_asset_maintenance/create_asset_maintenance.json
+msgid "Servicing, inspections and calibration, with reminders to the team doing it. See [Asset Maintenance](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance)."
+msgstr "سرویس، بازرسی و کالیبراسیون را همراه با یادآوری برای تیم مسئول مدیریت کنید. راهنما: [نگهداری دارایی](https://docs.frappe.io/erpnext/user/manual/en/asset-maintenance)."
+
+#. Description of the Onboarding Step 'Keep quality in check'
+#: erpnext/setup/onboarding_step/complete_quality_onboarding/complete_quality_onboarding.json
+msgid "Set up an inspection and record your first check."
+msgstr "یک بازرسی تعریف کنید و نخستین بررسی خود را ثبت کنید."
+
+#: erpnext/public/js/setup_wizard.js:121
+msgid "Set up your company"
+msgstr "شرکت خود را راه‌اندازی کنید"
+
+#. Description of the Onboarding Step 'Keep track of your stock'
+#: erpnext/setup/onboarding_step/complete_stock_onboarding/complete_stock_onboarding.json
+msgid "Set up your warehouses and enter the stock you have today."
+msgstr "انبارها را راه‌اندازی و موجودی فعلی را وارد کنید."
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:16
+msgid "Setting up the basics"
+msgstr "راه‌اندازی مقدمات"
+
+#. Title of an Onboarding Step
+#: erpnext/stock/onboarding_step/create_delivery_note/create_delivery_note.json
+msgid "Ship to a customer"
+msgstr "ارسال به مشتری"
+
+#. Description of the Onboarding Step 'Record an asset you already own'
+#: erpnext/assets/onboarding_step/create_existing_asset/create_existing_asset.json
+msgid "Something you bought before using ERPNext, with what you paid, where it is, and how much has already depreciated. See [Asset](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+msgstr "دارایی‌ای که پیش از ERPNext خریده‌اید، همراه با مبلغ پرداختی، محل و استهلاک انباشته. راهنما: [دارایی](https://docs.frappe.io/erpnext/user/manual/en/asset)."
+
+
+#. Description of the Onboarding Step 'Add a raw material'
+#: erpnext/manufacturing/onboarding_step/create_raw_materials/create_raw_materials.json
+msgid "Something you use to make your products, kept in the Raw Material group. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "چیزی که برای تولید محصولات خود به‌کار می‌برید و در گروه «مواد اولیه» نگهداری می‌شود. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Set a quality goal'
+#: erpnext/quality_management/onboarding_step/create_quality_goal/create_quality_goal.json
+msgid "Something you want to measure and improve, like on-time delivery or returns, reviewed on a schedule you choose. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr "موضوعی که می‌خواهید بسنجید و بهبود دهید، مانند تحویل به‌موقع یا مرجوعی، با بازبینی در برنامهٔ دلخواه. راهنما: [مدیریت کیفیت](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/view_delayed_tasks/view_delayed_tasks.json
+msgid "Spot delayed tasks"
+msgstr "کارهای به‌تعویق‌افتاده را شناسایی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/selling/onboarding_step/view_sales_analytics/view_sales_analytics.json
+msgid "Spot your best sellers"
+msgstr "پرفروش‌ترین کالاها را پیدا کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/create_project/create_project.json
+msgid "Start a project"
+msgstr "پروژه‌ای آغاز کنید"
+
+#: erpnext/stock/report/stock_balance/stock_balance_snapshot.py:105
+msgid "Stock Balance needs a DuckDB sync of Stock Ledger Entry"
+msgstr "گزارش ماندهٔ موجودی به همگام‌سازی Stock Ledger Entry در DuckDB نیاز دارد"
+
+#. Label of a Card Break in the Stock Workspace
+#: erpnext/stock/workspace/stock/stock.json
+msgid "Stock Reports"
+msgstr "گزارش‌های موجودی"
+
+#. Label of a Sidebar Item
+#: erpnext/setup/sidebar/setup/setup.json
+msgid "Stock Reposting"
+msgstr "بازثبت موجودی"
+
+#: erpnext/stock/report/stock_balance/stock_balance_snapshot.py:98
+msgid "Stock ageing data is not available from a snapshot. Uncheck {0}, or turn off {1} for this report."
+msgstr "اطلاعات سن موجودی از snapshot در دسترس نیست. گزینهٔ {0} را بردارید یا {1} را برای این گزارش غیرفعال کنید."
+
+#. Description of the Onboarding Step 'Ship to a customer'
+#: erpnext/stock/onboarding_step/create_delivery_note/create_delivery_note.json
+msgid "Stock goes down as the goods leave, and the invoice can be made from the delivery. See [Delivery Note](https://docs.frappe.io/erpnext/user/manual/en/delivery-note)."
+msgstr "با خروج کالا، موجودی کاهش می‌یابد و می‌توان صورتحساب را از حوالهٔ تحویل صادر کرد. راهنما: [یادداشت تحویل](https://docs.frappe.io/erpnext/user/manual/en/delivery-note)."
+
+#. Description of the Onboarding Step 'Receive goods from a supplier'
+#: erpnext/stock/onboarding_step/create_purchase_receipt/create_purchase_receipt.json
+msgid "Stock goes up in the warehouse you receive into, and the bill can be made from the receipt. See [Purchase Receipt](https://docs.frappe.io/erpnext/user/manual/en/purchase-receipt)."
+msgstr "با دریافت کالا، موجودی انبار افزایش می‌یابد و می‌توان صورتحساب را از رسید صادر کرد. راهنما: [رسید خرید](https://docs.frappe.io/erpnext/user/manual/en/purchase-receipt)."
+
+#. Name of a list layout for Purchase Order
+#: erpnext/buying/doctype/purchase_order/list_filter/purchase_order_subcontracted.json
+msgid "Subcontracted"
+msgstr "پیمان‌سپاری‌شده"
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Subcontracting Reports"
+msgstr "گزارش‌های پیمان‌سپاری"
+
+#. Label of a Card Break in the Buying Workspace
+#: erpnext/buying/workspace/buying/buying.json
+msgid "Supplier Reports"
+msgstr "گزارش‌های تأمین‌کنندگان"
+
+#. Name of a Kanban board for Task
+#: erpnext/projects/doctype/task/kanban_board/task_status.json
+msgid "Task Status"
+msgstr "وضعیت کار"
+
+#. Description of the Onboarding Step 'Spot delayed tasks'
+#. Description of a report in the Onboarding Step 'Spot delayed tasks'
+#: erpnext/projects/onboarding_step/view_delayed_tasks/view_delayed_tasks.json
+msgid "Tasks past their due date, and how late each one is."
+msgstr "کارهایی که از موعدشان گذشته و میزان تأخیر هرکدام"
+
+#. Label of a Card Break in the Accounting Workspace
+#: erpnext/accounts/workspace/accounting/accounting.json
+msgid "Tax & Compliance"
+msgstr "مالیات و انطباق"
+
+#. Description of the Onboarding Step 'Add the bank account you use'
+#: erpnext/accounts/onboarding_step/add_bank_account/add_bank_account.json
+msgid "The account your customers pay into and you pay from, linked to its account in your chart of accounts. See [Bank Account](https://docs.frappe.io/erpnext/user/manual/en/bank-account)."
+msgstr "حسابی که مشتریان به آن پرداخت می‌کنند و شما از آن پرداخت انجام می‌دهید؛ این حساب به حساب متناظر در سرفصل حساب‌ها پیوند دارد. راهنما: [حساب بانکی](https://docs.frappe.io/erpnext/user/manual/en/bank-account)."
+
+#. Description of the Onboarding Step 'Enter their bill'
+#: erpnext/buying/onboarding_step/create_purchase_invoice/create_purchase_invoice.json
+msgid "The bill your supplier sent, so you know what you owe and when it is due. See [Purchase Invoice](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+msgstr "صورتحسابی که تأمین‌کننده فرستاده تا بدانید چه مبلغی و چه زمانی باید پرداخت شود. راهنما: [صورتحساب خرید](https://docs.frappe.io/erpnext/user/manual/en/purchase-invoice)."
+
+#. Description of the Onboarding Step 'Add an asset item'
+#: erpnext/assets/onboarding_step/create_asset_item/create_asset_item.json
+msgid "The kind of thing you own, marked as a fixed asset. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "نوع چیزی که مالک آن هستید و به‌عنوان دارایی ثابت ثبت می‌شود. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Decide what to check'
+#: erpnext/quality_management/onboarding_step/create_quality_inspection_template/create_quality_inspection_template.json
+msgid "The parameters to inspect and what counts as a pass, reused on every inspection. See [Quality Inspection Template](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template)."
+msgstr "معیارهای بازرسی و شرایط قبولی که در بازرسی‌های بعدی نیز استفاده می‌شوند. راهنما: [الگوی بازرسی کیفیت](https://docs.frappe.io/erpnext/user/manual/en/quality-inspection-template)."
+
+#. Description of the Onboarding Step 'Write its bill of materials'
+#: erpnext/manufacturing/onboarding_step/create_bill_of_materials/create_bill_of_materials.json
+msgid ""
+"The raw materials, and how much of each, that go into one unit of your product. Submit it to use it in production. See [BOM](https://docs.frappe.io/erpnext/user/manual/en/bill-of-materials).\n"
+"\n"
+"Sending some of the work to a supplier? See [Subcontracting](https://docs.frappe.io/erpnext/user/manual/en/subcontracting)."
+msgstr "مواد اولیه و مقدار لازم از هرکدام برای تولید یک واحد محصول را تعریف کنید. برای استفاده در تولید، آن را ثبت کنید. راهنما: [فهرست مواد](https://docs.frappe.io/erpnext/user/manual/en/bill-of-materials).\n\nبخشی از کار را به تأمین‌کننده می‌سپارید؟ راهنما: [پیمان‌سپاری](https://docs.frappe.io/erpnext/user/manual/en/subcontracting)."
+
+#: erpnext/public/js/customer_overview.js:671
+msgid "The same order can appear under both Pending Delivery and Pending Billing."
+msgstr "یک سفارش ممکن است هم‌زمان در بخش‌های «در انتظار تحویل» و «در انتظار صورتحساب» نمایش داده شود."
+
+#: erpnext/selling/page/point_of_sale/point_of_sale.py:356
+msgid "The scanned record is no longer available. Please scan again."
+msgstr "رکورد اسکن‌شده دیگر در دسترس نیست. لطفاً دوباره اسکن کنید."
+
+#: erpnext/selling/page/point_of_sale/point_of_sale.py:136
+msgid "The selected Item is not available on this POS Profile"
+msgstr "کالای انتخاب‌شده در این نمایهٔ فروش حضوری موجود نیست"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2448
+msgid "The selected bundle must belong to the same Item and Company"
+msgstr "بستهٔ انتخاب‌شده باید به همان کالا و شرکت تعلق داشته باشد"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2267
+msgid "The selected row does not belong to the parent document"
+msgstr "ردیف انتخاب‌شده متعلق به سند والد نیست"
+
+#: erpnext/public/js/setup_wizard.js:143
+msgid "The standard chart for your country works for most businesses."
+msgstr "سرفصل حساب‌های استاندارد کشور شما برای بیشتر کسب‌وکارها مناسب است."
+
+#. Description of the Onboarding Step 'Write down how the work is done'
+#: erpnext/quality_management/onboarding_step/create_quality_procedure/create_quality_procedure.json
+msgid "The steps your team follows, so it is done the same way every time. See [Quality Management](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+msgstr "مراحلی که تیم شما دنبال می‌کند تا کار هر بار به یک روش انجام شود. راهنما: [مدیریت کیفیت](https://docs.frappe.io/erpnext/user/manual/en/quality-management)."
+
+#. Description of the Onboarding Step 'Review your taxes'
+#: erpnext/accounts/onboarding_step/review_taxes/review_taxes.json
+msgid "The taxes that fill in on every invoice. We added your country's where we had them; check the rates match what you charge. Purchase taxes live in [Purchase Taxes and Charges Template](/desk/purchase-taxes-and-charges-template). See [Setting Up Taxes](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes)."
+msgstr "مالیات‌هایی که در هر صورتحساب درج می‌شوند. موارد موجود برای کشور شما را اضافه کرده‌ایم؛ نرخ‌ها را با مبالغ دریافتی خود تطبیق دهید. مالیات خرید در [الگوی مالیات و هزینه‌های خرید](/desk/purchase-taxes-and-charges-template) قرار دارد. راهنما: [راه‌اندازی مالیات](https://docs.frappe.io/erpnext/user/manual/en/setting-up-taxes)."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.js:699
+msgid "There are no serial / batch tracked raw materials or finished goods to map"
+msgstr "مواد اولیه یا کالای نهاییِ دارای ردیابی سریال یا بچ برای نگاشت وجود ندارد"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:428
+msgid "These rows fall in a closed Accounting Period, remove them: {0}"
+msgstr "این ردیف‌ها در دورهٔ حسابداری بسته قرار می‌گیرند؛ آن‌ها را حذف کنید: {0}"
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1557
+msgid "This entry is made from BOM {0}, so its finished good must be {1} or a variant of it. Uncheck From BOM to make another item."
+msgstr "این سند از BOM {0} ساخته شده است؛ بنابراین کالای نهایی باید {1} یا یکی از گونه‌های آن باشد. برای انتخاب کالای دیگر، گزینهٔ «از BOM» را بردارید."
+
+#: erpnext/public/js/utils/barcode_scanner.js:68
+#: erpnext/selling/page/point_of_sale/point_of_sale.py:359
+msgid "This item requires serial numbers. Please scan a serial number."
+msgstr "این کالا به شمارهٔ سریال نیاز دارد. لطفاً شمارهٔ سریال را اسکن کنید."
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:114
+msgid "To Date must be after {0}, the To Date of the last Stock Closing Entry {1}"
+msgstr "تاریخ پایان باید پس از {0}، یعنی تاریخ پایان آخرین سند بستن موجودی {1} باشد"
+
+#. Name of a list layout for Material Request
+#: erpnext/stock/doctype/material_request/list_filter/material_request_to_order.json
+msgid "To Order"
+msgstr "به سفارش"
+
+#. Name of a list layout for Material Request
+#: erpnext/stock/doctype/material_request/list_filter/material_request_to_transfer.json
+msgid "To Transfer"
+msgstr "برای انتقال"
+
+#. Title of an Onboarding Step
+#: erpnext/accounts/onboarding_step/view_general_ledger/view_general_ledger.json
+msgid "Trace every posting"
+msgstr "تمام ثبت‌ها را ردیابی کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/projects/onboarding_step/view_project_summary/view_project_summary.json
+msgid "Track progress and costs"
+msgstr "پیشرفت و هزینه‌ها را پیگیری کنید"
+
+#. Title of the Module Onboarding 'Asset Onboarding'
+#. Title of an Onboarding Step
+#: erpnext/assets/module_onboarding/asset_onboarding/asset_onboarding.json
+#: erpnext/setup/onboarding_step/complete_asset_onboarding/complete_asset_onboarding.json
+msgid "Track what your business owns"
+msgstr "دارایی‌های کسب‌وکار خود را پیگیری کنید"
+
+#. Title of an Onboarding Step
+#: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
+msgid "Track your orders"
+msgstr "سفارش‌های خود را پیگیری کنید"
+
+#. Name of a list layout for Payment Entry
+#. Name of a list layout for Stock Entry
+#: erpnext/accounts/doctype/payment_entry/list_filter/payment_entry_transfers.json
+#: erpnext/stock/doctype/stock_entry/list_filter/stock_entry_transfers.json
+msgid "Transfers"
+msgstr "انتقال‌ها"
+
+
+#: erpnext/public/js/customer_overview.js:533
+msgid "Unbilled orders"
+msgstr "سفارش‌های صورتحساب‌نشده"
+
+#: erpnext/public/js/customer_overview.js:716
+msgid "Unpaid Invoices"
+msgstr "صورتحساب‌های پرداخت‌نشده"
+
+#: erpnext/public/js/customer_overview.js:463
+msgid "Unpaid invoices by due date"
+msgstr "صورتحساب‌های پرداخت‌نشده بر اساس سررسید"
+
+#. Label of a Sidebar Item
+#: erpnext/assets/sidebar/assets/assets.json
+msgid "Value Changes"
+msgstr "تغییرات ارزش"
+
+#. Label of a Link in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Visual Plant Floor"
+msgstr "نمای بصری کارگاه تولید"
+
+#. Name of a list layout for Issue
+#: erpnext/support/doctype/issue/list_filter/issue_waiting_on_customer.json
+msgid "Waiting on Customer"
+msgstr "در انتظار مشتری"
+
+#. Name of a Kanban board for Warranty Claim
+#: erpnext/support/doctype/warranty_claim/kanban_board/warranty_claim_status.json
+msgid "Warranty Claim Status"
+msgstr "وضعیت ادعای ضمانت"
+
+#. Name of a list layout for Serial No
+#: erpnext/stock/doctype/serial_no/list_filter/serial_no_warranty_expiring.json
+msgid "Warranty Expiring"
+msgstr "نزدیک به پایان ضمانت"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:53
+#: erpnext/setup/setup_wizard/setup_wizard.py:54
+msgid "We couldn't add the demo data"
+msgstr "نتوانستیم داده‌های نمونه را اضافه کنیم"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:27
+#: erpnext/setup/setup_wizard/setup_wizard.py:32
+msgid "We couldn't apply the recommended settings"
+msgstr "نتوانستیم تنظیمات پیشنهادی را اعمال کنیم"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:22
+#: erpnext/setup/setup_wizard/setup_wizard.py:23
+msgid "We couldn't create your company"
+msgstr "نتوانستیم شرکت شما را ایجاد کنیم"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:38
+#: erpnext/setup/setup_wizard/setup_wizard.py:43
+msgid "We couldn't personalize your setup"
+msgstr "نتوانستیم تنظیمات را برای شما شخصی‌سازی کنیم"
+
+#: erpnext/setup/setup_wizard/setup_wizard.py:17
+#: erpnext/setup/setup_wizard/setup_wizard.py:18
+msgid "We couldn't set up the basics"
+msgstr "نتوانستیم مقدمات را راه‌اندازی کنیم"
+
+#. Description of the Onboarding Step 'Review your warehouses'
+#: erpnext/stock/onboarding_step/setup_warehouse/setup_warehouse.json
+msgid "We created a few to start with. Rename them, or add the places you actually keep stock. See [Warehouse](https://docs.frappe.io/erpnext/user/manual/en/warehouse)."
+msgstr "چند انبار برای شروع ایجاد کردیم. نام آن‌ها را تغییر دهید یا محل‌های واقعی نگهداری موجودی را اضافه کنید. راهنما: [انبار](https://docs.frappe.io/erpnext/user/manual/en/warehouse)."
+
+#. Description of the Onboarding Step 'Review your chart of accounts'
+#: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
+msgid "We set up a standard chart of accounts for your country. See how your accounts are grouped, and rename or add any to match how you report. See [Chart of Accounts](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts)."
+msgstr "سرفصل حساب‌های استاندارد کشور شما را تنظیم کردیم. گروه‌بندی حساب‌ها را بررسی کنید و برای تطبیق با گزارش‌های خود، نام‌ها را تغییر دهید یا حسابی اضافه کنید. راهنما: [سرفصل حساب‌ها](https://docs.frappe.io/erpnext/user/manual/en/chart-of-accounts)."
+
+#: erpnext/public/js/setup_wizard.js:122
+msgid "We'll use these to create your company and its accounts."
+msgstr "از این اطلاعات برای ایجاد شرکت و حساب‌های آن استفاده می‌کنیم."
+
+#. Description of the Onboarding Step 'Add a product you make'
+#: erpnext/manufacturing/onboarding_step/create_finished_goods/create_finished_goods.json
+msgid "What comes out at the end of production, kept in the Products group. See [Item](https://docs.frappe.io/erpnext/user/manual/en/item)."
+msgstr "محصول نهایی تولید را در گروه «محصولات» نگهداری کنید. راهنما: [کالا](https://docs.frappe.io/erpnext/user/manual/en/item)."
+
+#. Description of the Onboarding Step 'Check your stock levels'
+#. Description of a report in the Onboarding Step 'Check your stock levels'
+#: erpnext/stock/onboarding_step/view_stock_balance_report/view_stock_balance_report.json
+msgid "What you have in each warehouse, and what it is worth."
+msgstr "مقدار و ارزش کالاهای هر انبار"
+
+#. Description of a report in the Onboarding Step 'Track your orders'
+#: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
+msgid "What you ordered, what arrived and what is still to come."
+msgstr "آنچه سفارش داده‌اید، دریافت‌شده و باقی‌مانده"
+
+#. Description of the Onboarding Step 'Track your orders'
+#: erpnext/buying/onboarding_step/view_purchase_order_analysis/view_purchase_order_analysis.json
+msgid "What you ordered, what has arrived, and what is still to come."
+msgstr "آنچه سفارش داده‌اید، دریافت‌شده و باقی‌مانده"
+
+#. Description of the Onboarding Step 'See everything you own'
+#. Description of a report in the Onboarding Step 'See everything you own'
+#: erpnext/assets/onboarding_step/view_fixed_asset_register/view_fixed_asset_register.json
+msgid "What you own, where it is, and what it is worth today."
+msgstr "دارایی‌های شما، محل آن‌ها و ارزش امروزشان"
+
+#. Description of the Onboarding Step 'Log a problem'
+#: erpnext/quality_management/onboarding_step/create_non_conformance/create_non_conformance.json
+msgid "When something falls short of the procedure, note what happened, the cause, and what you will do about it. See [Non Conformance](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
+msgstr "اگر نتیجه‌ای با دستورالعمل مطابقت ندارد، مورد، علت و اقدام بعدی را ثبت کنید. راهنما: [عدم انطباق](https://docs.frappe.io/erpnext/user/manual/en/non-conformance)."
+
+#. Description of the Onboarding Step 'Get paid'
+#: erpnext/selling/onboarding_step/create_payment_entry/create_payment_entry.json
+msgid "When your customer pays, record it here. It is matched against their invoice, so you can see what is still owed. See [Payment Entry](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+msgstr "هنگام پرداخت مشتری، آن را اینجا ثبت کنید. پرداخت با صورتحساب او تطبیق داده می‌شود تا ماندهٔ بدهی مشخص باشد. راهنما: [سند پرداخت](https://docs.frappe.io/erpnext/user/manual/en/payment-entry)."
+
+#. Description of the Onboarding Step 'Break it into tasks'
+#: erpnext/projects/onboarding_step/create_tasks/create_tasks.json
+msgid "Who does what, by when. Tasks roll up into the project's progress. See [Task](https://docs.frappe.io/erpnext/user/manual/en/task)."
+msgstr "مسئول هر کار و موعد آن را مشخص کنید. کارها در پیشرفت پروژه جمع‌بندی می‌شوند. راهنما: [وظیفه](https://docs.frappe.io/erpnext/user/manual/en/task)."
+
+#. Description of a report in the Onboarding Step 'Follow up on unpaid
+#. invoices'
+#: erpnext/selling/onboarding_step/view_accounts_receivable/view_accounts_receivable.json
+msgid "Who owes you, how much, and for how long."
+msgstr "چه کسی، چه مبلغی به شما بدهکار است و از چه مدتی"
+
+#. Description of the Onboarding Step 'Follow up on unpaid invoices'
+#: erpnext/selling/onboarding_step/view_accounts_receivable/view_accounts_receivable.json
+msgid "Who owes you, how much, and for how long. See [Accounts Receivable](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable)."
+msgstr "چه کسی، چه مبلغی به شما بدهکار است و از چه مدتی. راهنما: [حساب‌های دریافتنی](https://docs.frappe.io/erpnext/user/manual/en/accounts-receivable)."
+
+#. Description of the Onboarding Step 'Check what you owe'
+#: erpnext/buying/onboarding_step/view_accounts_payable/view_accounts_payable.json
+msgid "Who you owe, how much, and when each bill is due."
+msgstr "چه مبلغی به چه کسی بدهکارید و موعد هر صورتحساب چه زمانی است"
+
+#. Description of a report in the Onboarding Step 'Check what you owe'
+#: erpnext/buying/onboarding_step/view_accounts_payable/view_accounts_payable.json
+msgid "Who you owe, how much, and when it is due."
+msgstr "چه مبلغی بدهکارید و موعد پرداخت آن چه زمانی است"
+
+#: erpnext/stock/doctype/stock_entry/services/material_transfer.py:233
+msgid "Work Order Not Finished"
+msgstr "سفارش کار تکمیل نشده است"
+
+#. Title of an Onboarding Step
+#: erpnext/quality_management/onboarding_step/create_quality_procedure/create_quality_procedure.json
+msgid "Write down how the work is done"
+msgstr "روش انجام کار را مستند کنید"
+
+#. Description of the Onboarding Step 'Plan and run production'
+#: erpnext/setup/onboarding_step/complete_manufacturing_onboarding/complete_manufacturing_onboarding.json
+msgid "Write down what goes into a product and make it with a work order."
+msgstr "مواد تشکیل‌دهندهٔ محصول را ثبت کنید و با سفارش کار آن را بسازید"
+
+#. Title of an Onboarding Step
+#: erpnext/manufacturing/onboarding_step/create_bill_of_materials/create_bill_of_materials.json
+msgid "Write its bill of materials"
+msgstr "فهرست مواد آن را ثبت کنید"
+
+#: erpnext/public/js/setup_wizard.js:154
+msgid "You can delete it anytime."
+msgstr "هر زمان بخواهید می‌توانید آن را حذف کنید."
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:1153
+msgid "a moment"
+msgstr "لحظه‌ای"
+
+#: erpnext/public/js/customer_overview.js:710
+msgid "not fully billed"
+msgstr "به‌طور کامل صورتحساب نشده"
+
+#: erpnext/public/js/customer_overview.js:538
+msgid "used"
+msgstr "استفاده‌شده"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:414
+msgid "{0} (Accounting Period {1})"
+msgstr "{0} (دورهٔ حسابداری {1})"
+
+#: erpnext/stock/report/utils.py:36
+msgid "{0} ID"
+msgstr "شناسهٔ {0}"
+
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:1210
+msgid "{0} cannot be reconciled against a bank transaction"
+msgstr "تطبیق {0} با تراکنش بانکی ممکن نیست"
+
+#: erpnext/public/js/customer_overview.js:29
+msgid "{0} days to pay"
+msgstr "{0} روز تا پرداخت"
+
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2278
+msgid "{0} does not carry a serial and batch bundle"
+msgstr "{0} بستهٔ سریال و بچ ندارد"
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:406
+msgid "{0} has no serial / batch tracked finished good"
+msgstr "{0} کالای نهاییِ دارای ردیابی سریال یا بچ ندارد"
+
+#: erpnext/public/js/customer_overview.js:22
+msgid "{0} invoices"
+msgstr "{0} صورتحساب"
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:531
+msgid "{0} is both a finished good serial no and batch no in {1}, please specify which one"
+msgstr "در {1}، {0} هم شمارهٔ سریال و هم شمارهٔ بچِ کالای نهایی است؛ مشخص کنید کدام‌یک را می‌خواهید"
+
+#: erpnext/public/js/customer_overview.js:449
+msgid "{0} is month to date"
+msgstr "{0} از ابتدای ماه تا امروز است"
+
+#: erpnext/stock/doctype/stock_entry/services/serial_batch.py:524
+msgid "{0} is not a finished good serial / batch produced by {1}"
+msgstr "{0} سریال یا بچِ کالای نهاییِ تولیدشده توسط {1} نیست"
+
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:461
+msgid "{0} is not a voucher this tool can clear"
+msgstr "{0} سندی نیست که این ابزار بتواند تسویه کند"
+
+#: erpnext/crm/doctype/lead/lead_kanban.js:13
+msgid "{0} is set from the lead's linked documents"
+msgstr "{0} از اسناد پیوندشده با سرنخ تعیین شده است"
+
+#: erpnext/crm/doctype/opportunity/opportunity_kanban.js:13
+msgid "{0} is set from the opportunity's quotations"
+msgstr "{0} از پیش‌فاکتورهای فرصت فروش تعیین شده است"
+
+#: erpnext/public/js/customer_overview.js:506
+msgid "{0} of {1} used"
+msgstr "{0} از {1} مورد استفاده‌شده"
+
+#: erpnext/public/js/customer_overview.js:24
+msgid "{0} orders"
+msgstr "{0} سفارش"
+
+#: erpnext/public/js/customer_overview.js:719
+msgid "{0} overdue"
+msgstr "{0} سررسیدگذشته"
+
+#: erpnext/public/js/customer_overview.js:699
+msgid "{0} past promised date"
+msgstr "{0} از تاریخ وعده‌داده‌شده گذشته است"
+
+#: erpnext/public/js/customer_overview.js:23
+msgid "{0} quotations"
+msgstr "{0} پیش‌فاکتور"
+
+#: erpnext/public/js/customer_overview.js:356
+msgid "{0} unpaid"
+msgstr "{0} پرداخت‌نشده"
+
+#: erpnext/stock/serial_batch_identity.py:47
+msgid "{0} {1} already exists for Item {2}"
+msgstr "{0} {1} برای کالا {2} از قبل وجود دارد"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:623
+#: erpnext/stock/serial_batch_identity.py:115
+msgid "{0} {1} does not exist for Item {2}"
+msgstr "{0} {1} برای کالا {2} وجود ندارد"
+
+#: erpnext/stock/serial_batch_identity.py:91
+msgid "{0} {1} matches multiple records for Item {2}"
+msgstr "چندین رکورد برای {0} {1} و کالای {2} پیدا شد"
