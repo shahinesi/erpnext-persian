@@ -6,6 +6,7 @@ import relativeTime from 'dayjs/plugin/relativeTime';
 import quarterOfYear from 'dayjs/plugin/quarterOfYear';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import { formatJalaliDate, getJalaliMonthRange, getJalaliWeekRange, parseJalaliDateInput } from './jalaliDate';
+import { isPersianLocaleCode } from './locale';
 import _ from '@/lib/translate';
 
 dayjs.extend(utc);
@@ -24,7 +25,7 @@ const getDocumentLocale = () => {
     return documentLocale || frappeLocale || 'en';
 };
 
-export const isPersianLocale = () => /^fa(?:-|$)/i.test(getDocumentLocale());
+export const isPersianLocale = () => isPersianLocaleCode(getDocumentLocale());
 
 export const getUserDateFormat = () =>
     window?.frappe?.boot?.user?.defaults?.date_format?.toUpperCase()
