@@ -12,6 +12,7 @@ const PRODUCTION_PLAN = path.join(
 );
 const BOOK_APPOINTMENT = path.join(ROOT, "www/book_appointment/index.js");
 const CUSTOMER_OVERVIEW = path.join(ROOT, "public/js/customer_overview.js");
+const POS_ITEM_CART = path.join(ROOT, "selling/page/point_of_sale/pos_item_cart.js");
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
 function extractFunction(sourcePath, name, context) {
@@ -175,6 +176,60 @@ describe("ERPNext customer overview period date display", () => {
       "moment:2026-03-21:D MMM – moment:2026-03-31:D MMM YYYY"
     );
   });
+});
+
+describe("ERPNext POS recent transaction relative time", () => {
+	function context(language) {
+		const calls = [];
+		return {
+			calls,
+			context: {
+				frappe: {
+					boot: { lang: language },
+					datetime: {
+						prettyDate(datetime) {
+							calls.push(["prettyDate", datetime]);
+							return `shared-relative:${datetime}`;
+						},
+					},
+				},
+				moment(datetime) {
+					return {
+						fromNow() {
+							return `moment-relative:${datetime}`;
+						},
+					};
+				},
+			},
+		};
+	}
+
+	it("uses Frappe's localized relative formatter for Persian", () => {
+		const { calls, context: sandbox } = context("fa-IR");
+		const formatElapsed = extractFunction(
+			POS_ITEM_CART,
+			"format_recent_transaction_elapsed_time",
+			sandbox
+		);
+
+		assert.equal(formatElapsed("2026-11-07 09:30:00"), "shared-relative:2026-11-07 09:30:00");
+		assert.deepEqual(calls, [["prettyDate", "2026-11-07 09:30:00"]]);
+	});
+
+	it("preserves Moment's existing English relative formatter", () => {
+		const { calls, context: sandbox } = context("en-US");
+		const formatElapsed = extractFunction(
+			POS_ITEM_CART,
+			"format_recent_transaction_elapsed_time",
+			sandbox
+		);
+
+		assert.equal(
+			formatElapsed("2026-11-07 09:30:00"),
+			"moment-relative:2026-11-07 09:30:00"
+		);
+		assert.deepEqual(calls, []);
+	});
 });
 
 function appointmentContext(language = "fa-IR") {

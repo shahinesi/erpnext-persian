@@ -1,3 +1,10 @@
+function format_recent_transaction_elapsed_time(datetime) {
+	const language = (frappe.boot?.lang || "").toLowerCase();
+	return language.startsWith("fa")
+		? frappe.datetime.prettyDate(datetime)
+		: moment(datetime).fromNow();
+}
+
 erpnext.PointOfSale.ItemCart = class {
 	constructor({ wrapper, events, settings }) {
 		this.wrapper = wrapper;
@@ -1031,7 +1038,9 @@ erpnext.PointOfSale.ItemCart = class {
 					return;
 				}
 
-				const elapsed_time = moment(res[0].posting_date + " " + res[0].posting_time).fromNow();
+				const elapsed_time = format_recent_transaction_elapsed_time(
+					res[0].posting_date + " " + res[0].posting_time
+				);
 				this.$customer_section
 					.find(".last-transaction")
 					.html(`${__("Last transacted")} ${__(elapsed_time)}`);
