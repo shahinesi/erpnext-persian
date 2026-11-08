@@ -69468,3 +69468,243 @@ msgstr "فروشی که در محل فروش ثبت شده است."
 
 msgid "A saved set of accounts to start journal entries from."
 msgstr "مجموعهٔ ذخیره‌شده‌ای از حساب‌ها برای شروع ثبت سند حسابداری."
+
+msgid "Applies a tax template automatically when its conditions match."
+msgstr "در صورت تطبیق شرایط، قالب مالیاتی را به‌طور خودکار اعمال می‌کند."
+
+msgid "Appointment With must be a Customer or a Lead"
+msgstr "مخاطب قرار باید مشتری یا سرنخ فروش باشد."
+
+msgid "Appointment must start at the beginning of an available slot."
+msgstr "زمان آغاز قرار باید با شروع یکی از بازه‌های زمانی آزاد برابر باشد."
+
+msgid "Ask a customer to pay, by email with a payment link."
+msgstr "از مشتری بخواهید از طریق پیوند پرداختی که با ایمیل ارسال می‌شود، پرداخت کند."
+
+msgid "Ask suppliers for prices on the items you need."
+msgstr "برای کالاهای موردنیازتان از تأمین‌کنندگان قیمت بگیرید."
+
+msgid "Assign To"
+msgstr "واگذاری به"
+
+msgid "Assigned To"
+msgstr "واگذارشده به"
+
+msgid "Attachment"
+msgstr "پیوست"
+
+msgid "Attachments"
+msgstr "پیوست‌ها"
+
+msgid "Auto Name"
+msgstr "نام‌گذاری خودکار"
+
+msgid "Auto Repeat"
+msgstr "تکرار خودکار"
+
+msgid "Automation"
+msgstr "خودکارسازی"
+
+msgid "Back"
+msgstr "بازگشت"
+
+msgid "Backdated Entry Before Adjustment Entry"
+msgstr "ثبت سند با تاریخ پیش از سند تعدیل"
+
+msgid "Balance"
+msgstr "مانده"
+
+msgid "Bar"
+msgstr "بار"
+
+msgid "Barcode"
+msgstr "بارکد"
+
+msgid "Base URL"
+msgstr "نشانی پایه"
+
+msgid "Based On"
+msgstr "بر اساس"
+
+msgid "Based on"
+msgstr "بر اساس"
+
+msgid "Billing"
+msgstr "صورتحساب‌دهی"
+
+msgid "Bills a customer or supplier for the same things on a schedule."
+msgstr "به‌صورت دوره‌ای برای مشتری یا تأمین‌کننده بابت اقلام تکراری صورتحساب صادر می‌کند."
+
+msgid "Blue"
+msgstr "آبی"
+
+msgid "Books deferred revenue or expense for a period."
+msgstr "درآمد یا هزینهٔ انتقال‌یافته را برای یک دوره ثبت می‌کند."
+
+msgid "Both"
+msgstr "هر دو"
+
+msgid "Branch"
+msgstr "شعبه"
+
+msgid "Brand"
+msgstr "برند"
+
+msgid "Brands"
+msgstr "برندها"
+
+msgid "Bring in a bank statement to match its lines against your books."
+msgstr "صورت‌حساب بانکی را وارد کنید تا ردیف‌های آن با دفاتر حسابداری تطبیق داده شوند."
+
+msgid "Bring in your chart of accounts from a spreadsheet."
+msgstr "سرفصل‌های حسابداری را از یک صفحه‌گسترده وارد کنید."
+
+msgid "Build a multi-level BOM in one place."
+msgstr "فهرست چندسطحی مواد اولیه (BOM) را در یک جا بسازید."
+
+msgid "C - D"
+msgstr "C - D"
+
+msgid "CC"
+msgstr "CC"
+
+msgid "Callback"
+msgstr "تماس برگشتی"
+
+msgid "Campaign"
+msgstr "کارزار"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Cancel Maintenance Visits {0} before cancelling this Maintenance Visit"
+msgstr "پیش از لغو این بازدید تعمیر و نگهداری، بازدیدهای مربوط به آن ({0}) را لغو کنید."
+
+msgid "Cancel Stock Ledger Entries"
+msgstr "لغو ثبت‌های دفتر موجودی"
+
+msgid "Cancelled"
+msgstr "لغوشده"
+
+msgid "Cannot add an open task under completed Parent Task {0}."
+msgstr "نمی‌توان یک وظیفهٔ باز را زیر وظیفهٔ والد تکمیل‌شدهٔ {0} افزود."
+
+msgid "Cannot log time against cancelled Tasks: {0}"
+msgstr "نمی‌توان برای وظایف لغوشده زمان ثبت کرد: {0}"
+
+msgid "Cannot set Project to Completed"
+msgstr "نمی‌توان وضعیت پروژه را «تکمیل‌شده» کرد."
+
+msgid "Category"
+msgstr "دسته"
+
+msgid "Category Name"
+msgstr "نام دسته"
+
+msgid "Changes"
+msgstr "تغییرات"
+
+msgid "Changes a price or gives a discount when its conditions are met."
+msgstr "در صورت برقراری شرایط، قیمت را تغییر می‌دهد یا تخفیف اعمال می‌کند."
+
+msgid "Changes an asset's value outside its depreciation."
+msgstr "ارزش دارایی را جدا از استهلاک آن تغییر می‌دهد."
+
+msgid "Changes how many shifts an asset works, which changes its depreciation."
+msgstr "تعداد شیفت‌های کاری دارایی را تغییر می‌دهد و بر استهلاک آن اثر می‌گذارد."
+
+msgid "Chart"
+msgstr "نمودار"
+
+msgid "Chat"
+msgstr "گفت‌وگو"
+
+msgid "Check"
+msgstr "بررسی"
+
+msgid "Checks an item against its quality parameters."
+msgstr "کالا را با پارامترهای کیفیت آن بررسی می‌کند."
+
+msgid "City"
+msgstr "شهر"
+
+msgid "City/Town"
+msgstr "شهر/شهرک"
+
+msgid "Clear"
+msgstr "پاک‌کردن"
+
+msgid "Clear Link"
+msgstr "پاک‌کردن پیوند"
+
+msgid "Client"
+msgstr "مشتری"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Closed"
+msgstr "بسته‌شده"
+
+msgid "Closes a POS shift and totals what was collected."
+msgstr "شیفت صندوق فروش را می‌بندد و مجموع دریافتی‌ها را محاسبه می‌کند."
+
+msgid "Closes a fiscal year by moving its profit or loss to equity."
+msgstr "سال مالی را با انتقال سود یا زیان آن به حقوق مالکانه می‌بندد."
+
+msgid "Closes stock balances for a period so reports run faster."
+msgstr "ماندهٔ موجودی را برای یک دوره می‌بندد تا گزارش‌ها سریع‌تر اجرا شوند."
+
+msgid "Code"
+msgstr "کد"
+
+msgid "Collapse All"
+msgstr "جمع‌کردن همه"
+
+msgid "Color"
+msgstr "رنگ"
+
+msgid "Colour"
+msgstr "رنگ"
+
+msgid "Column Break"
+msgstr "شکست ستون"
+
+msgid "Column Name"
+msgstr "نام ستون"
+
+msgid "Column {0}"
+msgstr "ستون {0}"
+
+msgid "Combine two or more accounts into one."
+msgstr "دو یا چند حساب را در یک حساب ادغام می‌کند."
+
+msgid "Comments"
+msgstr "یادداشت‌ها"
+
+msgid "Communication"
+msgstr "ارتباطات"
+
+msgid "Company Name"
+msgstr "نام شرکت"
+
+msgid "Complete"
+msgstr "تکمیل"
+
+msgid "Completed"
+msgstr "تکمیل‌شده"
+
+msgid "Condition"
+msgstr "شرط"
+
+msgid "Configuration"
+msgstr "پیکربندی"
+
+msgid "Connections"
+msgstr "اتصالات"
+
+msgid "Contact"
+msgstr "مخاطب"
+
+msgid "Contact Details"
+msgstr "اطلاعات تماس"

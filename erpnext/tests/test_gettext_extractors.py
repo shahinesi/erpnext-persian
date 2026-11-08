@@ -49,6 +49,12 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"(H) Expected Balance Stock Value": "(H) ارزش موجودی ماندهٔ مورد انتظار",
 			'<h5 class="text-muted uppercase">Or</h5>': '<h5 class="text-muted uppercase">یا</h5>',
 			"A customer's confirmed order.": "سفارش تأییدشدهٔ مشتری.",
+			"Applies a tax template automatically when its conditions match.": "در صورت تطبیق شرایط، قالب مالیاتی را به‌طور خودکار اعمال می‌کند.",
+			"Bring in a bank statement to match its lines against your books.": "صورت‌حساب بانکی را وارد کنید تا ردیف‌های آن با دفاتر حسابداری تطبیق داده شوند.",
+			"Cancel Maintenance Visits {0} before cancelling this Maintenance Visit": "پیش از لغو این بازدید تعمیر و نگهداری، بازدیدهای مربوط به آن ({0}) را لغو کنید.",
+			"Cannot add an open task under completed Parent Task {0}.": "نمی‌توان یک وظیفهٔ باز را زیر وظیفهٔ والد تکمیل‌شدهٔ {0} افزود.",
+			"Column {0}": "ستون {0}",
+			"Contact Details": "اطلاعات تماس",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):
