@@ -69058,3 +69058,179 @@ msgstr "{0} {1} برای کالا {2} وجود ندارد"
 #: erpnext/stock/serial_batch_identity.py:91
 msgid "{0} {1} matches multiple records for Item {2}"
 msgstr "چندین رکورد برای {0} {1} و کالای {2} پیدا شد"
+
+#: erpnext/projects/dashboard_chart/project_summary/project_summary.json
+msgid "How far along your open projects are."
+msgstr "پروژه‌های باز شما تا چه مرحله‌ای پیش رفته‌اند."
+
+#: erpnext/accounts/dashboard_chart/accounts_receivable_ageing/accounts_receivable_ageing.json
+msgid "How long your customers' unpaid invoices have been due."
+msgstr "چه مدت از سررسید صورتحساب‌های پرداخت‌نشده مشتریان شما گذشته است."
+
+#: erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json
+msgid "How long your open work orders have been waiting."
+msgstr "سفارش‌کارهای باز شما چه مدتی است که در انتظارند."
+
+#: erpnext/accounts/dashboard_chart/accounts_payable_ageing/accounts_payable_ageing.json
+msgid "How long your unpaid supplier bills have been due."
+msgstr "چه مدت از سررسید صورتحساب‌های پرداخت‌نشده تأمین‌کنندگان گذشته است."
+
+#: erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json
+msgid "How long your workstations were down last month."
+msgstr "ایستگاه‌های کاری شما در ماه گذشته چه مدت از کار افتاده بودند."
+
+#: erpnext/quality_management/dashboard_chart/quality_inspections/quality_inspections.json
+msgid "How many inspections you run each month."
+msgstr "تعداد بازرسی‌هایی که هر ماه انجام می‌دهید."
+
+#: erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json
+msgid "How many of your inspections pass or fail."
+msgstr "تعداد بازرسی‌های قبول‌شده و ردشده شما."
+
+#: erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json
+msgid "How many opportunities each territory brings in."
+msgstr "تعداد فرصت‌های فروشی که در هر منطقه ایجاد می‌شود."
+
+#: erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json
+msgid "How much money sits in your bank accounts, month by month."
+msgstr "موجودی حساب‌های بانکی شما در هر ماه."
+
+#: erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json
+msgid "How much you order from suppliers each month."
+msgstr "میزان سفارش ماهانه شما از تأمین‌کنندگان."
+
+#: erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json
+msgid "How much you produce each month."
+msgstr "مقدار تولید شما در هر ماه."
+
+#: erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json
+msgid "How much your customers order each month."
+msgstr "میزان سفارش ماهانه مشتریان شما."
+
+#: erpnext/stock/dashboard_chart/item_shortage_summary/item_shortage_summary.json
+msgid "Items you're about to run short of."
+msgstr "کالاهایی که موجودی آن‌ها به‌زودی تمام می‌شود."
+
+#: erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json
+msgid "New leads coming in each week."
+msgstr "تعداد سرنخ‌های جدید در هر هفته."
+
+#: erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json
+msgid "New opportunities coming in each week."
+msgstr "تعداد فرصت‌های فروش جدید در هر هفته."
+
+#: erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json
+msgid "Operations completed on your work orders each quarter."
+msgstr "عملیات تکمیل‌شده روی سفارش‌کارهای شما در هر فصل."
+
+#: erpnext/selling/dashboard_chart/sales_order_analysis/sales_order_analysis.json
+msgid "Sales orders still waiting to be delivered or billed."
+msgstr "سفارش‌های فروشی که هنوز باید تحویل یا برایشان صورتحساب صادر شود."
+
+#: erpnext/support/dashboard_chart/issues_opened/issues_opened.json
+msgid "Support issues opened each month."
+msgstr "تعداد درخواست‌های پشتیبانی ایجادشده در هر ماه."
+
+#: erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json
+msgid "The opportunities you win each month."
+msgstr "تعداد فرصت‌های فروش برنده‌شده در هر ماه."
+
+#: erpnext/projects/dashboard_chart/completed_projects/completed_projects.json
+msgid "The projects you finish each month."
+msgstr "تعداد پروژه‌هایی که هر ماه به پایان می‌رسانید."
+
+#: erpnext/stock/dashboard_chart/oldest_items/oldest_items.json
+msgid "The stock that has sat longest in your warehouses."
+msgstr "کالاهایی که بیشترین مدت در انبارهای شما مانده‌اند."
+
+#: erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json
+msgid "The value of opportunities you win in each territory."
+msgstr "ارزش فرصت‌های فروش برنده‌شده شما در هر منطقه."
+
+#: erpnext/accounts/dashboard_chart/outgoing_bills_(sales_invoice)/outgoing_bills_(sales_invoice).json
+msgid "What you bill your customers each month."
+msgstr "مبلغ صورتحساب‌هایی که هر ماه برای مشتریان صادر می‌کنید."
+
+#: erpnext/stock/dashboard_chart/delivery_trends/delivery_trends.json
+msgid "What you deliver to your customers each month."
+msgstr "میزان کالاهایی که هر ماه به مشتریان تحویل می‌دهید."
+
+#: erpnext/stock/dashboard_chart/purchase_receipt_trends/purchase_receipt_trends.json
+msgid "What you receive from suppliers each month."
+msgstr "میزان کالاهایی که هر ماه از تأمین‌کنندگان دریافت می‌کنید."
+
+#: erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json
+msgid "What you send out for subcontracting each month."
+msgstr "میزان سفارش‌هایی که هر ماه برای پیمانکاری فرعی ارسال می‌کنید."
+
+#: erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json
+msgid "What your assets are worth, by category."
+msgstr "ارزش دارایی‌های شما به تفکیک دسته‌بندی."
+
+#: erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json
+msgid "What your assets are worth, by location."
+msgstr "ارزش دارایی‌های شما به تفکیک موقعیت مکانی."
+
+#: erpnext/assets/dashboard_chart/asset_value_analytics/asset_value_analytics.json
+msgid "What your assets are worth, year by year."
+msgstr "ارزش دارایی‌های شما در هر سال."
+
+#: erpnext/stock/dashboard_chart/warehouse_wise_stock_value/warehouse_wise_stock_value.json
+msgid "What your stock is worth in each warehouse."
+msgstr "ارزش موجودی کالا در هر انبار."
+
+#: erpnext/stock/dashboard_chart/stock_value_by_item_group/stock_value_by_item_group.json
+msgid "What your stock is worth, by item group."
+msgstr "ارزش موجودی کالا به تفکیک گروه کالا."
+
+#: erpnext/accounts/dashboard_chart/incoming_bills_(purchase_invoice)/incoming_bills_(purchase_invoice).json
+msgid "What your suppliers bill you each month."
+msgstr "مبلغ صورتحساب‌هایی که تأمین‌کنندگان هر ماه برای شما صادر می‌کنند."
+
+#: erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json
+msgid "What your work orders planned against what they produced."
+msgstr "مقایسه مقدار برنامه‌ریزی‌شده و تولیدشده در سفارش‌کارهای شما."
+
+#: erpnext/crm/dashboard_chart/lead_source/lead_source.json
+msgid "Where your leads come from."
+msgstr "سرنخ‌های شما از کجا می‌آیند."
+
+#: erpnext/buying/dashboard_chart/purchase_order_analysis/purchase_order_analysis.json
+msgid "Where your purchase orders stand: to receive, to bill, or done."
+msgstr "وضعیت سفارش‌های خرید شما: در انتظار دریافت، در انتظار صورتحساب یا تکمیل‌شده."
+
+#: erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json
+msgid "Which campaigns bring in your opportunities."
+msgstr "کدام کمپین‌ها برای شما فرصت فروش ایجاد می‌کنند."
+
+#: erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json
+msgid "Your best-selling items over the year."
+msgstr "پرفروش‌ترین کالاهای شما در طول سال."
+
+#: erpnext/accounts/dashboard_chart/budget_variance/budget_variance.json
+msgid "Your budgets against what you actually spent."
+msgstr "مقایسه بودجه‌های شما با هزینه‌کرد واقعی."
+
+#: erpnext/selling/dashboard_chart/top_customers/top_customers.json
+msgid "Your customers, ranked by what you deliver to them."
+msgstr "رتبه‌بندی مشتریان شما بر اساس میزان کالای تحویل‌شده به آن‌ها."
+
+#: erpnext/accounts/dashboard_chart/profit_and_loss/profit_and_loss.json
+msgid "Your income and expenses over the year, and what's left as profit."
+msgstr "درآمدها و هزینه‌های شما در طول سال و سود باقی‌مانده."
+
+#: erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json
+msgid "Your job cards each month, by status."
+msgstr "کارت‌های کار شما در هر ماه به تفکیک وضعیت."
+
+#: erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json
+msgid "Your material requests by status, from pending to ordered."
+msgstr "درخواست‌های مواد شما به تفکیک وضعیت، از در انتظار تا سفارش‌گذاری‌شده."
+
+#: erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json
+msgid "Your suppliers, ranked by what they deliver to you."
+msgstr "رتبه‌بندی تأمین‌کنندگان شما بر اساس میزان کالای دریافتی از آن‌ها."
+
+#: erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json
+msgid "Your work orders by status, from planned to completed."
+msgstr "سفارش‌کارهای شما به تفکیک وضعیت، از برنامه‌ریزی‌شده تا تکمیل‌شده."
