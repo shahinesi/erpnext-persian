@@ -11,7 +11,7 @@ from babel.messages.pofile import read_po
 from erpnext.gettext.extractors.dashboard_chart import extract
 
 
-class TestDashboardChartExtractor(unittest.TestCase):
+class TestERPNextGettextExtractors(unittest.TestCase):
 	def test_extracts_empty_state_message_from_real_chart(self):
 		chart_path = (
 			Path(__file__).parents[1]
@@ -32,6 +32,27 @@ class TestDashboardChartExtractor(unittest.TestCase):
 	def test_ignores_chart_without_empty_state_message(self):
 		chart = StringIO(json.dumps({"chart_name": "No empty state"}))
 		self.assertEqual(list(extract(chart)), [])
+
+	def test_stock_and_form_metadata_have_persian_translations(self):
+		catalog_path = Path(__file__).parents[1] / "locale" / "fa.po"
+		with catalog_path.open("rb") as catalog_file:
+			catalog = read_po(catalog_file)
+
+		expected = {
+			"(A) Balance Qty": "(A) مقدار موجودی",
+			"(B) Expected Balance Qty": "(B) مقدار موجودی مورد انتظار",
+			"(C) Change in Stock Value": "(C) تغییر ارزش موجودی",
+			"(D) Expected Change in Stock Value": "(D) تغییر مورد انتظار در ارزش موجودی",
+			"(E) Valuation Rate": "(E) نرخ ارزش‌گذاری",
+			"(F) Expected Valuation Rate": "(F) نرخ ارزش‌گذاری مورد انتظار",
+			"(G) Balance Stock Value": "(G) ارزش موجودی مانده",
+			"(H) Expected Balance Stock Value": "(H) ارزش موجودی ماندهٔ مورد انتظار",
+			'<h5 class="text-muted uppercase">Or</h5>': '<h5 class="text-muted uppercase">یا</h5>',
+			"A customer's confirmed order.": "سفارش تأییدشدهٔ مشتری.",
+		}
+		for message, translation in expected.items():
+			with self.subTest(message=message):
+				self.assertEqual(catalog.get(message).string, translation)
 
 	def test_babel_mapping_extracts_dashboard_chart_json(self):
 		erpnext_root = Path(__file__).parents[1]

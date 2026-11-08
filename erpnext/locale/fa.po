@@ -69234,3 +69234,237 @@ msgstr "رتبه‌بندی تأمین‌کنندگان شما بر اساس م�
 #: erpnext/manufacturing/dashboard_chart/work_order_analysis/work_order_analysis.json
 msgid "Your work orders by status, from planned to completed."
 msgstr "سفارش‌کارهای شما به تفکیک وضعیت، از برنامه‌ریزی‌شده تا تکمیل‌شده."
+
+msgid "(A) Balance Qty"
+msgstr "(A) مقدار موجودی"
+
+msgid "(B) Expected Balance Qty"
+msgstr "(B) مقدار موجودی مورد انتظار"
+
+msgid "(C) Change in Stock Value"
+msgstr "(C) تغییر ارزش موجودی"
+
+msgid "(D) Expected Change in Stock Value"
+msgstr "(D) تغییر مورد انتظار در ارزش موجودی"
+
+msgid "(E) Valuation Rate"
+msgstr "(E) نرخ ارزش‌گذاری"
+
+msgid "(F) Expected Valuation Rate"
+msgstr "(F) نرخ ارزش‌گذاری مورد انتظار"
+
+msgid "(G) Balance Stock Value"
+msgstr "(G) ارزش موجودی مانده"
+
+msgid "(H) Expected Balance Stock Value"
+msgstr "(H) ارزش موجودی ماندهٔ مورد انتظار"
+
+msgid "<h5 class=\"text-muted uppercase\">Or</h5>"
+msgstr "<h5 class=\"text-muted uppercase\">یا</h5>"
+
+msgid "A band of scores, and what happens to suppliers in it."
+msgstr "بازه‌ای از امتیازها و اقدام متناظر برای تأمین‌کنندگان."
+
+msgid "A bank account of yours or of a customer or supplier."
+msgstr "حساب بانکی متعلق به شما، مشتری یا تأمین‌کننده."
+
+msgid "A bank you or your customers and suppliers hold accounts with."
+msgstr "بانکی که شما، مشتریان یا تأمین‌کنندگان‌تان در آن حساب دارند."
+
+msgid "A batch of payments to send to your bank."
+msgstr "دسته‌ای از پرداخت‌ها برای ارسال به بانک شما."
+
+msgid "A bill from a supplier for what you bought."
+msgstr "صورتحسابی از تأمین‌کننده بابت خریدهای شما."
+
+msgid "A bill to a customer for what you sold."
+msgstr "صورتحسابی برای مشتری بابت کالا یا خدمات فروخته‌شده."
+
+msgid "A branch of your company."
+msgstr "یکی از شعب شرکت شما."
+
+msgid "A brand your items are sold under."
+msgstr "برندی که کالاهای شما با آن عرضه می‌شوند."
+
+msgid "A certificate that lets you withhold less tax from a supplier."
+msgstr "گواهی‌ای که اجازه می‌دهد مالیات کمتری از پرداختی به تأمین‌کننده کسر کنید."
+
+msgid "A channel customers reach you on, like a phone line."
+msgstr "کانالی که مشتریان از طریق آن با شما ارتباط می‌گیرند؛ مانند خط تلفن."
+
+msgid "A class of shares, like equity or preference."
+msgstr "نوعی از سهام، مانند عادی یا ممتاز."
+
+msgid "A code customers enter to get a discount from a pricing rule."
+msgstr "کدی که مشتریان برای دریافت تخفیف بر اساس یک قاعدهٔ قیمت‌گذاری وارد می‌کنند."
+
+msgid "A code from a code list and what it maps to."
+msgstr "کدی از یک فهرست کدها و نگاشت آن به مقدار متناظر."
+
+msgid "A company or person you buy goods or services from."
+msgstr "شرکت یا شخصی که کالا یا خدمات را از او می‌خرید."
+
+msgid "A company or person you sell goods or services to."
+msgstr "شرکت یا شخصی که کالا یا خدمات را به او می‌فروشید."
+
+msgid "A company that makes the items you buy or sell."
+msgstr "شرکتی که کالاهای خرید یا فروش شما را تولید می‌کند."
+
+msgid "A company you are trying to win as a customer, with its leads."
+msgstr "شرکتی که می‌خواهید به مشتری تبدیلش کنید و سرنخ‌های فروش آن را پیگیری می‌کنید."
+
+msgid "A customer's claim to repair or replace an item under warranty."
+msgstr "درخواست مشتری برای تعمیر یا تعویض کالا تحت پوشش ضمانت."
+
+msgid "A customer's confirmed order."
+msgstr "سفارش تأییدشدهٔ مشتری."
+
+msgid "A date range you can close so no one posts into it."
+msgstr "بازهٔ زمانی‌ای که می‌توانید ببندید تا ثبت سند در آن انجام نشود."
+
+msgid "A department of your company."
+msgstr "بخشی از ساختار سازمانی شرکت شما."
+
+msgid "A direct entry in your books, for anything without its own form."
+msgstr "ثبت مستقیم در دفاتر حسابداری برای رویدادهایی که فرم اختصاصی ندارند."
+
+msgid "A distributor, dealer or reseller who sells for you on commission."
+msgstr "توزیع‌کننده یا فروشنده‌ای که در برابر دریافت کمیسیون برای شما فروش انجام می‌دهد."
+
+msgid "A finer grouping of bank accounts, like savings or current."
+msgstr "زیرگروه دقیق‌تری از حساب‌های بانکی، مانند پس‌انداز یا جاری."
+
+msgid "A group of tax withholding categories that apply together."
+msgstr "گروهی از دسته‌های مالیات تکلیفی که با هم اعمال می‌شوند."
+
+msgid "A group of units of an item made or received together."
+msgstr "مجموعه‌ای از واحدهای یک کالا که با هم تولید یا دریافت شده‌اند."
+
+msgid "A grouping of inspection parameters."
+msgstr "گروهی از پارامترهای بازرسی."
+
+msgid "A grouping of issues, like billing or technical."
+msgstr "دسته‌ای از مسائل، مانند صورتحساب یا پشتیبانی فنی."
+
+msgid "A grouping of projects, like internal or external."
+msgstr "گروهی از پروژه‌ها، مانند داخلی یا برون‌سازمانی."
+
+msgid "A grouping of tasks, like bug or feature."
+msgstr "گروهی از وظایف، مانند رفع اشکال یا قابلیت جدید."
+
+msgid "A grouping of units, like weight or length."
+msgstr "گروهی از واحدها، مانند وزن یا طول."
+
+msgid "A grouping of warehouses, like transit or store."
+msgstr "گروهی از انبارها، مانند ترانزیت یا فروشگاه."
+
+msgid "A guarantee a bank gives on your behalf, or on a customer's or supplier's."
+msgstr "ضمانت‌نامه‌ای که بانک به‌نیابت از شما، مشتری یا تأمین‌کننده صادر می‌کند."
+
+msgid "A job title, like manager or accountant."
+msgstr "عنوان شغلی، مانند مدیر یا حسابدار."
+
+msgid "A kind of stock entry, like material transfer or manufacture."
+msgstr "نوعی از سند انبار، مانند انتقال مواد یا تولید."
+
+msgid "A kind of work you track time against, like design or support."
+msgstr "نوعی از کار که زمان صرف‌شده برای آن را ثبت می‌کنید، مانند طراحی یا پشتیبانی."
+
+msgid "A kind of workstation, with its costs."
+msgstr "نوعی از ایستگاه کاری همراه با هزینه‌های آن."
+
+msgid "A ledger in your chart of accounts that entries are posted to."
+msgstr "حسابی در سرفصل‌های حسابداری که ثبت‌ها در آن درج می‌شوند."
+
+msgid "A legal entity with its own books, like your business or a subsidiary."
+msgstr "شخصیت حقوقی با دفاتر حسابداری مستقل، مانند کسب‌وکار یا شرکت تابعهٔ شما."
+
+msgid "A line from your bank statement, ready to be matched with a payment."
+msgstr "ردیف صورتحساب بانکی که آمادهٔ تطبیق با یک پرداخت است."
+
+msgid "A machine or place where operations are done."
+msgstr "ماشین یا محلی که عملیات در آن انجام می‌شود."
+
+msgid "A marketing campaign, to see which leads and sales it brought in."
+msgstr "کارزار بازاریابی برای بررسی سرنخ‌ها و فروش‌های حاصل از آن."
+
+msgid "A meeting booked with a lead or customer."
+msgstr "جلسه‌ای که با سرنخ یا مشتری رزرو شده است."
+
+msgid "A meeting to review quality, with its agenda and minutes."
+msgstr "جلسه‌ای برای بررسی کیفیت، همراه با دستور جلسه و صورت‌جلسه."
+
+msgid "A parcel size you ship often."
+msgstr "الگوی اندازهٔ بسته‌ای که مرتب ارسال می‌کنید."
+
+msgid "A parcel you send through a carrier."
+msgstr "بسته‌ای که از طریق شرکت حمل‌ونقل ارسال می‌کنید."
+
+msgid "A part of your business you track income and expenses for, like a branch or product line."
+msgstr "بخشی از کسب‌وکار که درآمد و هزینه‌های آن را پیگیری می‌کنید، مانند شعبه یا محصول."
+
+msgid "A periodic check of how a quality goal is going."
+msgstr "بررسی دوره‌ای میزان پیشرفت یک هدف کیفی."
+
+msgid "A person or company that owns shares in your company."
+msgstr "شخص یا شرکتی که مالک بخشی از سهام شرکت شماست."
+
+msgid "A phone call made or received."
+msgstr "تماسی که برقرار یا دریافت شده است."
+
+msgid "A piece of work to be done, often part of a project."
+msgstr "کاری که باید انجام شود؛ اغلب بخشی از یک پروژه."
+
+msgid "A piece of work with tasks, time and costs."
+msgstr "پروژه‌ای با وظایف، زمان و هزینه‌های مربوط."
+
+msgid "A place where you keep stock."
+msgstr "محلی برای نگهداری موجودی کالا."
+
+msgid "A place where your assets are kept."
+msgstr "محلی که دارایی‌های شما در آن نگهداری می‌شوند."
+
+msgid "A potential sale to a lead or customer."
+msgstr "فروش بالقوه به یک سرنخ یا مشتری."
+
+msgid "A problem or question raised by a customer."
+msgstr "مسئله یا پرسشی که مشتری مطرح کرده است."
+
+msgid "A product or service you buy, sell or keep in stock."
+msgstr "کالا یا خدمتی که می‌خرید، می‌فروشید یا در موجودی نگه می‌دارید."
+
+msgid "A progress update collected from the project team."
+msgstr "گزارش پیشرفتی که از تیم پروژه دریافت می‌شود."
+
+msgid "A property item variants differ by, like size or colour."
+msgstr "ویژگی‌ای که گونه‌های مختلف یک کالا در آن تفاوت دارند، مانند اندازه یا رنگ."
+
+msgid "A published list of codes, like units or tax categories, used in e-invoicing."
+msgstr "فهرست منتشرشده‌ای از کدها، مانند واحدها یا دسته‌های مالیاتی، برای استفاده در صورتحساب الکترونیکی."
+
+msgid "A record of maintenance done on an asset."
+msgstr "گزارش نگهداری و تعمیرات انجام‌شده روی یک دارایی."
+
+msgid "A record of shares issued, bought back or moved between shareholders."
+msgstr "ثبت سهامی که بین سهام‌داران صادر، بازخرید یا منتقل شده است."
+
+msgid "A region you sell in, to group customers and set targets."
+msgstr "منطقه‌ای برای دسته‌بندی مشتریان و تعیین هدف‌های فروش."
+
+msgid "A regular email summing up how the business is doing."
+msgstr "ایمیلی دوره‌ای که خلاصه‌ای از وضعیت کسب‌وکار را ارسال می‌کند."
+
+msgid "A reminder to a customer about an overdue invoice."
+msgstr "یادآوری به مشتری دربارهٔ صورتحساب سررسیدگذشته."
+
+msgid "A repair made to an asset, and what it cost."
+msgstr "تعمیر انجام‌شده برای یک دارایی و هزینهٔ آن."
+
+msgid "A request to buy, transfer or make items."
+msgstr "درخواستی برای خرید، انتقال یا تولید کالا."
+
+msgid "A sale made at the point of sale."
+msgstr "فروشی که در محل فروش ثبت شده است."
+
+msgid "A saved set of accounts to start journal entries from."
+msgstr "مجموعهٔ ذخیره‌شده‌ای از حساب‌ها برای شروع ثبت سند حسابداری."
