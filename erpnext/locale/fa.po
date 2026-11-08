@@ -70908,3 +70908,234 @@ msgstr "لطفاً دست‌کم یک دلیل ازدست‌رفتن فرصت ف
 
 msgid "Points a customer earned or spent under a loyalty program."
 msgstr "امتیازهایی که مشتری در برنامهٔ وفاداری کسب کرده یا مصرف کرده است."
+
+msgid "Price List {0} cannot be used in {1}"
+msgstr "فهرست قیمت {0} را نمی‌توان در {1} استفاده کرد."
+
+msgid "Prices a supplier offered you."
+msgstr "قیمت‌هایی که تأمین‌کننده به شما پیشنهاد داده است."
+
+msgid "Prices you offer a customer or lead."
+msgstr "قیمت‌هایی که به مشتری یا سرنخ پیشنهاد می‌دهید."
+
+msgid "Progress % for a task must be between 0 and 100."
+msgstr "درصد پیشرفت وظیفه باید بین 0 و 100 باشد."
+
+msgid "Progress updates"
+msgstr "گزارش‌های پیشرفت"
+
+msgid "Project Template {0} is disabled"
+msgstr "الگوی پروژهٔ {0} غیرفعال است."
+
+msgid "Project {0} is only {1} complete. Complete or cancel its tasks first."
+msgstr "پروژهٔ {0} فقط {1} تکمیل شده است. ابتدا وظایف آن را تکمیل یا لغو کنید."
+
+msgid "Raise money against unpaid sales invoices."
+msgstr "با پشتوانهٔ صورتحساب‌های فروش پرداخت‌نشده تأمین مالی کنید."
+
+msgid "Rates a supplier over time on criteria you choose."
+msgstr "تأمین‌کننده را در گذر زمان بر اساس معیارهای انتخابی شما ارزیابی می‌کند."
+
+msgid "Rates and thresholds for tax withheld on payments, like TDS."
+msgstr "نرخ‌ها و حدنصاب‌های مالیات کسرشده از پرداخت‌ها، مانند مالیات کسر از منبع (TDS)."
+
+msgid "Rebuilds the ledger entries of transactions that were posted wrongly."
+msgstr "اسناد دفتر کلِ تراکنش‌هایی را که نادرست ثبت شده‌اند، بازسازی می‌کند."
+
+msgid "Rebuilds the payment ledger so outstanding amounts are right again."
+msgstr "دفتر پرداخت را بازسازی می‌کند تا مبالغ معوق دوباره درست شوند."
+
+msgid "Recalculates stock values after a backdated change."
+msgstr "پس از تغییری با تاریخ گذشته، ارزش موجودی را دوباره محاسبه می‌کند."
+
+msgid "Select the differences to fix."
+msgstr "مغایرت‌هایی را که باید اصلاح شوند انتخاب کنید."
+
+msgid "Sells several items together as one item."
+msgstr "چند کالا را با هم به‌عنوان یک کالا می‌فروشد."
+
+msgid "Serial No {0} is still in stock in Warehouse {1}"
+msgstr "شمارهٔ سریال {0} هنوز در انبار {1} موجود است."
+
+msgid "Serial No {0} was sold to Customer {1}, not {2}"
+msgstr "شمارهٔ سریال {0} به مشتری {1} فروخته شده است، نه {2}."
+
+msgid "Sets stock quantities and values to what is actually in your warehouses."
+msgstr "مقدار و ارزش موجودی را با موجودی واقعی انبارهایتان برابر می‌کند."
+
+msgid "Settings for a point of sale, like its warehouse, price list and payment methods."
+msgstr "تنظیمات نقطهٔ فروش، مانند انبار، فهرست قیمت و روش‌های پرداخت آن."
+
+msgid "Show Completed Orders"
+msgstr "نمایش سفارش‌های تکمیل‌شده"
+
+msgid "Show Differences Settled by Adjustment Entries"
+msgstr "نمایش مغایرت‌های تسویه‌شده با اسناد اصلاح"
+
+msgid "Show Traceback"
+msgstr "نمایش جزئیات خطا"
+
+msgid "Shows which POS invoices were merged into a sales invoice."
+msgstr "نشان می‌دهد کدام صورتحساب‌های نقطهٔ فروش در یک صورتحساب فروش ادغام شده‌اند."
+
+msgid "Since you are reposting transactions from the previous fiscal year {0}, the closing balances of that fiscal year can change. The reposting might also take time to complete."
+msgstr "چون تراکنش‌های سال مالی پیشین {0} را دوباره ثبت می‌کنید، مانده‌های پایان آن سال مالی ممکن است تغییر کنند. تکمیل ثبت مجدد نیز ممکن است زمان ببرد."
+
+msgid "Some of its serial nos or batches should be short of stock on this date."
+msgstr "برخی از شماره‌های سریال یا بچ‌های آن باید در این تاریخ با کسری موجودی روبه‌رو باشند."
+
+msgid "Someone who might buy from you."
+msgstr "فرد یا سازمانی که ممکن است از شما خرید کند."
+
+msgid "Someone who sells for you, with targets and commission."
+msgstr "فردی که برای شما فروش انجام می‌دهد و هدف فروش و پورسانت دارد."
+
+msgid "Something a supplier is scored on, like on-time delivery."
+msgstr "معیاری برای امتیازدهی به تأمین‌کننده، مانند تحویل به‌موقع."
+
+msgid "Something an item is checked for, like weight or colour."
+msgstr "ویژگی‌ای که کالا از نظر آن بررسی می‌شود، مانند وزن یا رنگ."
+
+msgid "Something that did not meet your quality standard."
+msgstr "موردی که با استاندارد کیفیت شما مطابقت نداشته است."
+
+msgid "Something you measure and improve on a schedule, like on-time delivery."
+msgstr "معیاری که طبق برنامه اندازه‌گیری و بهبود می‌دهید، مانند تحویل به‌موقع."
+
+msgid "Something your business owns and uses over time, like a machine or a laptop."
+msgstr "دارایی‌ای که کسب‌وکار شما مالک آن است و در طول زمان استفاده می‌کند، مانند دستگاه یا لپ‌تاپ."
+
+msgid "Splits one cost center's amounts across others by percentage."
+msgstr "مبالغ یک مرکز هزینه را بر اساس درصد میان مراکز دیگر توزیع می‌کند."
+
+msgid "Spreads a yearly budget or target across months for seasonal businesses."
+msgstr "بودجه یا هدف سالانه را برای کسب‌وکارهای فصلی میان ماه‌ها توزیع می‌کند."
+
+msgid "Standard terms to add to quotes, orders and invoices."
+msgstr "شرایط استاندارد برای افزودن به پیش‌فاکتورها، سفارش‌ها و صورتحساب‌ها."
+
+msgid "Start Import"
+msgstr "شروع درون‌ریزی"
+
+msgid "Status {0} cannot be set manually."
+msgstr "وضعیت {0} را نمی‌توان به‌صورت دستی تنظیم کرد."
+
+msgid "Status {0} is set from the Opportunity's Quotations"
+msgstr "وضعیت {0} از پیش‌فاکتورهای فرصت فروش تعیین می‌شود."
+
+msgid "Stock Ledger Entries of Cancelled Vouchers"
+msgstr "اسناد دفتر موجودیِ اسناد لغوشده"
+
+msgid "Stock Ledger Entries of the selected vouchers have been cancelled and reposting has been queued."
+msgstr "اسناد دفتر موجودیِ اسناد انتخاب‌شده لغو شده‌اند و ثبت مجدد در صف قرار گرفته است."
+
+msgid "Stock Valuation Comparison"
+msgstr "مقایسهٔ ارزش‌گذاری موجودی"
+
+msgid "Stock Value Difference"
+msgstr "مغایرت ارزش موجودی"
+
+msgid "Stock set aside for a sales order or production."
+msgstr "موجودی‌ای که برای سفارش فروش یا تولید کنار گذاشته شده است."
+
+msgid "To Time must be after From Time"
+msgstr "زمان پایان باید پس از زمان شروع باشد."
+
+msgid "Total Billable amount (via Timesheet)"
+msgstr "مبلغ کل قابل‌صورتحساب (بر اساس کارکرد ثبت‌شده)"
+
+msgid "Total Billed amount (via Sales Invoice)"
+msgstr "مبلغ کل صورتحساب‌شده (بر اساس صورتحساب فروش)"
+
+msgid "Total Sales amount (via Sales Order)"
+msgstr "مبلغ کل فروش (بر اساس سفارش فروش)"
+
+msgid "Total consumed Material cost (via Stock Entry)"
+msgstr "هزینهٔ کل مواد مصرف‌شده (بر اساس سند موجودی)"
+
+msgid "Turns stock items or services into an asset, or one asset into another."
+msgstr "اقلام موجودی یا خدمات را به دارایی تبدیل می‌کند، یا یک دارایی را به دارایی دیگری تبدیل می‌کند."
+
+msgid "Uncancelled Serial and Batch Bundle"
+msgstr "بستهٔ سریال و بچِ لغونشده"
+
+msgid "Undo a payment's match against invoices."
+msgstr "تطبیق یک پرداخت با صورتحساب‌ها را لغو می‌کند."
+
+msgid "Unsubscribe from this campaign"
+msgstr "لغو اشتراک از این کمپین"
+
+msgid "Warehouse Type {0} is required by the system and cannot be deleted"
+msgstr "نوع انبار {0} برای سیستم ضروری است و نمی‌توان آن را حذف کرد."
+
+msgid "Weekly time to send"
+msgstr "زمان ارسال هفتگی"
+
+msgid "What a subscription bills for, and at what price."
+msgstr "اشتراک بابت چه چیزی و با چه قیمتی صورتحساب صادر می‌کند."
+
+msgid "What an employee costs and bills per hour for an activity."
+msgstr "هزینهٔ هر ساعت فعالیت کارمند و مبلغ قابل‌صورتحساب آن."
+
+msgid "What you did to fix or prevent a quality problem."
+msgstr "اقدامی که برای رفع یا پیشگیری از مشکل کیفیت انجام داده‌اید."
+
+msgid "When an asset depreciates, and by how much."
+msgstr "زمان استهلاک دارایی و میزان آن."
+
+msgid "When part of an invoice is due, like 50% in 30 days."
+msgstr "زمان سررسید بخشی از صورتحساب، مانند 50% پس از 30 روز."
+
+msgid "Where each detail goes when you print on your bank's cheque."
+msgstr "محل درج هر بخش از اطلاعات هنگام چاپ روی چک بانکی شما."
+
+msgid "Which warehouse received items go to."
+msgstr "کالاهای دریافتی به کدام انبار منتقل شوند."
+
+msgid "While making a Purchase Receipt or Purchase Invoice from a Purchase Order, use the exchange rate on its posting date rather than inheriting it from the Purchase Order."
+msgstr "هنگام ایجاد رسید خرید یا صورتحساب خرید از روی سفارش خرید، به‌جای به‌ارث‌بردن نرخ ارز از سفارش خرید، نرخ ارزِ تاریخ ثبت سند را به‌کار ببرید."
+
+msgid "Who answers incoming calls, and when."
+msgstr "چه کسی و در چه زمانی به تماس‌های ورودی پاسخ می‌دهد."
+
+msgid "Work Order {0} is already Closed"
+msgstr "دستور کار {0} از قبل بسته شده است."
+
+msgid "Works out the shipping charge on a sale or purchase."
+msgstr "هزینهٔ حمل در فروش یا خرید را محاسبه می‌کند."
+
+msgid "You are not permitted to access Company {0}"
+msgstr "اجازهٔ دسترسی به شرکت {0} را ندارید."
+
+msgid "You are not permitted to repair the Stock Ledger Entries of {0} {1}"
+msgstr "اجازهٔ ترمیم اسناد دفتر موجودیِ {0} {1} را ندارید."
+
+msgid "You are not permitted to view {0}"
+msgstr "اجازهٔ مشاهدهٔ {0} را ندارید."
+
+msgid "Your calling preferences, like when you take calls."
+msgstr "ترجیحات تماس شما، مانند زمان‌هایی که پاسخ‌گوی تماس هستید."
+
+msgid "{0} in {1}"
+msgstr "{0} در {1}"
+
+msgid "{0} is not a valid time zone"
+msgstr "{0} منطقهٔ زمانی معتبری نیست."
+
+msgid "{0} must be a group warehouse of company {1}."
+msgstr "{0} باید انبار گروهیِ متعلق به شرکت {1} باشد."
+
+msgid "{0} was moved after the task it depends on. {1}"
+msgstr "{0} پس از وظیفه‌ای که به آن وابسته است جابه‌جا شد. {1}"
+
+msgid "{0} {1} has no conversion factor in this Item. Add it to the UOMs table, or disable {2} in Stock Settings."
+msgstr "برای {0} {1} در این کالا ضریب تبدیل تعریف نشده است. آن را به جدول واحدهای اندازه‌گیری اضافه کنید یا {2} را در تنظیمات موجودی غیرفعال کنید."
+
+msgid "{0} {1} has unsubscribed from emails"
+msgstr "{0} {1} اشتراک دریافت ایمیل را لغو کرده است."
+
+msgid "{0} {1} is not a valid date and time"
+msgstr "تاریخ و زمان {0} {1} معتبر نیست."
+
+msgid "{0} {1} is not linked to Supplier {2}"
+msgstr "{0} {1} به تأمین‌کنندهٔ {2} پیوند ندارد."

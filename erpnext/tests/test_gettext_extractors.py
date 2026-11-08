@@ -88,6 +88,11 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated before it can be posted or cancelled. Post it on or after that date, or cancel the Adjustment Entry first.": "موجودی کالای {0} در انبار {1} در تاریخ {3} توسط {2} اصلاح شده است؛ بنابراین هیچ تراکنش موجودی با تاریخ پیش از آن قابل ثبت یا لغو نیست. تراکنش را در همان تاریخ یا پس از آن ثبت کنید، یا ابتدا سند اصلاح را لغو کنید.",
 			"Customer {0} does not match the customer of Maintenance Schedule {1}": "مشتری {0} با مشتریِ برنامهٔ نگهداری و تعمیرات {1} مطابقت ندارد.",
 			"Parent Task {0} is not in Project {1}. Pick a group task of the same project.": "وظیفهٔ والد {0} در پروژهٔ {1} نیست. یک وظیفهٔ گروهی از همان پروژه انتخاب کنید.",
+			"Price List {0} cannot be used in {1}": "فهرست قیمت {0} را نمی‌توان در {1} استفاده کرد.",
+			"Progress % for a task must be between 0 and 100.": "درصد پیشرفت وظیفه باید بین 0 و 100 باشد.",
+			"Project {0} is only {1} complete. Complete or cancel its tasks first.": "پروژهٔ {0} فقط {1} تکمیل شده است. ابتدا وظایف آن را تکمیل یا لغو کنید.",
+			"Since you are reposting transactions from the previous fiscal year {0}, the closing balances of that fiscal year can change. The reposting might also take time to complete.": "چون تراکنش‌های سال مالی پیشین {0} را دوباره ثبت می‌کنید، مانده‌های پایان آن سال مالی ممکن است تغییر کنند. تکمیل ثبت مجدد نیز ممکن است زمان ببرد.",
+			"{0} {1} has no conversion factor in this Item. Add it to the UOMs table, or disable {2} in Stock Settings.": "برای {0} {1} در این کالا ضریب تبدیل تعریف نشده است. آن را به جدول واحدهای اندازه‌گیری اضافه کنید یا {2} را در تنظیمات موجودی غیرفعال کنید.",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):
