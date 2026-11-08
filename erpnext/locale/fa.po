@@ -70188,3 +70188,243 @@ msgstr "سایر"
 
 msgid "Outgoing"
 msgstr "پرداختی"
+
+msgid "Reference DocType"
+msgstr "نوع سند مرجع"
+
+msgid "Reference Doctype"
+msgstr "نوع سند مرجع"
+
+msgid "Reference Document"
+msgstr "سند مرجع"
+
+msgid "Reference Document Name"
+msgstr "نام سند مرجع"
+
+msgid "Reference Document Type"
+msgstr "نوع سند مرجع"
+
+msgid "Reference Name"
+msgstr "نام مرجع"
+
+msgid "Reference Type"
+msgstr "نوع مرجع"
+
+msgid "References"
+msgstr "مراجع"
+
+msgid "Refresh"
+msgstr "تازه‌سازی"
+
+msgid "Refresh Google Sheet"
+msgstr "تازه‌سازی صفحه‌گستردهٔ Google"
+
+msgid "Rejected"
+msgstr "ردشده"
+
+msgid "Rename"
+msgstr "تغییر نام"
+
+msgid "Reopen"
+msgstr "بازگشایی"
+
+msgid "Replace a BOM everywhere it is used, or update the cost of all BOMs."
+msgstr "فهرست مواد (BOM) را در همهٔ جاهایی که استفاده شده جایگزین کنید یا هزینهٔ همهٔ فهرست‌ها را به‌روزرسانی کنید."
+
+msgid "Replied"
+msgstr "پاسخ‌داده‌شده"
+
+msgid "Report"
+msgstr "گزارش"
+
+msgid "Report Error"
+msgstr "گزارش خطا"
+
+msgid "Report Filters"
+msgstr "فیلترهای گزارش"
+
+msgid "Report Type"
+msgstr "نوع گزارش"
+
+msgid "Report View"
+msgstr "نمای گزارش"
+
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+msgid "Repost Item Valuation will be made for:"
+msgstr "ثبت مجدد ارزش‌گذاری کالا برای موارد زیر انجام می‌شود:"
+
+msgid "Repost {0} is already pending."
+msgstr "ثبت مجدد {0} از قبل در صف انتظار است."
+
+msgid "Reposting could not be queued for:"
+msgstr "ثبت مجدد برای موارد زیر در صف قرار نگرفت:"
+
+msgid "Reposting has been queued for:"
+msgstr "ثبت مجدد برای موارد زیر در صف قرار گرفت:"
+
+msgid "Reposting will start within the timeslot configured in {0}"
+msgstr "ثبت مجدد در بازهٔ زمانی تنظیم‌شده در {0} آغاز می‌شود."
+
+msgid "Request Timeout"
+msgstr "مهلت درخواست به پایان رسید"
+
+msgid "Required"
+msgstr "الزامی"
+
+msgid "Requires approval for transactions above a limit."
+msgstr "برای تراکنش‌هایی که از حد تعیین‌شده بیشتر هستند، به تأیید نیاز دارد."
+
+msgid "Reset"
+msgstr "بازنشانی"
+
+msgid "Restates foreign currency balances at today's exchange rate."
+msgstr "مانده‌های ارزی را با نرخ ارز امروز دوباره محاسبه می‌کند."
+
+msgid "Retry"
+msgstr "تلاش دوباره"
+
+msgid "Rewards customers with points they can spend on later purchases."
+msgstr "به مشتریان امتیاز می‌دهد تا در خریدهای بعدی خرج کنند."
+
+msgid "Role"
+msgstr "نقش"
+
+msgid "Role Permissions"
+msgstr "مجوزهای نقش"
+
+msgid "Route"
+msgstr "مسیر تولید"
+
+msgid "Row"
+msgstr "ردیف"
+
+msgid "Row #"
+msgstr "شمارهٔ ردیف"
+
+msgid "Row #{0}:"
+msgstr "ردیف {0}:"
+
+msgid "Row #{0}: Cannot return {1} of Batch {2}, only {3} was delivered and not returned yet."
+msgstr "ردیف {0}: نمی‌توان {1} از بچ {2} را برگشت داد؛ فقط {3} تحویل شده و هنوز برگشت داده نشده است."
+
+msgid "Row #{0}: Item {1} does not match the item of its schedule row"
+msgstr "ردیف {0}: کالای {1} با کالای ردیف زمان‌بندی آن مطابقت ندارد."
+
+msgid "Row #{0}: Objective {1} is not part of Quality Goal {2}"
+msgstr "ردیف {0}: هدف {1} جزو هدف کیفی {2} نیست."
+
+msgid "Row #{0}: Parameter {1} is already added"
+msgstr "ردیف {0}: پارامتر {1} قبلاً افزوده شده است."
+
+msgid "Row #{0}: Parameter {1} is not part of Quality Feedback Template {2}"
+msgstr "ردیف {0}: پارامتر {1} جزو الگوی بازخورد کیفی {2} نیست."
+
+msgid "Row #{0}: UOM {1} has no conversion factor in Item {2}. Add it to the Item's UOMs table, or disable {3} in Stock Settings."
+msgstr "ردیف {0}: برای واحد اندازه‌گیری {1} در کالای {2} ضریب تبدیل تعریف نشده است. آن را به جدول واحدهای کالا اضافه کنید یا {3} را در تنظیمات انبار غیرفعال کنید."
+
+msgid "Row Number"
+msgstr "شمارهٔ ردیف"
+
+msgid "Row {0}"
+msgstr "ردیف {0}"
+
+msgid "Row {0} is not part of Request for Quotation {1}."
+msgstr "ردیف {0} جزو درخواست استعلام قیمت {1} نیست."
+
+msgid "Row {0}: Account {1} must be a {2} account"
+msgstr "ردیف {0}: حساب {1} باید از نوع حساب {2} باشد."
+
+msgid "Row {0}: Activity Type {1} is disabled"
+msgstr "ردیف {0}: نوع فعالیت {1} غیرفعال است."
+
+msgid "Row {0}: Number of visits can not be more than the {1} days between Start and End Date"
+msgstr "ردیف {0}: تعداد بازدیدها نمی‌تواند از {1} روز فاصلهٔ بین تاریخ شروع و پایان بیشتر باشد."
+
+msgid "Row {0}: Task {1} ends after its parent task {2}"
+msgstr "ردیف {0}: وظیفهٔ {1} پس از وظیفهٔ والد خود {2} پایان می‌یابد."
+
+msgid "Row {0}: Task {1} is not a Template Task"
+msgstr "ردیف {0}: وظیفهٔ {1} یک وظیفهٔ الگو نیست."
+
+msgid "Row {0}: The same time log of Timesheet {1} is added more than once"
+msgstr "ردیف {0}: ثبت زمان یکسان در برگهٔ کار {1} بیش از یک‌بار افزوده شده است."
+
+msgid "Row {0}: Timesheet {1} has no unbilled billable time logs"
+msgstr "ردیف {0}: برگهٔ کار {1} هیچ ثبت زمانِ قابل‌صورتحسابی که هنوز صورتحساب نشده باشد ندارد."
+
+msgid "Row {0}: {1} {2} visits need an End Date of {3}. Change the End Date or the Number of Visits."
+msgstr "ردیف {0}: برای {1} بازدید {2} باید تاریخ پایان {3} باشد. تاریخ پایان یا تعداد بازدیدها را تغییر دهید."
+
+msgid "Running"
+msgstr "در حال اجرا"
+
+msgid "Sales Manager"
+msgstr "مدیر فروش"
+
+msgid "Sales Master Manager"
+msgstr "مدیر ارشد فروش"
+
+msgid "Sales Order Item {0} does not belong to {1}"
+msgstr "قلم سفارش فروش {0} متعلق به {1} نیست."
+
+msgid "Sales User"
+msgstr "کاربر فروش"
+
+msgid "Sales without complexity, lock-in and per-user costs. Try it for free!"
+msgstr "فروش بدون پیچیدگی، وابستگی به فروشنده یا هزینهٔ هر کاربر. رایگان امتحان کنید!"
+
+msgid "Salutation"
+msgstr "پیشوند نام"
+
+msgid "Saturday"
+msgstr "شنبه"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Save the Project before duplicating it"
+msgstr "پیش از تکثیر پروژه، آن را ذخیره کنید."
+
+msgid "Save the Project first to add and view its Tasks."
+msgstr "برای افزودن و مشاهدهٔ وظایف، ابتدا پروژه را ذخیره کنید."
+
+msgid "Schedule"
+msgstr "برنامهٔ زمان‌بندی"
+
+msgid "Schedule Conflict"
+msgstr "تداخل زمان‌بندی"
+
+msgid "Schedule rows {0} do not belong to Maintenance Schedule {1}"
+msgstr "ردیف‌های زمان‌بندی {0} به برنامهٔ نگهداری و تعمیرات {1} تعلق ندارند."
+
+msgid "Scheduled"
+msgstr "زمان‌بندی‌شده"
+
+msgid "Scheduled Job"
+msgstr "کار زمان‌بندی‌شده"
+
+msgid "Scheduler Inactive"
+msgstr "زمان‌بند غیرفعال است"
+
+msgid "Scheduler is inactive. Cannot import data."
+msgstr "زمان‌بند غیرفعال است. امکان درون‌ریزی داده وجود ندارد."
+
+msgid "Search"
+msgstr "جست‌وجو"
+
+msgid "Second email"
+msgstr "ایمیل دوم"
+
+msgid "Section"
+msgstr "بخش"
+
+msgid "Section Break"
+msgstr "شکست بخش"
+
+msgid "Select"
+msgstr "انتخاب"
+
+msgid "Select a submitted Maintenance Schedule for the scheduled visits"
+msgstr "برای بازدیدهای زمان‌بندی‌شده، برنامهٔ نگهداری و تعمیرات ثبت‌شده را انتخاب کنید."

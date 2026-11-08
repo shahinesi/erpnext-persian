@@ -67,6 +67,13 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"No Tasks in this Project yet.": "هنوز هیچ وظیفه‌ای برای این پروژه ثبت نشده است.",
 			"Opportunity From must be one of {0}": "مبدأ فرصت فروش باید یکی از گزینه‌های {0} باشد.",
 			"Outgoing": "پرداختی",
+			"Replace a BOM everywhere it is used, or update the cost of all BOMs.": "فهرست مواد (BOM) را در همهٔ جاهایی که استفاده شده جایگزین کنید یا هزینهٔ همهٔ فهرست‌ها را به‌روزرسانی کنید.",
+			"Repost {0} is already pending.": "ثبت مجدد {0} از قبل در صف انتظار است.",
+			"Row #{0}: Cannot return {1} of Batch {2}, only {3} was delivered and not returned yet.": "ردیف {0}: نمی‌توان {1} از بچ {2} را برگشت داد؛ فقط {3} تحویل شده و هنوز برگشت داده نشده است.",
+			"Row {0}: Number of visits can not be more than the {1} days between Start and End Date": "ردیف {0}: تعداد بازدیدها نمی‌تواند از {1} روز فاصلهٔ بین تاریخ شروع و پایان بیشتر باشد.",
+			"Row {0}: {1} {2} visits need an End Date of {3}. Change the End Date or the Number of Visits.": "ردیف {0}: برای {1} بازدید {2} باید تاریخ پایان {3} باشد. تاریخ پایان یا تعداد بازدیدها را تغییر دهید.",
+			"Scheduler is inactive. Cannot import data.": "زمان‌بند غیرفعال است. امکان درون‌ریزی داده وجود ندارد.",
+			"Sales without complexity, lock-in and per-user costs. Try it for free!": "فروش بدون پیچیدگی، وابستگی به فروشنده یا هزینهٔ هر کاربر. رایگان امتحان کنید!",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):
