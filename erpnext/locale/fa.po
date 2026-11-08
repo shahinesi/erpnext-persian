@@ -70668,3 +70668,243 @@ msgstr "تا تاریخ"
 
 msgid "To time"
 msgstr "تا ساعت"
+
+msgid "A grouping of bank accounts, like checking or credit card."
+msgstr "گروهی از حساب‌های بانکی، مانند حساب جاری یا کارت اعتباری."
+
+msgid "A grouping of calls, like sales or support."
+msgstr "گروهی از تماس‌ها، مانند فروش یا پشتیبانی."
+
+msgid "A separate set of books, for example to depreciate assets under another rule."
+msgstr "مجموعه‌ای جداگانه از دفاتر حسابداری؛ برای نمونه، برای محاسبهٔ استهلاک دارایی‌ها بر پایهٔ قاعده‌ای دیگر."
+
+msgid "A series of emails sent to leads or contacts on a schedule."
+msgstr "دنباله‌ای از ایمیل‌ها که طبق برنامه برای سرنخ‌ها یا مخاطبان ارسال می‌شود."
+
+msgid "A set of discounts and free items, like buy two get one free."
+msgstr "مجموعه‌ای از تخفیف‌ها و کالاهای رایگان، مانند «دو تا بخر، یکی رایگان بگیر»."
+
+msgid "A set of item prices for buying, selling or both."
+msgstr "مجموعه‌ای از قیمت‌های کالا برای خرید، فروش یا هر دو."
+
+msgid "A set of payment terms to apply to invoices and orders."
+msgstr "مجموعه‌ای از شرایط پرداخت برای اعمال روی صورتحساب‌ها و سفارش‌ها."
+
+msgid "A set of tasks to start new projects from."
+msgstr "مجموعه‌ای از وظایف برای آغاز پروژه‌های جدید."
+
+msgid "A single unit of an item, tracked by its own number."
+msgstr "یک واحد از کالا که با شمارهٔ اختصاصی خودش رهگیری می‌شود."
+
+msgid "A step in making an item, like cutting or assembly."
+msgstr "مرحله‌ای از ساخت کالا، مانند برش یا مونتاژ."
+
+msgid "A step in your sales process, like qualification or negotiation."
+msgstr "مرحله‌ای از فرایند فروش، مانند ارزیابی سرنخ یا مذاکره."
+
+msgid "A unit you measure items in, like kg or box."
+msgstr "واحدی برای اندازه‌گیری کالاها، مانند کیلوگرم یا جعبه."
+
+msgid "A value a scorecard criterion is calculated from."
+msgstr "مقداری که معیار کارنامه بر اساس آن محاسبه می‌شود."
+
+msgid "A vehicle's route to deliver to several customers."
+msgstr "مسیر یک وسیلهٔ نقلیه برای تحویل کالا به چند مشتری."
+
+msgid "A view of your workstations and what each is doing."
+msgstr "نمایی از ایستگاه‌های کاری و کاری که هرکدام انجام می‌دهند."
+
+msgid "A visit to service or repair what a customer bought."
+msgstr "مراجعه‌ای برای سرویس یا تعمیر کالایی که مشتری خریده است."
+
+msgid "A way you pay or get paid, like cash, bank transfer or card."
+msgstr "روشی برای پرداخت یا دریافت وجه، مانند نقدی، انتقال بانکی یا کارت."
+
+msgid "Actual End date (via Timesheet)"
+msgstr "تاریخ واقعی پایان (بر اساس کارکرد ثبت‌شده)"
+
+msgid "Actual Start date (via Timesheet)"
+msgstr "تاریخ واقعی شروع (بر اساس کارکرد ثبت‌شده)"
+
+msgid "Actual Time in hours (via Timesheet)"
+msgstr "زمان واقعی به ساعت (بر اساس کارکرد ثبت‌شده)"
+
+msgid "Add Task"
+msgstr "افزودن وظیفه"
+
+msgid "Add Template"
+msgstr "افزودن الگو"
+
+msgid "Additional Discount has been removed as Pricing Rule {0} is no longer applicable"
+msgstr "تخفیف اضافی حذف شد، زیرا قاعدهٔ قیمت‌گذاری {0} دیگر قابل اعمال نیست."
+
+msgid "Adds freight, duty and other charges to the cost of received items."
+msgstr "هزینهٔ حمل، عوارض و سایر هزینه‌ها را به بهای تمام‌شدهٔ کالاهای دریافتی اضافه می‌کند."
+
+msgid "Adjusted By"
+msgstr "اصلاح‌شده توسط"
+
+msgid "Adjustment Date"
+msgstr "تاریخ اصلاح"
+
+msgid "Adjustment Entry"
+msgstr "سند اصلاح"
+
+msgid "Adjustment Time"
+msgstr "زمان اصلاح"
+
+msgid "After the adjustment, Item {0} in Warehouse {1} would hold a qty of {2} worth {3}, instead of {4} worth {5}."
+msgstr "پس از اصلاح، موجودی کالای {0} در انبار {1} به مقدار {2} و ارزش {3} می‌رسد، درحالی‌که مقدار فعلی {4} و ارزش آن {5} است."
+
+msgid "All Differences"
+msgstr "همهٔ مغایرت‌ها"
+
+msgid "All Entries"
+msgstr "همهٔ اسناد"
+
+msgid "All Stock Ledger Entries and Serial and Batch Bundles of the selected vouchers will be cancelled and reposting will be queued. Continue?"
+msgstr "همهٔ اسناد دفتر موجودی و بسته‌های سریال و بچِ اسناد انتخاب‌شده لغو می‌شوند و ثبت مجدد در صف قرار می‌گیرد. ادامه می‌دهید؟"
+
+msgid "An agreement to buy or sell an item at a fixed price over a period."
+msgstr "توافقی برای خرید یا فروش یک کالا با قیمت ثابت در یک بازهٔ زمانی."
+
+msgid "An agreement with a customer, supplier or employee."
+msgstr "توافقی با مشتری، تأمین‌کننده یا کارمند."
+
+msgid "An extra way to tag entries, like branch or region, beyond cost centers."
+msgstr "روشی دیگر برای برچسب‌گذاری اسناد، مانند شعبه یا منطقه، افزون بر مرکز هزینه."
+
+msgid "An extra way to tag stock, like a rack or bin."
+msgstr "روشی دیگر برای نشانه‌گذاری موجودی، مانند قفسه یا جایگاه."
+
+msgid "An item you can use in place of another."
+msgstr "کالایی که می‌توان به‌جای کالای دیگری استفاده کرد."
+
+msgid "An order for a subcontractor to make items from your materials."
+msgstr "سفارشی به پیمانکار فرعی برای ساخت کالا با مواد اولیهٔ شما."
+
+msgid "An order to make a quantity of an item."
+msgstr "سفارشی برای ساخت مقدار مشخصی از یک کالا."
+
+msgid "An order to make items for a customer from materials they send."
+msgstr "سفارشی برای ساخت کالا برای مشتری با استفاده از موادی که او ارسال می‌کند."
+
+msgid "An order you place with a supplier."
+msgstr "سفارشی که برای تأمین‌کننده ثبت می‌کنید."
+
+msgid "Customer {0} already exists for this Opportunity"
+msgstr "مشتری {0} از قبل برای این فرصت فروش ثبت شده است."
+
+msgid "Customer {0} does not match the customer of Maintenance Schedule {1}"
+msgstr "مشتری {0} با مشتریِ برنامهٔ نگهداری و تعمیرات {1} مطابقت ندارد."
+
+msgid "Daily time to send"
+msgstr "زمان ارسال روزانه"
+
+msgid "Defaults to the company's Stock Adjustment Account"
+msgstr "به‌طور پیش‌فرض، حساب اصلاح موجودی شرکت انتخاب می‌شود."
+
+msgid "Deletes a company's transactions, keeping its masters."
+msgstr "تراکنش‌های شرکت را حذف می‌کند و اطلاعات پایهٔ آن را نگه می‌دارد."
+
+msgid "Different Customer"
+msgstr "مشتری متفاوت"
+
+msgid "Discount Removed"
+msgstr "تخفیف حذف شد"
+
+msgid "Do you want to continue?"
+msgstr "می‌خواهید ادامه دهید؟"
+
+msgid "E - F"
+msgstr "E تا F"
+
+msgid "How items, warehouses and stock transactions work."
+msgstr "نحوهٔ کار کالاها، انبارها و تراکنش‌های موجودی."
+
+msgid "How leads, opportunities and appointments work."
+msgstr "نحوهٔ کار سرنخ‌ها، فرصت‌های فروش و قرارهای ملاقات."
+
+msgid "How long it takes to get or make an item."
+msgstr "مدت‌زمان لازم برای تهیه یا ساخت یک کالا."
+
+msgid "How many of one unit make another, like 1000 g in a kg."
+msgstr "تعداد واحدهای یک واحد اندازه‌گیری در واحد دیگر؛ مانند 1000 گرم در یک کیلوگرم."
+
+msgid "How much a cost center or project may spend over a fiscal year."
+msgstr "میزان هزینه‌ای که یک مرکز هزینه یا پروژه می‌تواند طی یک سال مالی داشته باشد."
+
+msgid "How much faster an asset depreciates on a given shift."
+msgstr "میزانی که استهلاک یک دارایی در یک شیفت سریع‌تر محاسبه می‌شود."
+
+msgid "How much of each item to make, and when."
+msgstr "مقدار تولید هر کالا و زمان تولید آن."
+
+msgid "How much you expect to sell, to plan production."
+msgstr "مقدار فروش مورد انتظار برای برنامه‌ریزی تولید."
+
+msgid "How quotations, sales orders and pricing work."
+msgstr "نحوهٔ کار پیش‌فاکتورها، سفارش‌های فروش و قیمت‌گذاری."
+
+msgid "How urgent an issue is."
+msgstr "میزان فوریت یک درخواست."
+
+msgid "Ignore Differences Below"
+msgstr "نادیده‌گرفتن مغایرت‌های کمتر از"
+
+msgid "Invalid Parent Task"
+msgstr "وظیفهٔ والد نامعتبر است"
+
+msgid "Invalid sort order"
+msgstr "ترتیب مرتب‌سازی نامعتبر است"
+
+msgid "It has no stock transactions by then."
+msgstr "تا آن زمان هیچ تراکنش موجودی ندارد."
+
+msgid "Item {0} in Warehouse {1} cannot be adjusted on {2}: {3}"
+msgstr "موجودی کالای {0} در انبار {1} در تاریخ {2} قابل اصلاح نیست: {3}"
+
+msgid "Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated before it can be posted or cancelled. Post it on or after that date, or cancel the Adjustment Entry first."
+msgstr "موجودی کالای {0} در انبار {1} در تاریخ {3} توسط {2} اصلاح شده است؛ بنابراین هیچ تراکنش موجودی با تاریخ پیش از آن قابل ثبت یا لغو نیست. تراکنش را در همان تاریخ یا پس از آن ثبت کنید، یا ابتدا سند اصلاح را لغو کنید."
+
+msgid "Items received from a subcontractor."
+msgstr "کالاهای دریافت‌شده از پیمانکار فرعی."
+
+msgid "Items received from a supplier."
+msgstr "کالاهای دریافت‌شده از تأمین‌کننده."
+
+msgid "Items shipped to a customer."
+msgstr "کالاهای ارسال‌شده برای مشتری."
+
+msgid "Its difference on {0} is not before the adjustment date."
+msgstr "مغایرت آن در تاریخ {0} پیش از تاریخ اصلاح نیست."
+
+msgid "Its stock qty and value are already right on this date."
+msgstr "مقدار و ارزش موجودی آن در این تاریخ از قبل درست است."
+
+msgid "Its stock should be negative on this date, which cannot be counted in."
+msgstr "موجودی آن در این تاریخ منفی می‌شود و نمی‌توان آن را در محاسبه منظور کرد."
+
+msgid "Lead {0} is already converted to Customer {1}"
+msgstr "سرنخ {0} قبلاً به مشتری {1} تبدیل شده است."
+
+msgid "Parent Task {0} is not in Project {1}. Pick a group task of the same project."
+msgstr "وظیفهٔ والد {0} در پروژهٔ {1} نیست. یک وظیفهٔ گروهی از همان پروژه انتخاب کنید."
+
+msgid "Pending Repost"
+msgstr "ثبت مجدد در انتظار"
+
+msgid "Picks the right tax template for a customer, supplier or address."
+msgstr "الگوی مالیاتی مناسب را برای مشتری، تأمین‌کننده یا نشانی انتخاب می‌کند."
+
+msgid "Planned visits to service what a customer bought."
+msgstr "مراجعه‌های برنامه‌ریزی‌شده برای سرویس کالایی که مشتری خریده است."
+
+msgid "Plans the work orders and materials needed for your demand."
+msgstr "دستورهای کار و مواد موردنیاز برای پاسخ‌گویی به تقاضای شما را برنامه‌ریزی می‌کند."
+
+msgid "Please select at least one Lost Reason"
+msgstr "لطفاً دست‌کم یک دلیل ازدست‌رفتن فرصت فروش انتخاب کنید."
+
+msgid "Points a customer earned or spent under a loyalty program."
+msgstr "امتیازهایی که مشتری در برنامهٔ وفاداری کسب کرده یا مصرف کرده است."

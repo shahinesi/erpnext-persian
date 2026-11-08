@@ -81,6 +81,13 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"The criteria formula fails when every variable is {0}. Check its syntax and guard divisions by a variable, for example: {1}": "فرمول معیار وقتی همهٔ متغیرها {0} باشند خطا می‌دهد. نحو آن را بررسی کنید و تقسیم بر متغیر را کنترل کنید؛ برای نمونه: {1}",
 			"This Month": "این ماه",
 			"To Date": "تا تاریخ",
+			"A separate set of books, for example to depreciate assets under another rule.": "مجموعه‌ای جداگانه از دفاتر حسابداری؛ برای نمونه، برای محاسبهٔ استهلاک دارایی‌ها بر پایهٔ قاعده‌ای دیگر.",
+			"A set of discounts and free items, like buy two get one free.": "مجموعه‌ای از تخفیف‌ها و کالاهای رایگان، مانند «دو تا بخر، یکی رایگان بگیر».",
+			"Additional Discount has been removed as Pricing Rule {0} is no longer applicable": "تخفیف اضافی حذف شد، زیرا قاعدهٔ قیمت‌گذاری {0} دیگر قابل اعمال نیست.",
+			"After the adjustment, Item {0} in Warehouse {1} would hold a qty of {2} worth {3}, instead of {4} worth {5}.": "پس از اصلاح، موجودی کالای {0} در انبار {1} به مقدار {2} و ارزش {3} می‌رسد، درحالی‌که مقدار فعلی {4} و ارزش آن {5} است.",
+			"Item {0} in Warehouse {1} was adjusted by {2} on {3}, so no stock transaction dated before it can be posted or cancelled. Post it on or after that date, or cancel the Adjustment Entry first.": "موجودی کالای {0} در انبار {1} در تاریخ {3} توسط {2} اصلاح شده است؛ بنابراین هیچ تراکنش موجودی با تاریخ پیش از آن قابل ثبت یا لغو نیست. تراکنش را در همان تاریخ یا پس از آن ثبت کنید، یا ابتدا سند اصلاح را لغو کنید.",
+			"Customer {0} does not match the customer of Maintenance Schedule {1}": "مشتری {0} با مشتریِ برنامهٔ نگهداری و تعمیرات {1} مطابقت ندارد.",
+			"Parent Task {0} is not in Project {1}. Pick a group task of the same project.": "وظیفهٔ والد {0} در پروژهٔ {1} نیست. یک وظیفهٔ گروهی از همان پروژه انتخاب کنید.",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):
