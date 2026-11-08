@@ -61,6 +61,12 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"For Warehouse {0} must be a non-group warehouse under {1}.": "انبار {0} باید انباری غیرگروهی و زیرمجموعهٔ {1} باشد.",
 			"from {0}": "از {0}",
 			"How fast issues must be answered and resolved.": "مهلت پاسخ‌گویی و حل درخواست‌ها.",
+			"Make {0}": "ایجاد {0}",
+			"Matches payments to invoices in the background.": "پرداخت‌ها را در پس‌زمینه با صورتحساب‌ها تطبیق می‌دهد.",
+			"Moves an asset to another location or person.": "دارایی را به مکان یا شخص دیگری منتقل می‌کند.",
+			"No Tasks in this Project yet.": "هنوز هیچ وظیفه‌ای برای این پروژه ثبت نشده است.",
+			"Opportunity From must be one of {0}": "مبدأ فرصت فروش باید یکی از گزینه‌های {0} باشد.",
+			"Outgoing": "پرداختی",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):

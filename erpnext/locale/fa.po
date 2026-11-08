@@ -69948,3 +69948,243 @@ msgstr "ساعتی"
 
 msgid "How fast issues must be answered and resolved."
 msgstr "مهلت پاسخ‌گویی و حل درخواست‌ها."
+
+msgid "Links"
+msgstr "پیوندها"
+
+msgid "Load more"
+msgstr "بارگذاری موارد بیشتر"
+
+msgid "Loading import file..."
+msgstr "در حال بارگذاری فایل درون‌ریزی..."
+
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+msgid "Low"
+msgstr "پایین"
+
+msgid "Maintenance Manager"
+msgstr "مدیر نگهداری و تعمیرات"
+
+msgid "Maintenance User"
+msgstr "کاربر نگهداری و تعمیرات"
+
+msgid "Make Adjustment Entry"
+msgstr "ایجاد سند تعدیل"
+
+msgid "Make {0}"
+msgstr "ایجاد {0}"
+
+msgid "Manage"
+msgstr "مدیریت"
+
+msgid "Mandatory"
+msgstr "الزامی"
+
+msgid "Mandatory Depends On"
+msgstr "وابستگی الزامی به"
+
+msgid "Manual"
+msgstr "دستی"
+
+msgid "Margin"
+msgstr "حاشیهٔ سود"
+
+msgid "Marketing Manager"
+msgstr "مدیر بازاریابی"
+
+msgid "Mask"
+msgstr "بخش پایانی شماره"
+
+msgid "Master"
+msgstr "اطلاعات پایه"
+
+msgid "Matched"
+msgstr "تطبیق‌شده"
+
+msgid "Matches payments to invoices in the background."
+msgstr "پرداخت‌ها را در پس‌زمینه با صورتحساب‌ها تطبیق می‌دهد."
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Menu"
+msgstr "منو"
+
+msgid "Merge with existing"
+msgstr "ادغام با مورد موجود"
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Message Examples"
+msgstr "نمونه‌های پیام"
+
+msgid "Message Sent"
+msgstr "پیام ارسال شد"
+
+msgid "Method Not Allowed"
+msgstr "این روش مجاز نیست."
+
+msgid "Middle Name"
+msgstr "نام میانی"
+
+msgid "Missing Values Required"
+msgstr "مقادیر الزامی وارد نشده‌اند."
+
+msgid "Mobile"
+msgstr "تلفن همراه"
+
+msgid "Mobile No"
+msgstr "شماره تلفن همراه"
+
+msgid "Mobile Number"
+msgstr "شمارهٔ تلفن همراه"
+
+msgid "Modified By"
+msgstr "ویرایش‌شده توسط"
+
+msgid "Monday"
+msgstr "دوشنبه"
+
+msgid "Money you received or paid, matched against invoices."
+msgstr "وجه دریافتی یا پرداختی که با صورتحساب‌ها تطبیق داده شده است."
+
+msgid "Month"
+msgstr "ماه"
+
+msgid "Monthly"
+msgstr "ماهانه"
+
+msgid "More Info"
+msgstr "اطلاعات بیشتر"
+
+msgid "More Information"
+msgstr "اطلاعات بیشتر"
+
+msgid "Move"
+msgstr "انتقال"
+
+msgid "Moves an asset to another location or person."
+msgstr "دارایی را به مکان یا شخص دیگری منتقل می‌کند."
+
+msgid "Moves, receives, issues or manufactures stock."
+msgstr "موجودی را جابه‌جا، دریافت، خارج یا تولید می‌کند."
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Naming Series"
+msgstr "سری نام‌گذاری"
+
+msgid "New Event"
+msgstr "رویداد جدید"
+
+msgid "New {0}"
+msgstr "ایجاد {0} جدید"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "No"
+msgstr "خیر"
+
+msgid "No Data"
+msgstr "داده‌ای وجود ندارد"
+
+msgid "No data to export"
+msgstr "داده‌ای برای برون‌بری وجود ندارد."
+
+msgid "No failed logs"
+msgstr "گزارش خطایی ثبت نشده است."
+
+msgid "No rows selected"
+msgstr "هیچ ردیفی انتخاب نشده است."
+
+msgid "No Tasks in this Project yet."
+msgstr "هنوز هیچ وظیفه‌ای برای این پروژه ثبت نشده است."
+
+msgid "No."
+msgstr "شماره"
+
+msgid "None"
+msgstr "هیچ‌کدام"
+
+msgid "Not active"
+msgstr "غیرفعال"
+
+msgid "Not Allowed"
+msgstr "مجاز نیست"
+
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+msgid "Not permitted"
+msgstr "مجاز نیست"
+
+msgid "Not Permitted"
+msgstr "مجاز نیست"
+
+msgid "Not Set"
+msgstr "تنظیم نشده"
+
+msgid "Note"
+msgstr "یادداشت"
+
+msgid "of"
+msgstr "از"
+
+msgid "Off"
+msgstr "خاموش"
+
+msgid "Office"
+msgstr "دفتر"
+
+msgid "old_parent"
+msgstr "والد قبلی"
+
+msgid "On Hold"
+msgstr "در انتظار"
+
+msgid "Only a submitted Subcontracting Inward Order can be closed or re-opened."
+msgstr "فقط سفارش ورود پیمانکاریِ ثبت‌شده را می‌توان بست یا دوباره باز کرد."
+
+msgid "Open"
+msgstr "باز"
+
+msgid "Open Frappe CRM"
+msgstr "بازکردن Frappe CRM"
+
+msgid "Open Frappe Helpdesk"
+msgstr "بازکردن Frappe Helpdesk"
+
+msgid "Opens a POS shift with the cash in the drawer."
+msgstr "شیفت صندوق فروش را با وجه نقد موجود در کشو باز می‌کند."
+
+msgid "Operation"
+msgstr "عملیات"
+
+msgid "Opportunity From must be one of {0}"
+msgstr "مبدأ فرصت فروش باید یکی از گزینه‌های {0} باشد."
+
+msgid "Opportunity {0} is already for a Customer"
+msgstr "فرصت {0} از قبل به یک مشتری اختصاص داده شده است."
+
+msgid "Options"
+msgstr "گزینه‌ها"
+
+msgid "or"
+msgstr "یا"
+
+msgid "Orange"
+msgstr "نارنجی"
+
+msgid "Orientation"
+msgstr "جهت صفحه"
+
+msgid "Other"
+msgstr "سایر"
+
+msgid "Outgoing"
+msgstr "پرداختی"
