@@ -55,6 +55,12 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"Cannot add an open task under completed Parent Task {0}.": "نمی‌توان یک وظیفهٔ باز را زیر وظیفهٔ والد تکمیل‌شدهٔ {0} افزود.",
 			"Column {0}": "ستون {0}",
 			"Contact Details": "اطلاعات تماس",
+			"Email users for progress updates": "ارسال ایمیل به کاربران برای دریافت گزارش پیشرفت",
+			"Export Errored Rows": "برون‌بری ردیف‌های دارای خطا",
+			"File '{0}' not found": "فایل «{0}» پیدا نشد.",
+			"For Warehouse {0} must be a non-group warehouse under {1}.": "انبار {0} باید انباری غیرگروهی و زیرمجموعهٔ {1} باشد.",
+			"from {0}": "از {0}",
+			"How fast issues must be answered and resolved.": "مهلت پاسخ‌گویی و حل درخواست‌ها.",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):

@@ -69708,3 +69708,243 @@ msgstr "مخاطب"
 
 msgid "Contact Details"
 msgstr "اطلاعات تماس"
+
+msgid "Email users for progress updates"
+msgstr "ارسال ایمیل به کاربران برای دریافت گزارش پیشرفت"
+
+msgid "Emails customers their statements on a schedule."
+msgstr "صورت‌حساب‌های مشتریان را طبق برنامهٔ زمان‌بندی‌شده برایشان ایمیل می‌کند."
+
+msgid "Emails the users in Portal users on the schedule below, asking for a status update. Needs email accounts set up for sending and receiving."
+msgstr "طبق برنامهٔ زیر، از کاربران فهرست «کاربران درگاه» می‌خواهد وضعیت را به‌روزرسانی کنند. برای ارسال و دریافت ایمیل باید حساب‌های ایمیل تنظیم شده باشند."
+
+msgid "Enabled"
+msgstr "فعال"
+
+msgid "End"
+msgstr "پایان"
+
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+msgid "Entity Type"
+msgstr "نوع موجودیت"
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Error Log"
+msgstr "گزارش خطا"
+
+msgid "Error Message"
+msgstr "پیام خطا"
+
+msgid "Errors"
+msgstr "خطاها"
+
+msgid "Event"
+msgstr "رویداد"
+
+msgid "Expand All"
+msgstr "بازکردن همه"
+
+msgid "Expected End date"
+msgstr "تاریخ پایان مورد انتظار"
+
+msgid "Expected Start date"
+msgstr "تاریخ شروع مورد انتظار"
+
+msgid "Expected Value Based On"
+msgstr "مبنای ارزش مورد انتظار"
+
+msgid "Experimental"
+msgstr "آزمایشی"
+
+msgid "Expired"
+msgstr "منقضی‌شده"
+
+msgid "Expires On"
+msgstr "تاریخ انقضا"
+
+msgid "Export"
+msgstr "برون‌بری"
+
+msgid "Export Errored Rows"
+msgstr "برون‌بری ردیف‌های دارای خطا"
+
+msgid "Export Import Log"
+msgstr "گزارش درون‌بری و برون‌بری"
+
+msgid "External"
+msgstr "خارجی"
+
+msgid "Fail"
+msgstr "مردود"
+
+msgid "Failure"
+msgstr "ناموفق"
+
+msgid "Fax"
+msgstr "فکس"
+
+msgid "Feedback"
+msgstr "بازخورد"
+
+msgid "Feedback on your quality from a customer or employee."
+msgstr "بازخورد مشتری یا کارمند دربارهٔ کیفیت کار شما."
+
+msgid "Field"
+msgstr "فیلد"
+
+msgid "Field Name"
+msgstr "نام فیلد"
+
+msgid "Fieldname"
+msgstr "نام فیلد"
+
+msgid "Fields"
+msgstr "فیلدها"
+
+msgid "Fieldtype"
+msgstr "نوع فیلد"
+
+msgid "File"
+msgstr "فایل"
+
+msgid "File '{0}' not found"
+msgstr "فایل «{0}» پیدا نشد."
+
+msgid "Filter"
+msgstr "فیلتر"
+
+msgid "Filters"
+msgstr "فیلترها"
+
+msgid "Finished"
+msgstr "تمام‌شده"
+
+msgid "Finished Good Quantity Exceeded"
+msgstr "مقدار کالای ساخته‌شده از حد مجاز بیشتر شده است."
+
+msgid "First"
+msgstr "اول"
+
+msgid "First Difference per Item-Warehouse"
+msgstr "نخستین اختلاف برای هر کالا و انبار"
+
+msgid "First email"
+msgstr "اولین ایمیل"
+
+msgid "First Name"
+msgstr "نام"
+
+msgid "Fix Differences"
+msgstr "اصلاح اختلاف‌ها"
+
+msgid "Float"
+msgstr "عدد اعشاری"
+
+msgid "For Warehouse {0} must be a non-group warehouse under {1}."
+msgstr "انبار {0} باید انباری غیرگروهی و زیرمجموعهٔ {1} باشد."
+
+msgid "Frequency"
+msgstr "بازهٔ زمانی"
+
+msgid "Frequency to collect progress"
+msgstr "بازهٔ گردآوری گزارش پیشرفت"
+
+msgid "Friday"
+msgstr "جمعه"
+
+msgid "From"
+msgstr "از"
+
+msgid "From Date"
+msgstr "از تاریخ"
+
+msgid "From time"
+msgstr "از ساعت"
+
+msgid "From Value"
+msgstr "از مقدار"
+
+msgid "from {0}"
+msgstr "از {0}"
+
+msgid "Full Name"
+msgstr "نام کامل"
+
+msgid "G - H"
+msgstr "G - H"
+
+msgid "Gender"
+msgstr "جنسیت"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "Get Items"
+msgstr "دریافت کالاها"
+
+msgid "Go to {0} List"
+msgstr "رفتن به فهرست {0}"
+
+msgid "Goal"
+msgstr "هدف"
+
+msgid "Green"
+msgstr "سبز"
+
+msgid "Group"
+msgstr "گروه"
+
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+msgid "Groups accounts into the lines your financial statements show."
+msgstr "حساب‌ها را در سرفصل‌های صورت‌های مالی گروه‌بندی می‌کند."
+
+msgid "Groups assets that share accounts and depreciation rules."
+msgstr "دارایی‌هایی را که حساب‌ها و قواعد استهلاک مشترک دارند گروه‌بندی می‌کند."
+
+msgid "Groups customers, for pricing and reporting."
+msgstr "مشتریان را برای قیمت‌گذاری و گزارش‌گیری گروه‌بندی می‌کند."
+
+msgid "Groups items, for pricing, defaults and reporting."
+msgstr "کالاها را برای قیمت‌گذاری، مقادیر پیش‌فرض و گزارش‌گیری گروه‌بندی می‌کند."
+
+msgid "Groups suppliers, for terms and reporting."
+msgstr "تأمین‌کنندگان را برای شرایط و گزارش‌گیری گروه‌بندی می‌کند."
+
+msgid "Half Yearly"
+msgstr "شش‌ماهه"
+
+msgid "Half-yearly"
+msgstr "شش‌ماهه"
+
+msgid "Heatmap"
+msgstr "نقشهٔ حرارتی"
+
+msgid "Hello,"
+msgstr "سلام،"
+
+msgid "Help"
+msgstr "راهنما"
+
+msgid "Help Article"
+msgstr "مقالهٔ راهنما"
+
+msgid "Help Articles"
+msgstr "مقاله‌های راهنما"
+
+msgid "High"
+msgstr "بالا"
+
+msgid "Home"
+msgstr "خانه"
+
+msgid "Hourly"
+msgstr "ساعتی"
+
+msgid "How fast issues must be answered and resolved."
+msgstr "مهلت پاسخ‌گویی و حل درخواست‌ها."
