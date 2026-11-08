@@ -70428,3 +70428,243 @@ msgstr "انتخاب"
 
 msgid "Select a submitted Maintenance Schedule for the scheduled visits"
 msgstr "برای بازدیدهای زمان‌بندی‌شده، برنامهٔ نگهداری و تعمیرات ثبت‌شده را انتخاب کنید."
+
+msgid "Subsidiary"
+msgstr "شرکت تابعه"
+
+msgid "Success"
+msgstr "موفق"
+
+msgid "Successfully imported {0}"
+msgstr "{0} با موفقیت درون‌ریزی شد."
+
+msgid "Successfully updated {0}"
+msgstr "{0} با موفقیت به‌روزرسانی شد."
+
+msgid "Summary"
+msgstr "خلاصه"
+
+msgid "Sunday"
+msgstr "یکشنبه"
+
+msgid "Supplier Quotation {0} has expired."
+msgstr "پیشنهاد قیمت تأمین‌کنندهٔ {0} منقضی شده است."
+
+msgid "Supplier Scorecard refresh failed"
+msgstr "به‌روزرسانی کارنامهٔ تأمین‌کننده ناموفق بود."
+
+msgid "Supplier Scorecard standing of {0}: {1}"
+msgstr "جایگاه کارنامهٔ تأمین‌کنندهٔ {0}: {1}"
+
+msgid "Supplier Scorecard {0} already has a submitted period overlapping {1} to {2}"
+msgstr "برای کارنامهٔ تأمین‌کنندهٔ {0} از قبل دوره‌ای ثبت شده که با بازهٔ {1} تا {2} هم‌پوشانی دارد."
+
+msgid "Support without complexity, lock-in and per-user costs. Try it for free!"
+msgstr "پشتیبانی بدون پیچیدگی، وابستگی به فروشنده یا هزینهٔ هر کاربر. رایگان امتحان کنید!"
+
+msgid "Switch to CRM"
+msgstr "رفتن به CRM"
+
+msgid "Switch to Frappe CRM"
+msgstr "رفتن به Frappe CRM"
+
+msgid "Switch to Helpdesk"
+msgstr "رفتن به Helpdesk"
+
+msgid "Symbol"
+msgstr "نماد"
+
+msgid "System"
+msgstr "سیستم"
+
+msgid "System Manager"
+msgstr "مدیر سیستم"
+
+msgid "System Settings"
+msgstr "تنظیمات سیستم"
+
+msgid "Tag"
+msgstr "برچسب"
+
+msgid "Target"
+msgstr "هدف"
+
+msgid "Task"
+msgstr "وظیفه"
+
+msgid "Task Name"
+msgstr "نام وظیفه"
+
+msgid "Task Progress"
+msgstr "پیشرفت وظیفه"
+
+msgid "Tasks"
+msgstr "وظایف"
+
+msgid "Tax rates for items that are taxed differently from the rest."
+msgstr "نرخ‌های مالیاتی کالاهایی که با بقیه متفاوت مالیات‌گذاری می‌شوند."
+
+msgid "Template"
+msgstr "الگو"
+
+msgid "Template Name"
+msgstr "نام الگو"
+
+msgid "Template Options"
+msgstr "گزینه‌های الگو"
+
+msgid "Template Warnings"
+msgstr "هشدارهای الگو"
+
+msgid "Templates"
+msgstr "الگوها"
+
+msgid "The appointment time has passed. Please book the appointment again."
+msgstr "زمان نوبت گذشته است. لطفاً نوبت را دوباره رزرو کنید."
+
+msgid "The Condition '{0}' is invalid"
+msgstr "شرط «{0}» نامعتبر است."
+
+msgid "The contents and weight of each package in a delivery."
+msgstr "محتوا و وزن هر بسته در یک محموله."
+
+msgid "The criteria formula fails when every variable is {0}. Check its syntax and guard divisions by a variable, for example: {1}"
+msgstr "فرمول معیار وقتی همهٔ متغیرها {0} باشند خطا می‌دهد. نحو آن را بررسی کنید و تقسیم بر متغیر را کنترل کنید؛ برای نمونه: {1}"
+
+msgid "The finished good rows receive {0}, which is more than the Finished Good Quantity {1}. Set Finished Good Quantity to {0} and get the items again, or reduce the finished good rows."
+msgstr "ردیف‌های کالای نهایی مقدار {0} را دریافت می‌کنند که از مقدار کالای نهایی {1} بیشتر است. مقدار کالای نهایی را روی {0} تنظیم و کالاها را دوباره دریافت کنید یا مقدار ردیف‌های کالای نهایی را کاهش دهید."
+
+msgid "The holidays and weekly offs of a company or employee."
+msgstr "تعطیلات و روزهای استراحت هفتگی شرکت یا کارمند."
+
+msgid "The items and quantities to pick from the warehouse."
+msgstr "اقلام و مقادیری که باید از انبار برداشته شوند."
+
+msgid "The materials a subcontractor uses to make an item for you."
+msgstr "موادی که پیمانکار برای ساخت کالا برای شما به‌کار می‌برد."
+
+msgid "The materials and operations it takes to make an item."
+msgstr "مواد و عملیات لازم برای ساخت کالا."
+
+msgid "The order of operations to make an item."
+msgstr "ترتیب عملیات لازم برای ساخت کالا."
+
+msgid "The parameters to check an item for."
+msgstr "پارامترهایی که برای بررسی کالا باید کنترل شوند."
+
+msgid "The people responsible for maintaining assets."
+msgstr "افرادی که مسئول نگهداری دارایی‌ها هستند."
+
+msgid "The planned cost of an item, to compare with what it actually cost."
+msgstr "هزینهٔ برنامه‌ریزی‌شدهٔ کالا برای مقایسه با هزینهٔ واقعی آن."
+
+msgid "The price of an item in a price list."
+msgstr "قیمت کالا در یک فهرست قیمت."
+
+msgid "The progress of a BOM replacement or cost update."
+msgstr "پیشرفت جایگزینی فهرست مواد (BOM) یا به‌روزرسانی هزینه."
+
+msgid "The questions to ask when collecting quality feedback."
+msgstr "پرسش‌هایی که هنگام دریافت بازخورد کیفی باید پرسیده شوند."
+
+msgid "The rate to convert one currency into another."
+msgstr "نرخ تبدیل یک ارز به ارز دیگر."
+
+msgid "The reposting data file {0} is corrupted. Resuming this repost without it would silently skip the affected transactions during GL reposting. Restart the repost to regenerate it."
+msgstr "فایل داده‌های ثبت مجدد {0} خراب است. ادامهٔ ثبت مجدد بدون آن باعث می‌شود تراکنش‌های مربوطه هنگام ثبت مجدد دفتر کل نادیده گرفته شوند. برای تولید دوبارهٔ فایل، ثبت مجدد را از نو آغاز کنید."
+
+msgid "The reposting data file {0} is missing. Resuming this repost without it would silently skip the affected transactions during GL reposting. Restart the repost to regenerate it."
+msgstr "فایل داده‌های ثبت مجدد {0} پیدا نشد. ادامهٔ ثبت مجدد بدون آن باعث می‌شود تراکنش‌های مربوطه هنگام ثبت مجدد دفتر کل نادیده گرفته شوند. برای تولید دوبارهٔ فایل، ثبت مجدد را از نو آغاز کنید."
+
+msgid "The result of creating or submitting many documents at once."
+msgstr "نتیجهٔ ایجاد یا ثبت گروهی چند سند."
+
+msgid "The rows and formulas of a custom financial statement."
+msgstr "ردیف‌ها و فرمول‌های صورت مالی سفارشی."
+
+msgid "The rows of Item {0} in Warehouse {1} are not the stock it should hold on this date. Make the Adjustment Entry again from the Stock Valuation Comparison report."
+msgstr "ردیف‌های کالای {0} در انبار {1} در این تاریخ با موجودی مورد انتظار مطابقت ندارند. سند تعدیل را دوباره از گزارش مقایسهٔ ارزش‌گذاری موجودی ایجاد کنید."
+
+msgid "The serial numbers and batches moved in a transaction."
+msgstr "شماره‌های سریال و بچ‌های جابه‌جاشده در یک تراکنش."
+
+msgid "The steps of a process you follow to keep quality in check."
+msgstr "مراحلی که برای کنترل کیفیت دنبال می‌کنید."
+
+msgid "The stock qty and value of the selected items are set right on this date, without reposting. Stock and accounting reports before it keep the old values, and no stock transaction can be posted before it for these items afterwards."
+msgstr "مقدار و ارزش موجودی کالاهای انتخاب‌شده در این تاریخ، بدون ثبت مجدد، اصلاح می‌شود. گزارش‌های انبار و حسابداری پیش از این تاریخ مقادیر قبلی را نشان می‌دهند و پس از آن برای این کالاها نمی‌توان تراکنش انباری با تاریخ قبل از آن ثبت کرد."
+
+msgid "The Supplier Scorecard standing of {0} is now {1}."
+msgstr "جایگاه کارنامهٔ تأمین‌کنندهٔ {0} اکنون {1} است."
+
+msgid "The tariff code an item is declared under at customs."
+msgstr "کد تعرفه‌ای که کالا هنگام اظهار در گمرک تحت آن ثبت می‌شود."
+
+msgid "The taxes and charges, like shipping or insurance, to add to purchases."
+msgstr "مالیات‌ها و هزینه‌هایی مانند حمل‌ونقل یا بیمه که به خرید اضافه می‌شوند."
+
+msgid "The taxes and charges, like shipping or insurance, to add to sales."
+msgstr "مالیات‌ها و هزینه‌هایی مانند حمل‌ونقل یا بیمه که به فروش اضافه می‌شوند."
+
+msgid "The upkeep tasks an asset needs, and who does them."
+msgstr "کارهای نگهداری موردنیاز دارایی و افرادی که آن‌ها را انجام می‌دهند."
+
+msgid "The VAT accounts to report in the South Africa VAT audit report."
+msgstr "حساب‌های VAT برای گزارش حسابرسی مالیات بر ارزش افزودهٔ آفریقای جنوبی."
+
+msgid "The wording and fee for a kind of payment reminder."
+msgstr "متن و هزینهٔ یک نوع یادآوری پرداخت."
+
+msgid "The work done for one operation of a work order."
+msgstr "کاری که برای یک عملیات از دستور کار انجام شده است."
+
+msgid "The year your books are kept and closed for."
+msgstr "سالی که دفاتر حسابداری برای آن نگهداری و بسته می‌شوند."
+
+msgid "There are no differences to fix."
+msgstr "اختلافی برای اصلاح وجود ندارد."
+
+msgid "There were errors while sending email. Please try again."
+msgstr "هنگام ارسال ایمیل خطا رخ داد. لطفاً دوباره تلاش کنید."
+
+msgid "These already have a pending repost and are left out:"
+msgstr "موارد زیر از قبل در صف ثبت مجدد هستند و کنار گذاشته شدند:"
+
+msgid "These cannot be settled by an Adjustment Entry and need a repost:"
+msgstr "موارد زیر با سند تعدیل قابل تسویه نیستند و باید دوباره ثبت شوند:"
+
+msgid "This Month"
+msgstr "این ماه"
+
+msgid "This Week"
+msgstr "این هفته"
+
+msgid "Thursday"
+msgstr "پنج‌شنبه"
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "Time a workstation stood idle, and why."
+msgstr "مدتی که ایستگاه کاری بیکار بوده و دلیل آن."
+
+msgid "Time spent on tasks and activities, to bill or cost."
+msgstr "زمان صرف‌شده برای وظایف و فعالیت‌ها جهت صدور صورتحساب یا محاسبهٔ هزینه."
+
+msgid "Timeline"
+msgstr "خط زمانی"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "title"
+msgstr "عنوان"
+
+msgid "To"
+msgstr "تا"
+
+msgid "To Date"
+msgstr "تا تاریخ"
+
+msgid "To time"
+msgstr "تا ساعت"

@@ -74,6 +74,13 @@ class TestERPNextGettextExtractors(unittest.TestCase):
 			"Row {0}: {1} {2} visits need an End Date of {3}. Change the End Date or the Number of Visits.": "ردیف {0}: برای {1} بازدید {2} باید تاریخ پایان {3} باشد. تاریخ پایان یا تعداد بازدیدها را تغییر دهید.",
 			"Scheduler is inactive. Cannot import data.": "زمان‌بند غیرفعال است. امکان درون‌ریزی داده وجود ندارد.",
 			"Sales without complexity, lock-in and per-user costs. Try it for free!": "فروش بدون پیچیدگی، وابستگی به فروشنده یا هزینهٔ هر کاربر. رایگان امتحان کنید!",
+			"Successfully imported {0}": "{0} با موفقیت درون‌ریزی شد.",
+			"Successfully updated {0}": "{0} با موفقیت به‌روزرسانی شد.",
+			"Supplier Scorecard standing of {0}: {1}": "جایگاه کارنامهٔ تأمین‌کنندهٔ {0}: {1}",
+			"The Condition '{0}' is invalid": "شرط «{0}» نامعتبر است.",
+			"The criteria formula fails when every variable is {0}. Check its syntax and guard divisions by a variable, for example: {1}": "فرمول معیار وقتی همهٔ متغیرها {0} باشند خطا می‌دهد. نحو آن را بررسی کنید و تقسیم بر متغیر را کنترل کنید؛ برای نمونه: {1}",
+			"This Month": "این ماه",
+			"To Date": "تا تاریخ",
 		}
 		for message, translation in expected.items():
 			with self.subTest(message=message):
