@@ -7190,11 +7190,11 @@ msgstr "مقدار BIN"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/workspace_sidebar/manufacturing.json
 msgid "BOM"
-msgstr "BOM"
+msgstr "فهرست مواد اولیه"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:21
 msgid "BOM 1"
-msgstr "BOM 1"
+msgstr "فهرست مواد اولیه 1"
 
 #: erpnext/manufacturing/doctype/bom/mapper.py:82
 msgid "BOM 1 {0} and BOM 2 {1} should not be the same"
@@ -7202,7 +7202,7 @@ msgstr "BOM 1 {0} و BOM 2 {1} نباید یکسان باشند"
 
 #: erpnext/manufacturing/page/bom_comparison_tool/bom_comparison_tool.js:38
 msgid "BOM 2"
-msgstr "BOM 2"
+msgstr "فهرست مواد اولیه 2"
 
 #. Label of a Sidebar Item
 #. Label of a Workspace Sidebar Item
@@ -8590,7 +8590,7 @@ msgstr "صورتحساب برای مقدار رد شده در فاکتور خر�
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:782
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "Bill of Materials"
-msgstr "صورتحساب مواد"
+msgstr "فهرست مواد اولیه"
 
 #. Option for the 'Status' (Select) field in DocType 'Timesheet'
 #: erpnext/controllers/website_list_for_contact.py:212
@@ -36567,7 +36567,7 @@ msgstr "آیتم تامین شده سفارش خرید"
 #: erpnext/selling/sidebar/selling/selling.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "POS"
-msgstr "POS"
+msgstr "فروش حضوری"
 
 #. Label of the invoice_fields (Table) field in DocType 'POS Settings'
 #: erpnext/accounts/doctype/pos_settings/pos_settings.json
@@ -40779,7 +40779,7 @@ msgstr "لطفاً وضعیت تعمیر را به روز کنید."
 
 #: erpnext/selling/page/point_of_sale/point_of_sale.js:6
 msgid "Point of Sale"
-msgstr "نقطه فروش"
+msgstr "فروش حضوری"
 
 #. Label of the policy_no (Data) field in DocType 'Vehicle'
 #: erpnext/setup/doctype/vehicle/vehicle.json
